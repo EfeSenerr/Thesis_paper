@@ -1,5 +1,7 @@
 # LaTeX template for TUM theses
 
+Originial Repo: https://github.com/TUM-Dev/tum-thesis-latex
+
 This is a LaTeX template created according to the guidelines for TUM informatics theses in WS 2022. **Always check the [current formatting guidelines][thesis-guidelines] before you hand in.** See [`build/main.pdf`][sample-pdf] for an example PDF created with this template.
 
 Note: Because of copyright considerations, TUM logos are not included in this template. Unfortunately, the logos are also not available on the MyTUM website anymore.
