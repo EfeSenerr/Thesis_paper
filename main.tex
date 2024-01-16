@@ -1,0 +1,72 @@
+% !BIB TS-program = biber
+
+\RequirePackage[l2tabu,orthodox]{nag}
+
+% TODO: decide if one-sided/two-sided
+%\documentclass[headsepline,footsepline,footinclude=false,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc,BCOR=12mm,DIV=12]{scrbook} % two-sided
+\documentclass[headsepline,footsepline,footinclude=false,oneside,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc]{scrbook} % one-sided
+
+% DONE: change citation style in settings
+\input{settings}
+
+% DONE: change thesis information
+\newcommand*{\getUniversity}{Technical University of Munich}
+\newcommand*{\getTitle}{From Hashtags to Ballot Boxes: A Close Look at the 2023 Turkish Election}
+\newcommand*{\getTitleGer}{Von Hashtags zu Wahlentscheidungen: Ein umfassender Blick auf die Türkischen Wahlen 2023}
+\newcommand*{\getAuthor}{Efe Sener}
+\newcommand*{\getDoctype}{Bachelor's Thesis in Informatics}
+\newcommand*{\getSupervisor}{Prof. Dr. Georg Groh}
+\newcommand*{\getAdvisor}{Carolin Schuster}
+\newcommand*{\getSubmissionDate}{15.03.2023}
+\newcommand*{\getSubmissionLocation}{Munich}	
+
+\newcommand*{\getFaculty}{Informatics}
+\newcommand*{\getDegree}{Informatics}
+\newcommand*{\getSchool}{Computation, Information and Technology}
+
+\begin{document}
+
+% Set page numbering to avoid "destination with the same identifier has been already used" warning for cover page.
+% (see https://en.wikibooks.org/wiki/LaTeX/Hyperlinks#Problems_with_Links_and_Pages).
+\pagenumbering{alph}
+\input{pages/cover}
+
+\frontmatter{}
+
+\input{pages/title}
+\input{pages/disclaimer}
+\input{pages/acknowledgments}
+\input{pages/abstract}
+\microtypesetup{protrusion=false}
+\tableofcontents{}
+\microtypesetup{protrusion=true}
+
+\mainmatter{}
+
+\input{chapters/01_introduction}
+\input{chapters/02_research_questions}
+\input{chapters/03_important_related_work}
+\input{chapters/04_experiments}
+\input{chapters/05_results}
+\input{chapters/06_discussion}
+\input{chapters/07_conclusion}
+
+% DONE: add more chapters here
+
+\appendix{}
+
+\microtypesetup{protrusion=false}
+
+\addchap{Abbreviations}
+\begin{acronym}
+	\itemsep-.25\baselineskip
+	\acro{TUM}[TUM]{Technical University of Munich}
+	% TODO: add acronyms
+\end{acronym}
+
+\listoffigures{}
+\listoftables{}
+\microtypesetup{protrusion=true}
+\printbibliography{}
+
+\end{document}
