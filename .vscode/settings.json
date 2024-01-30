@@ -4,6 +4,11 @@
             "language": "latex",
             "scheme": "file",
             "pattern": "chapters/01_introduction.tex"
+        },
+        {
+            "language": "latex",
+            "scheme": "file",
+            "pattern": "chapters/02_research_questions.tex"
         }
     ]
 }
