@@ -2796,7 +2796,6 @@
     <bcf:citekey order="3">latex</bcf:citekey>
     <bcf:citekey order="4">latex</bcf:citekey>
     <bcf:citekey order="5">latex</bcf:citekey>
-    <bcf:citekey order="6">latex</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
