@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  31 JAN 2024 10:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  31 JAN 2024 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1187,33 +1187,40 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 41.
 
 ] (./chapters/01_introduction.tex
 chapter 1.
-) (./chapters/02_research_questions.tex [1
+Package acronym Info: Label `acro:CHP' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+Package acronym Info: Label `acro:AKP' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+[1
 
 
 
-]
+]) (./chapters/02_research_questions.tex
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 4.
+ [2]
 chapter 2.
-) (./chapters/03_important_related_work.tex [2
+) (./chapters/03_important_related_work.tex [3
 
 
 ]
 chapter 3.
-) (./chapters/04_experiments.tex [3
+) (./chapters/04_experiments.tex [4
 
 
 ]
 chapter 4.
-) (./chapters/05_results.tex [4
+) (./chapters/05_results.tex [5
 
 
 ]
 chapter 5.
-) (./chapters/06_discussion.tex [5
+) (./chapters/06_discussion.tex [6
 
 
 ]
 chapter 6.
-) (./chapters/07_conclusion.tex [6
+) (./chapters/07_conclusion.tex [7
 
 
 ]
@@ -1236,13 +1243,10 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 91.
-) [7
+) [8
 
 
-]
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 60.
- [8]
+] [9]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 63.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
@@ -1252,31 +1256,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [9
-
-
-]
-Package tocbasic Info: character protrusion at lof deactivated on input line 67.
- (./main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
-
  [10
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 68.
- (./main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
+Package tocbasic Info: character protrusion at lof deactivated on input line 78.
+ (./main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
  [11
 
 
 ]
+Package tocbasic Info: character protrusion at lot deactivated on input line 79.
+ (./main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [12
+
+
+]
 chapter without number
 No complaints by nag.
-[12
+[13
 
 
 ] (./main.aux)
@@ -1287,18 +1291,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49836 strings out of 478287
- 1115398 string characters out of 5849290
- 2188436 words of memory out of 5000000
- 66951 multiletter control sequences out of 15000+600000
- 525862 words of font info for 226 fonts, out of 8000000 for 9000
+ 49899 strings out of 478287
+ 1116011 string characters out of 5849290
+ 2188988 words of memory out of 5000000
+ 66981 multiletter control sequences out of 15000+600000
+ 527423 words of font info for 247 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  115i,19n,109p,10650b,7159s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (18 pages, 120120 bytes).
+Output written on main.pdf (19 pages, 124295 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
  100034 words of extra memory for PDF output out of 106986 (max. 10000000)
 
