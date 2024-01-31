@@ -158,6 +158,62 @@
       \verb https://www.jstor.org/stable/10.7249/mg726osd
       \endverb
     \endentry
+    \entry{erdoganism_akp_after_15_years}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2b765cfee2894770de4bec599dd01265}{%
+           family={Yilmaz},
+           familyi={Y\bibinitperiod},
+           given={Ihsan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac1ed05485b2a1a90f5002798d7e1eb5}{%
+           family={Bashirov},
+           familyi={B\bibinitperiod},
+           given={Galib},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b8387db028a91e29b52a62e1dbfb687}
+      \strng{fullhash}{5b8387db028a91e29b52a62e1dbfb687}
+      \strng{bibnamehash}{5b8387db028a91e29b52a62e1dbfb687}
+      \strng{authorbibnamehash}{5b8387db028a91e29b52a62e1dbfb687}
+      \strng{authornamehash}{5b8387db028a91e29b52a62e1dbfb687}
+      \strng{authorfullhash}{5b8387db028a91e29b52a62e1dbfb687}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In recent years, several observers of Turkey have recognised a novel development in Turkish politics: the rise of Erdoganism. President Recep Tayyip Erdoğan’s personality and style have come to embody the Turkish nation, the state and its economic, social and political institutions. But what is Erdoganism? What are its main attributes? Is it a mere ideology or the name of the emerging political regime in Turkey? While commentators have provided several observations of Erdoganism, it has not been duly examined on its own in the academic literature. This paper’s main premise is that in Turkey, a new political regime has emerged in recent years which can best be defined as Erdoganism. Erdoganism has four main dimensions: electoral authoritarianism as the electoral system, neopatrimonialism as the economic system, populism as the political strategy and Islamism as the political ideology. We first explain why we think Erdoganism is a better concept to define the emerging political regime in Turkey. We briefly discuss Sultanism, Khomeinism and Kemalism in order to produce a set of references for our discussion of Erdoganism. We then provide a thorough analysis, explaining the ways in which Erdoganism manifests itself through electoral authoritarianism, neopatrimonialism, populism and Islamism.}
+      \field{day}{2}
+      \field{issn}{0143-6597}
+      \field{journaltitle}{Third World Quarterly}
+      \field{month}{9}
+      \field{note}{Publisher: Routledge \_eprint: https://doi.org/10.1080/01436597.2018.1447371}
+      \field{number}{9}
+      \field{shorttitle}{The {AKP} after 15 years}
+      \field{title}{The {AKP} after 15 years: emergence of Erdoganism in Turkey}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{39}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1812\bibrangedash 1830}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/01436597.2018.1447371
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01436597.2018.1447371
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01436597.2018.1447371
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
