@@ -19,6 +19,78 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{anwar_analyzing_twitter_BERT_QAnon_2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d9af7415fac6ab75940715206a89e79c}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8717e8ed36c6cf81eb8e6328285daa57}{%
+           family={Ilyas},
+           familyi={I\bibinitperiod},
+           given={Haider},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f48c7f0cbe5faf0d9956c773dfa07b0f}{%
+           family={Yaqub},
+           familyi={Y\bibinitperiod},
+           given={Ussama},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa9c7364da0a176e18c8c21ded3fec4f}{%
+           family={Zaman},
+           familyi={Z\bibinitperiod},
+           given={Salma},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Omaha {NE} {USA}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{8963e0974b52c050b858325a42cb5ae8}
+      \strng{fullhash}{8963e0974b52c050b858325a42cb5ae8}
+      \strng{bibnamehash}{8963e0974b52c050b858325a42cb5ae8}
+      \strng{authorbibnamehash}{8963e0974b52c050b858325a42cb5ae8}
+      \strng{authornamehash}{8963e0974b52c050b858325a42cb5ae8}
+      \strng{authorfullhash}{8963e0974b52c050b858325a42cb5ae8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{9}
+      \field{eventtitle}{{DG}.O'21: The 22nd Annual International Conference on Digital Government Research}
+      \field{isbn}{978-1-4503-8492-6}
+      \field{journaltitle}{{DG}.O2021: The 22nd Annual International Conference on Digital Government Research}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shorttitle}{Analyzing {QAnon} on Twitter in Context of {US} Elections 2020}
+      \field{title}{Analyzing {QAnon} on Twitter in Context of {US} Elections 2020: Analysis of User Messages and Profiles Using {VADER} and {BERT} Topic modeling}
+      \field{urlday}{13}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{82\bibrangedash 88}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/3463677.3463718
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3463677.3463718
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3463677.3463718
+      \endverb
+    \endentry
     \entry{financial_crisis_turkey_1994}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=11337d1775c27d19946b9f83c7821544}{%
@@ -83,6 +155,39 @@
       \endverb
       \keyw{1994,Financial crises,Turkey}
     \endentry
+    \entry{Atila_medyascope_tr_secim_tarihi_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d17a83822de5277bd0d9000536e9a3b}{%
+           family={Atila},
+           familyi={A\bibinitperiod},
+           given={Sahra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2d17a83822de5277bd0d9000536e9a3b}
+      \strng{fullhash}{2d17a83822de5277bd0d9000536e9a3b}
+      \strng{bibnamehash}{2d17a83822de5277bd0d9000536e9a3b}
+      \strng{authorbibnamehash}{2d17a83822de5277bd0d9000536e9a3b}
+      \strng{authornamehash}{2d17a83822de5277bd0d9000536e9a3b}
+      \strng{authorfullhash}{2d17a83822de5277bd0d9000536e9a3b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medyascope}
+      \field{month}{11}
+      \field{title}{3 kasım 2002’den bugüne AKP ve erdoğan’ın 20 Yıllık Seçim tarihi}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://medyascope.tv/2022/11/03/3-kasim-2002den-bugune-akp-ve-erdoganin-20-yillik-secim-tarihi/
+      \endverb
+      \verb{url}
+      \verb https://medyascope.tv/2022/11/03/3-kasim-2002den-bugune-akp-ve-erdoganin-20-yillik-secim-tarihi/
+      \endverb
+    \endentry
     \entry{latex}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d77435450d10a850a5b58577b9a456b}{%
@@ -110,6 +215,261 @@
       \field{labeltitlesource}{title}
       \field{title}{LaTeX : A Documentation Preparation System User's Guide and Reference Manual}
       \field{year}{1994}
+    \endentry
+    \entry{mejova_twitter_2015_social_telescope}{book}{}
+      \name{editor}{3}{}{%
+        {{un=0,uniquepart=base,hash=680d39f2bacbbf64f76ec1c23c036de1}{%
+           family={Mejova},
+           familyi={M\bibinitperiod},
+           given={Yelena},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a68c23bac04bfcf8e20276cf86108862}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Ingmar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a631615457be49b4c647d992c07a139}{%
+           family={Macy},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{da1a8b052e6cf28cade29e20f3fdc56b}
+      \strng{fullhash}{da1a8b052e6cf28cade29e20f3fdc56b}
+      \strng{bibnamehash}{da1a8b052e6cf28cade29e20f3fdc56b}
+      \strng{editorbibnamehash}{da1a8b052e6cf28cade29e20f3fdc56b}
+      \strng{editornamehash}{da1a8b052e6cf28cade29e20f3fdc56b}
+      \strng{editorfullhash}{da1a8b052e6cf28cade29e20f3fdc56b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{How can Twitter data be used to study individual-level human behavior and social interaction on a global scale? This book introduces readers to the methods, opportunities, and challenges of using Twitter data to analyze phenomena ranging from the number of people infected by the flu, to national elections, to tomorrow's stock prices. Each chapter, written by leading domain experts in clear and accessible language, takes the reader to the forefront of the newly emerging field of computational social science. An introductory chapter on Twitter data analysis provides an overview of key tools and skills, and gives pointers on how to get started, while the case studies demonstrate shortcomings, limitations, and pitfalls of Twitter data as well as its advantages. The book will be an excellent resource for social science students and researchers wanting to explore the use of online data.}
+      \field{isbn}{978-1-107-10237-8}
+      \field{shorttitle}{Twitter}
+      \field{title}{Twitter: A Digital Socioscope}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9781316182635
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/books/twitter-a-digital-socioscope/4248FEAF39EE5DB8AAF316026585DD35
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/books/twitter-a-digital-socioscope/4248FEAF39EE5DB8AAF316026585DD35
+      \endverb
+    \endentry
+    \entry{ogan__varol_twitter_gezi_park_2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=81317772d8f819003ca87c088e7d9f70}{%
+           family={Ogan},
+           familyi={O\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a87d0c70e43b7e935e92f1f97c48d2e}{%
+           family={Varol},
+           familyi={V\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fbde763c868fbe1b60bbff1a2a59d340}
+      \strng{fullhash}{fbde763c868fbe1b60bbff1a2a59d340}
+      \strng{bibnamehash}{fbde763c868fbe1b60bbff1a2a59d340}
+      \strng{authorbibnamehash}{fbde763c868fbe1b60bbff1a2a59d340}
+      \strng{authornamehash}{fbde763c868fbe1b60bbff1a2a59d340}
+      \strng{authorfullhash}{fbde763c868fbe1b60bbff1a2a59d340}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As social movements relying on the weak ties found in social networks have spread around the world, researchers have taken several approaches to understanding how networks function in such instances as the Arab Spring. While social scientists have primarily relied on survey or content analysis methodology, network scientists have used social network analysis. This research combines content analysis with the automated techniques of network analysis to determine the roles played by those using Twitter to communicate during the Turkish Gezi Park uprising. Based on a network analysis of nearly 2.4 million tweets and a content analysis of a subset of 5126 of those tweets, we found that information sharing was by far the most common use of the tweets and retweets, while tweets that indicated leadership of the movement constituted a small percentage of the overall number of tweets. Using automated techniques, we experimented with coded variables from content analysis to compute the most discriminative tokens and to predict values for each variable using only textual information. We achieved 0.61 precision on identifying types of shared information. Our results on detecting the position of user in the protest and purpose of the tweets achieved 0.42 and 0.33 precision, respectively, illustrating the necessity of user cooperation and the shortcomings of automated techniques. Based on annotated values of user tweets, we computed similarities between users considering their information production and consumption. User similarities are used to compute clusters of individuals with similar behaviors, and we interpreted average activities for those groups.}
+      \field{day}{3}
+      \field{issn}{1369-118X, 1468-4462}
+      \field{journaltitle}{Information, Communication \& Society}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shortjournal}{Information, Communication \& Society}
+      \field{shorttitle}{What is gained and what is left to be done when content analysis is added to network analysis in the study of a social movement}
+      \field{title}{What is gained and what is left to be done when content analysis is added to network analysis in the study of a social movement: Twitter use during Gezi Park}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{20}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1220\bibrangedash 1238}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/1369118X.2016.1229006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/1369118X.2016.1229006
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/1369118X.2016.1229006
+      \endverb
+    \endentry
+    \entry{pfeffer_twitter_24_Hours_just_another_day_2023}{misc}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=97578f9429d2a965b1e8cd31192a0ece}{%
+           family={Pfeffer},
+           familyi={P\bibinitperiod},
+           given={Juergen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5fa46c9adaded21e0dca2d192e26e3d}{%
+           family={Matter},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b03de1a00e85dea27c13b50c59a52638}{%
+           family={Jaidka},
+           familyi={J\bibinitperiod},
+           given={Kokil},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a87d0c70e43b7e935e92f1f97c48d2e}{%
+           family={Varol},
+           familyi={V\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3c0fbba4e6ac7af3cf1077da1cdfdd8}{%
+           family={Mashhadi},
+           familyi={M\bibinitperiod},
+           given={Afra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=653e48a2955dfc923a044fca31dc660b}{%
+           family={Lasser},
+           familyi={L\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0507889b207add73fd5c3e8f71c7fa34}{%
+           family={Assenmacher},
+           familyi={A\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86b03e52a10a045d979813537e8c18cb}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Siqi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ff611991cba7ee48521ab941158ac2f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Diyi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecbefbbebd5ee889ee026d34131d5612}{%
+           family={Brantner},
+           familyi={B\bibinitperiod},
+           given={Cornelia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=897a584550a516f8891dbdb1cafb9f95}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Daniel\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2923c0ef018c23bafbd1614a4af059c1}{%
+           family={Otterbacher},
+           familyi={O\bibinitperiod},
+           given={Jahna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fedbea018faaabb8c4875af1d9119f73}{%
+           family={Schwemmer},
+           familyi={S\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af026d554aa390c386b52267805d7d83}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=390131310e5498d8c5fa5414afdc5f26}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fc2e21e9c786462d54f7e2eeae61c19}{%
+           family={Morstatter},
+           familyi={M\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{45aa9c9b35d0a13172d72875893e8082}
+      \strng{fullhash}{62577aa48493eafd27aaae0d22632a30}
+      \strng{bibnamehash}{62577aa48493eafd27aaae0d22632a30}
+      \strng{authorbibnamehash}{62577aa48493eafd27aaae0d22632a30}
+      \strng{authornamehash}{45aa9c9b35d0a13172d72875893e8082}
+      \strng{authorfullhash}{62577aa48493eafd27aaae0d22632a30}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{At the end of October 2022, Elon Musk concluded his acquisition of Twitter. In the weeks and months before that, several questions were publicly discussed that were not only of interest to the platform's future buyers, but also of high relevance to the Computational Social Science research community. For example, how many active users does the platform have? What percentage of accounts on the site are bots? And, what are the dominating topics and sub-topical spheres on the platform? In a globally coordinated effort of 80 scholars to shed light on these questions, and to offer a dataset that will equip other researchers to do the same, we have collected all 375 million tweets published within a 24-hour time period starting on September 21, 2022. To the best of our knowledge, this is the first complete 24-hour Twitter dataset that is available for the research community. With it, the present work aims to accomplish two goals. First, we seek to answer the aforementioned questions and provide descriptive metrics about Twitter that can serve as references for other researchers. Second, we create a baseline dataset for future research that can be used to study the potential impact of the platform's ownership change.}
+      \field{day}{11}
+      \field{eprinttype}{arxiv}
+      \field{month}{4}
+      \field{number}{{arXiv}:2301.11429}
+      \field{shorttitle}{Just Another Day on Twitter}
+      \field{title}{Just Another Day on Twitter: A Complete 24 Hours of Twitter Data}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2301.11429 [cs]
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2301.11429
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2301.11429
+      \endverb
     \endentry
     \entry{rise_of_islam_turkey}{book}{}
       \name{author}{2}{}{%
@@ -156,6 +516,217 @@
       \endverb
       \verb{url}
       \verb https://www.jstor.org/stable/10.7249/mg726osd
+      \endverb
+    \endentry
+    \entry{Saç_Çoban_teyit_anketler_2023}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2928474fba6a32be46d1fee262fe90fd}{%
+           family={Saç},
+           familyi={S\bibinitperiod},
+           given={Emircan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8164bf8e4b10fbad6e9c6be63e7f63fd}{%
+           family={Çoban},
+           familyi={Ç\bibinitperiod},
+           given={Tolga},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c2011a1fb153f48161222f3251d5154}
+      \strng{fullhash}{6c2011a1fb153f48161222f3251d5154}
+      \strng{bibnamehash}{6c2011a1fb153f48161222f3251d5154}
+      \strng{authorbibnamehash}{6c2011a1fb153f48161222f3251d5154}
+      \strng{authornamehash}{6c2011a1fb153f48161222f3251d5154}
+      \strng{authorfullhash}{6c2011a1fb153f48161222f3251d5154}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Teyit}
+      \field{month}{6}
+      \field{title}{Seçim Sonuçlarından Geriye Bakmak: Anketler Neden, Nasıl Yanıldı?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://teyit.org/dosya/secim-sonuclarindan-geriye-bakmak-anketler-neden-nasil-yanildi
+      \endverb
+      \verb{url}
+      \verb https://teyit.org/dosya/secim-sonuclarindan-geriye-bakmak-anketler-neden-nasil-yanildi
+      \endverb
+    \endentry
+    \entry{theocharis_twitter_political_incivility_2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1b06a2587ace06a4ca8487d1e4702338}{%
+           family={Theocharis},
+           familyi={T\bibinitperiod},
+           given={Yannis},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1758712d115799f565778c557042b413}{%
+           family={Barberá},
+           familyi={B\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06c152bdbc4a7d851c18c6f15ad8280}{%
+           family={Fazekas},
+           familyi={F\bibinitperiod},
+           given={Zoltán},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0248e6db7ca04b1d089f8e6d3fc52418}{%
+           family={Popa},
+           familyi={P\bibinitperiod},
+           given={Sebastian\bibnamedelima Adrian},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{363feeeb22cada17bed617e9a1806ec5}
+      \strng{fullhash}{363feeeb22cada17bed617e9a1806ec5}
+      \strng{bibnamehash}{363feeeb22cada17bed617e9a1806ec5}
+      \strng{authorbibnamehash}{363feeeb22cada17bed617e9a1806ec5}
+      \strng{authornamehash}{363feeeb22cada17bed617e9a1806ec5}
+      \strng{authorfullhash}{363feeeb22cada17bed617e9a1806ec5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Online incivility and harassment in political communication have become an important topic of concern among politicians, journalists, and academics. This study provides a descriptive account of uncivil interactions between citizens and politicians on Twitter. We develop a conceptual framework for understanding the dynamics of incivility at three distinct levels: macro (temporal), meso (contextual), and micro (individual). Using longitudinal data from the Twitter communication mentioning Members of Congress in the United States across a time span of over a year and relying on supervised machine learning methods and topic models, we offer new insights about the prevalence and dynamics of incivility toward legislators. We find that uncivil tweets represent consistently around 18\% of all tweets mentioning legislators, but with spikes that correspond to controversial policy debates and political events. Although we find evidence of coordinated attacks, our analysis reveals that the use of uncivil language is common to a large number of users.}
+      \field{journaltitle}{SAGE Open}
+      \field{number}{2}
+      \field{title}{The Dynamics of Political Incivility on Twitter}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{2158244020919447}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/2158244020919447
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1177/2158244020919447
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/2158244020919447
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/2158244020919447
+      \endverb
+    \endentry
+    \entry{uysal_turkeys_twitter_public_diplomacy_2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=809d2433d348a5f0350d512e3c0887a3}{%
+           family={Uysal},
+           familyi={U\bibinitperiod},
+           given={Nur},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61ce8d4e581febc036a87885927bf138}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8426c45d95a645814d50d0cfe2845dc}
+      \strng{fullhash}{e8426c45d95a645814d50d0cfe2845dc}
+      \strng{bibnamehash}{e8426c45d95a645814d50d0cfe2845dc}
+      \strng{authorbibnamehash}{e8426c45d95a645814d50d0cfe2845dc}
+      \strng{authornamehash}{e8426c45d95a645814d50d0cfe2845dc}
+      \strng{authorfullhash}{e8426c45d95a645814d50d0cfe2845dc}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study examined how Turkey uses social media as a tool for public diplomacy and how the state’s soft-power efforts have recently changed on the global stage. The researchers constructed a dataset of 2769 Twitter posts by the Turkish government’s most influential public diplomacy accounts. The analyses revealed that the focus of Turkey’s Twitter public diplomacy has become concentrated on the Middle East and North Africa ({MENA}) region and is thematically focused on the political values embodied by the Turkish president. The findings suggest that public diplomacy remains to be the diplomacy of the government, not of the public, and social media is used as just another tool for propaganda, not as a means of engagement with foreign publics. Further, the findings indicate the emergence of a “new” cult of personality in public diplomacy and point out the instrumental role of social media in changing the dynamics of leader-follower relationship. The study contributes to public relations theory and practice by advancing the burgeoning public diplomacy scholarship at the intersection of social media and relational approaches.}
+      \field{day}{1}
+      \field{issn}{0363-8111}
+      \field{journaltitle}{Public Relations Review}
+      \field{month}{12}
+      \field{number}{5}
+      \field{shortjournal}{Public Relations Review}
+      \field{shorttitle}{Turkey’s Twitter public diplomacy}
+      \field{title}{Turkey’s Twitter public diplomacy: Towards a “new” cult of personality}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{45}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{101837}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.pubrev.2019.101837
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0363811118306210
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0363811118306210
+      \endverb
+    \endentry
+    \entry{yerlikaya_social_media_manipulation_politics_2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c8c36c58f95c14222acb805d5a0898df}{%
+           family={Yerlikaya},
+           familyi={Y\bibinitperiod},
+           given={Turgay},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e0a401a2a783cf3704cee442c7d627e}{%
+           family={Toker},
+           familyi={T\bibinitperiod},
+           given={Seca},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3c510a86fbd92bfe91b199a7c9e096b}
+      \strng{fullhash}{a3c510a86fbd92bfe91b199a7c9e096b}
+      \strng{bibnamehash}{a3c510a86fbd92bfe91b199a7c9e096b}
+      \strng{authorbibnamehash}{a3c510a86fbd92bfe91b199a7c9e096b}
+      \strng{authornamehash}{a3c510a86fbd92bfe91b199a7c9e096b}
+      \strng{authorfullhash}{a3c510a86fbd92bfe91b199a7c9e096b}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article focuses on how virtual social networks affect socio-political life. The main theme of the article is how social networks such as Facebook and Twitter can direct voters’ electoral preferences, especially during election time, through the dissemination of manipulative content and fake news. The use of social media, which was initially thought to have a positive effect on democratization, has been extensively discussed in recent years as threat to democracy. Examples from the 2016 U.S. presidential elections, France, Brexit, Germany, the {UK} and Turkey will be used to illustrate the risks that social networks pose to democracy, especially during election periods.}
+      \field{day}{30}
+      \field{issn}{1302177X, 25647717}
+      \field{journaltitle}{Insight Turkey}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{{IT}}
+      \field{shorttitle}{Social Media and Fake News in the Post-Truth Era}
+      \field{title}{Social Media and Fake News in the Post-Truth Era: The Manipulation of Politics in the Election Process}
+      \field{urlday}{9}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{177\bibrangedash 196}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.25253/99.2020222.11
+      \endverb
+      \verb{urlraw}
+      \verb https://www.insightturkey.com/author/turgay-yerlikaya/social-media-and-fake-news-in-the-post-truth-era-the-manipulation-of-politics-in-the-election-process
+      \endverb
+      \verb{url}
+      \verb https://www.insightturkey.com/author/turgay-yerlikaya/social-media-and-fake-news-in-the-post-truth-era-the-manipulation-of-politics-in-the-election-process
       \endverb
     \endentry
     \entry{erdoganism_akp_after_15_years}{article}{}
@@ -212,6 +783,62 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1080/01436597.2018.1447371
+      \endverb
+    \endentry
+    \entry{zaharna_uysal_social_media_2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=88337fe31033f7e2366e61979370c173}{%
+           family={Zaharna},
+           familyi={Z\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=809d2433d348a5f0350d512e3c0887a3}{%
+           family={Uysal},
+           familyi={U\bibinitperiod},
+           given={Nur},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98dfb1d3d1233ae95e0f082b87df8d4a}
+      \strng{fullhash}{98dfb1d3d1233ae95e0f082b87df8d4a}
+      \strng{bibnamehash}{98dfb1d3d1233ae95e0f082b87df8d4a}
+      \strng{authorbibnamehash}{98dfb1d3d1233ae95e0f082b87df8d4a}
+      \strng{authornamehash}{98dfb1d3d1233ae95e0f082b87df8d4a}
+      \strng{authorfullhash}{98dfb1d3d1233ae95e0f082b87df8d4a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Traditionally, nations have viewed other nations as their primary competitors in public diplomacy ({PD}). In a quest to increase their effectiveness, states are applying relationship management and pursuing a more relational {PD} approach with publics. However, present understanding of relationships may be one-sided, focusing primarily on the state's relationship-building activities and overlooking the public's agency in defining relations. This paper uses relationalism as an analytical lens to construct a 4-quadrant model of public diplomacy based on the relational dynamics between a state and publics. The model reveals a parallel evolution of communication technology and public diplomacy initiatives that move from assumptions of no relations with publics, to favorable relations, to adversarial relations. A case study from Turkey is used to illustrate how diverse groups can use social media to form unlikely alliances to become a fluid, adversarial public capable of ‘going for the jugular’ and challenging state legitimacy. Aggressive separation tactics by the state to counter adversarial publics can inadvertently create a ‘relational paradox’ that leaves the two parties more politically divided and yet more relationally intertwined. The study implications stress the need for states to monitor their relational dynamic with publics as a precursor for developing reflective strategies.}
+      \field{day}{1}
+      \field{issn}{0363-8111}
+      \field{journaltitle}{Public Relations Review}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{Public Relations Review}
+      \field{shorttitle}{Going for the jugular in public diplomacy}
+      \field{title}{Going for the jugular in public diplomacy: How adversarial publics using social media are challenging state legitimacy}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{42}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{109\bibrangedash 119}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.pubrev.2015.07.006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0363811115001010
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0363811115001010
       \endverb
     \endentry
   \enddatalist

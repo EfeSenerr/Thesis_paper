@@ -2791,18 +2791,38 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">rise_of_islam_turkey</bcf:citekey>
-    <bcf:citekey order="2">erdoganism_akp_after_15_years</bcf:citekey>
-    <bcf:citekey order="3">financial_crisis_turkey_1994</bcf:citekey>
-    <bcf:citekey order="4">rise_of_islam_turkey</bcf:citekey>
-    <bcf:citekey order="5">latex</bcf:citekey>
-    <bcf:citekey order="6">latex</bcf:citekey>
-    <bcf:citekey order="7">latex</bcf:citekey>
-    <bcf:citekey order="8">latex</bcf:citekey>
-    <bcf:citekey order="9">rise_of_islam_turkey</bcf:citekey>
-    <bcf:citekey order="10">erdoganism_akp_after_15_years</bcf:citekey>
-    <bcf:citekey order="11">financial_crisis_turkey_1994</bcf:citekey>
-    <bcf:citekey order="12">latex</bcf:citekey>
+    <bcf:citekey order="1">uysal_turkeys_twitter_public_diplomacy_2019</bcf:citekey>
+    <bcf:citekey order="2">pfeffer_twitter_24_Hours_just_another_day_2023</bcf:citekey>
+    <bcf:citekey order="3">mejova_twitter_2015_social_telescope</bcf:citekey>
+    <bcf:citekey order="4">yerlikaya_social_media_manipulation_politics_2020</bcf:citekey>
+    <bcf:citekey order="5">theocharis_twitter_political_incivility_2020</bcf:citekey>
+    <bcf:citekey order="6">anwar_analyzing_twitter_BERT_QAnon_2021</bcf:citekey>
+    <bcf:citekey order="7">zaharna_uysal_social_media_2016</bcf:citekey>
+    <bcf:citekey order="8">ogan__varol_twitter_gezi_park_2017</bcf:citekey>
+    <bcf:citekey order="9">Atila_medyascope_tr_secim_tarihi_2022</bcf:citekey>
+    <bcf:citekey order="10">Saç_Çoban_teyit_anketler_2023</bcf:citekey>
+    <bcf:citekey order="11">rise_of_islam_turkey</bcf:citekey>
+    <bcf:citekey order="12">erdoganism_akp_after_15_years</bcf:citekey>
+    <bcf:citekey order="13">financial_crisis_turkey_1994</bcf:citekey>
+    <bcf:citekey order="14">rise_of_islam_turkey</bcf:citekey>
+    <bcf:citekey order="15">latex</bcf:citekey>
+    <bcf:citekey order="16">latex</bcf:citekey>
+    <bcf:citekey order="17">latex</bcf:citekey>
+    <bcf:citekey order="18">latex</bcf:citekey>
+    <bcf:citekey order="19">uysal_turkeys_twitter_public_diplomacy_2019</bcf:citekey>
+    <bcf:citekey order="20">pfeffer_twitter_24_Hours_just_another_day_2023</bcf:citekey>
+    <bcf:citekey order="21">mejova_twitter_2015_social_telescope</bcf:citekey>
+    <bcf:citekey order="22">yerlikaya_social_media_manipulation_politics_2020</bcf:citekey>
+    <bcf:citekey order="23">theocharis_twitter_political_incivility_2020</bcf:citekey>
+    <bcf:citekey order="24">anwar_analyzing_twitter_BERT_QAnon_2021</bcf:citekey>
+    <bcf:citekey order="25">zaharna_uysal_social_media_2016</bcf:citekey>
+    <bcf:citekey order="26">ogan__varol_twitter_gezi_park_2017</bcf:citekey>
+    <bcf:citekey order="27">Atila_medyascope_tr_secim_tarihi_2022</bcf:citekey>
+    <bcf:citekey order="28">Saç_Çoban_teyit_anketler_2023</bcf:citekey>
+    <bcf:citekey order="29">rise_of_islam_turkey</bcf:citekey>
+    <bcf:citekey order="30">erdoganism_akp_after_15_years</bcf:citekey>
+    <bcf:citekey order="31">financial_crisis_turkey_1994</bcf:citekey>
+    <bcf:citekey order="32">latex</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
