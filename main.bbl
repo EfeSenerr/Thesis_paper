@@ -276,6 +276,77 @@
       \verb https://www.cambridge.org/core/books/twitter-a-digital-socioscope/4248FEAF39EE5DB8AAF316026585DD35
       \endverb
     \endentry
+    \entry{secim2023}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=da6a097388ca8ce3f690062002f1abdd}{%
+           family={Najafi},
+           familyi={N\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de19f5be5fd84b541a9504b8f93c6a51}{%
+           family={Mugurtay},
+           familyi={M\bibinitperiod},
+           given={Nihat},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad36917c46a9062a8c71e8dccf30f08a}{%
+           family={Demirci},
+           familyi={D\bibinitperiod},
+           given={Ege},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=094661a2a4daffd00d12d5976a29588c}{%
+           family={Demirkiran},
+           familyi={D\bibinitperiod},
+           given={Serhat},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9e39783f2a3ba1c7d3f15e9ffd96beb}{%
+           family={Karadeniz},
+           familyi={K\bibinitperiod},
+           given={Huseyin\bibnamedelima Alper},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a87d0c70e43b7e935e92f1f97c48d2e}{%
+           family={Varol},
+           familyi={V\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{7cf570b4da7c44890244c56edf32a58f}
+      \strng{fullhash}{c76ad900388acc12992bf81228ffb5c2}
+      \strng{bibnamehash}{c76ad900388acc12992bf81228ffb5c2}
+      \strng{authorbibnamehash}{c76ad900388acc12992bf81228ffb5c2}
+      \strng{authornamehash}{7cf570b4da7c44890244c56edf32a58f}
+      \strng{authorfullhash}{c76ad900388acc12992bf81228ffb5c2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In the context of Turkey's upcoming parliamentary and presidential elections ("se{\textbackslash}c\{c\}im" in Turkish), social media is playing an important role in shaping public debate. The increasing engagement of citizens on social media platforms has led to the growing use of social media by political actors. It is of utmost importance to capture the upcoming Turkish elections, as social media is becoming an essential component of election propaganda, political debates, smear campaigns, and election manipulation by domestic and international actors. We provide a comprehensive dataset for social media researchers to study the upcoming election, develop tools to prevent online manipulation, and gather novel information to inform the public. We are committed to continually improving the data collection and updating it regularly leading up to the election. Using the Secim2023 dataset, researchers can examine the social and communication networks between political actors, track current trends, and investigate emerging threats to election integrity. Our dataset is available at: https://github.com/ViralLab/Secim2023\_Dataset}
+      \field{month}{11}
+      \field{shorttitle}{\#{Secim2023}}
+      \field{title}{\#{Secim2023}: {First} {Public} {Dataset} for {Studying} {Turkish} {General} {Election}}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2211.13121
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2211.13121
+      \endverb
+    \endentry
     \entry{ogan__varol_twitter_gezi_park_2017}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=81317772d8f819003ca87c088e7d9f70}{%
