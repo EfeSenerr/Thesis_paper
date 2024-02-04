@@ -188,6 +188,356 @@
       \verb https://medyascope.tv/2022/11/03/3-kasim-2002den-bugune-akp-ve-erdoganin-20-yillik-secim-tarihi/
       \endverb
     \endentry
+    \entry{blei_lda_2003}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+           family={Blei},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a36116840c7ee55901618c95fd08a58}{%
+           family={Jordan},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50a4a559b35564cbc2f774144099d967}
+      \strng{fullhash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{bibnamehash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{authorbibnamehash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{authornamehash}{50a4a559b35564cbc2f774144099d967}
+      \strng{authorfullhash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{month}{3}
+      \field{title}{Latent dirichlet allocation}
+      \field{volume}{3}
+      \field{year}{2003}
+      \field{pages}{993\bibrangedash 1022}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.5555/944919.944937
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
+      \endverb
+    \endentry
+    \entry{contreras_panama_lda_bertopic_2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4cbc45859df65f769daaa0add45a1759}{%
+           family={Contreras},
+           familyi={C\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a762894412965d043d9a30992b7586a}{%
+           family={Verbel},
+           familyi={V\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03849abe49010c68cf93f20878227195}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5f73f93c721bd5c870c39e5a23a323f}{%
+           family={Sanchez-Galan},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Javier\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Panama, Panama}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8770aa147ef22fa45cfbab8fcce2aaa6}
+      \strng{fullhash}{c16d4689f166656a9865cf048868dd9c}
+      \strng{bibnamehash}{c16d4689f166656a9865cf048868dd9c}
+      \strng{authorbibnamehash}{c16d4689f166656a9865cf048868dd9c}
+      \strng{authornamehash}{8770aa147ef22fa45cfbab8fcce2aaa6}
+      \strng{authorfullhash}{c16d4689f166656a9865cf048868dd9c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work used statistical and neural topic modelling algorithms to perform an unsupervised analysis on a Panamanian parliamentary proceedings corpus of 2086 Spanish language texts. The statistical algorithm known as Latent Dirichlet Allocation ({LDA}) was employed and its performance compared to {BERTopic}, a neural-based method that encompasses deep neural document embeddings, non-linear dimensionality reduction, and hierarchical density clustering. Both models achieved topic diversity and coherence, yielding interpretable results with different levels of semantic abstraction. Furthermore, taking advantage of {BERTopic}’s features, Dynamic Topic Modelling analysis showed global and evolutionary word frequency of health-related topics. Results can be used for in-depth analysis of political trends, even though more complex hyperparameter tuning might be necessary to achieve higher topic coherence and interpretability.}
+      \field{day}{9}
+      \field{eventtitle}{2022 {IEEE} 40th Central America and Panama Convention({CONCAPAN})}
+      \field{isbn}{978-1-72816-715-2}
+      \field{journaltitle}{2022 {IEEE} 40th Central America and Panama Convention ({CONCAPAN})}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Using Topic Modelling for Analyzing Panamanian Parliamentary Proceedings with Neural and Statistical Methods}
+      \field{urlday}{13}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CONCAPAN48024.2022.9997766
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9997766/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9997766/
+      \endverb
+    \endentry
+    \entry{bertopic_twitter_german_politics_2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d853a20ae6289693e1af31a57ce9622}{%
+           family={Gritto},
+           familyi={G\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Ludwig-Maximilians-Universität München}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{1d853a20ae6289693e1af31a57ce9622}
+      \strng{fullhash}{1d853a20ae6289693e1af31a57ce9622}
+      \strng{bibnamehash}{1d853a20ae6289693e1af31a57ce9622}
+      \strng{authorbibnamehash}{1d853a20ae6289693e1af31a57ce9622}
+      \strng{authornamehash}{1d853a20ae6289693e1af31a57ce9622}
+      \strng{authorfullhash}{1d853a20ae6289693e1af31a57ce9622}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Application of neural topic models to twitter data from {German} politicians}
+      \field{type}{bat}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5282/ubm/epub.92617
+      \endverb
+      \verb{urlraw}
+      \verb https://epub.ub.uni-muenchen.de/92617/
+      \endverb
+      \verb{url}
+      \verb https://epub.ub.uni-muenchen.de/92617/
+      \endverb
+    \endentry
+    \entry{bertopic}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a07dee61406b9c48310bff46188c983b}{%
+           family={Grootendorst},
+           familyi={G\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{fullhash}{a07dee61406b9c48310bff46188c983b}
+      \strng{bibnamehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{authorbibnamehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{authornamehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{authorfullhash}{a07dee61406b9c48310bff46188c983b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Topic models can be useful tools to discover latent topics in collections of documents. Recent studies have shown the feasibility of approach topic modeling as a clustering task. We present BERTopic, a topic model that extends this process by extracting coherent topic representation through the development of a class-based variation of TF-IDF. More specifically, BERTopic generates document embedding with pre-trained transformer-based language models, clusters these embeddings, and finally, generates topic representations with the class-based TF-IDF procedure. BERTopic generates coherent topics and remains competitive across a variety of benchmarks involving classical models and those that follow the more recent clustering approach of topic modeling.}
+      \field{month}{3}
+      \field{shorttitle}{{BERTopic}}
+      \field{title}{{BERTopic}: {Neural} topic modeling with a class-based {TF}-{IDF} procedure}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2203.05794
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2203.05794
+      \endverb
+    \endentry
+    \entry{ilyas_brexit_topic_modeling_2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3b4275bbfaca44b748cfef93e618d502}{%
+           family={Ilyas},
+           familyi={I\bibinitperiod},
+           given={Sardar\bibnamedelimb Haider\bibnamedelima Waseem},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1304665e5f4ebf22c5a3cd92288c621c}{%
+           family={Soomro},
+           familyi={S\bibinitperiod},
+           given={Zainab\bibnamedelima Tariq},
+           giveni={Z\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9af7415fac6ab75940715206a89e79c}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=320275ee54884c8d0430783bef7f07c7}{%
+           family={Shahzad},
+           familyi={S\bibinitperiod},
+           given={Hamza},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f48c7f0cbe5faf0d9956c773dfa07b0f}{%
+           family={Yaqub},
+           familyi={Y\bibinitperiod},
+           given={Ussama},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Seoul Republic of Korea}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{4a4525ff8ad722c765695aee430dfcfc}
+      \strng{fullhash}{81eaea4e8f38ae4ee881ce00c48d7233}
+      \strng{bibnamehash}{81eaea4e8f38ae4ee881ce00c48d7233}
+      \strng{authorbibnamehash}{81eaea4e8f38ae4ee881ce00c48d7233}
+      \strng{authornamehash}{4a4525ff8ad722c765695aee430dfcfc}
+      \strng{authorfullhash}{81eaea4e8f38ae4ee881ce00c48d7233}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{eventtitle}{dg.o '20: The 21st Annual International Conference on Digital Government Research}
+      \field{isbn}{978-1-4503-8791-0}
+      \field{journaltitle}{The 21st Annual International Conference on Digital Government Research}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Analyzing Brexit’s impact using sentiment analysis and topic modeling on Twitter discussion}
+      \field{urlday}{13}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/3396956.3396973
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3396956.3396973
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3396956.3396973
+      \endverb
+    \endentry
+    \entry{kaiser_right_media_USA_stm_topic_modeling_2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a110eb04144c25bce1f4969d51bb130b}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37bca72ca2647007e669393bdd7cf78}{%
+           family={Rauchfleisch},
+           familyi={R\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30b6d8af6abdc248f802075e10a8c1b4}{%
+           family={Bourassa},
+           familyi={B\bibinitperiod},
+           given={Nikki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ed058a8376ab3968867bc5a17080a09}
+      \strng{fullhash}{7ecb6688884786ca325d86df1e99b553}
+      \strng{bibnamehash}{7ecb6688884786ca325d86df1e99b553}
+      \strng{authorbibnamehash}{7ecb6688884786ca325d86df1e99b553}
+      \strng{authornamehash}{1ed058a8376ab3968867bc5a17080a09}
+      \strng{authorfullhash}{7ecb6688884786ca325d86df1e99b553}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The 2016 {US} election and the victory of Donald Trump are closely connected to a perceived rise of the far-right in the United States. We build upon public sphere and alternative media theory to discuss the relevance of alternative media for the {US} (far-)right and whether the election period and the candidate Trump allowed far-right alternative media to establish themselves in the (far-) right networked public sphere. We investigate whether it has come to a convergence of topics between the right and the extreme far-right. We analyze the topics nine right-wing outlets, ranging from Fox News to the Neo-Nazi Daily Stormer, covered in 2015/2016 during the {US} presidential election. We show through topic modeling of 21,919 articles how Breitbart established itself as a media outlet between the extreme far-right and mainstream right by both covering more extreme and more classic conservative topics. We show through time series clustering how Breitbart and Fox News converged in their coverage of Islam and immigration. Finally, we show through hyperlink analysis that the connection between the far-right and the mainstream right is mostly one-sided; while the alternative outlets link to more established ones, the established outlets mostly ignore the outlets from the far-right.}
+      \field{day}{15}
+      \field{issn}{2167-0811}
+      \field{journaltitle}{Digital Journalism}
+      \field{month}{3}
+      \field{note}{Publisher: Routledge \_eprint: https://doi.org/10.1080/21670811.2019.1682629}
+      \field{number}{3}
+      \field{shorttitle}{Connecting the (Far-)Right Dots}
+      \field{title}{Connecting the (Far-)Right Dots: A Topic Modeling and Hyperlink Analysis of (Far-)Right Media Coverage during the {US} Elections 2016}
+      \field{urlday}{13}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{422\bibrangedash 441}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/21670811.2019.1682629
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/21670811.2019.1682629
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/21670811.2019.1682629
+      \endverb
+      \keyw{topic modeling,alt-right,alternative media,election,far-right,Networked public sphere}
+    \endentry
     \entry{latex}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d77435450d10a850a5b58577b9a456b}{%
@@ -910,6 +1260,87 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0363811115001010
+      \endverb
+    \endentry
+    \entry{zhao_neural_topic_models_2021}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f020e3fcb5d7b3ca19b58f57e8a2b4f3}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={He},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=278d1471dd80887f4e6df8556646873e}{%
+           family={Phung},
+           familyi={P\bibinitperiod},
+           given={Dinh},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6cc9f86e9b51d55c4d6e688bae5d8d4}{%
+           family={Huynh},
+           familyi={H\bibinitperiod},
+           given={Viet},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f069b0323406da9e846973ed5cc95a9}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdbc7b1362254d0e4aa717d54022b47a}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Lan},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97f723cbded90372d0c37e035b53bd9e}{%
+           family={Buntine},
+           familyi={B\bibinitperiod},
+           given={Wray},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{ddb95a0db43d0672aadf8e9f2994508e}
+      \strng{fullhash}{d6ad36f2bc2ea6800a518ad24276267e}
+      \strng{bibnamehash}{d6ad36f2bc2ea6800a518ad24276267e}
+      \strng{authorbibnamehash}{d6ad36f2bc2ea6800a518ad24276267e}
+      \strng{authornamehash}{ddb95a0db43d0672aadf8e9f2994508e}
+      \strng{authorfullhash}{d6ad36f2bc2ea6800a518ad24276267e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Topic modelling has been a successful technique for text analysis for almost twenty years. When topic modelling met deep neural networks, there emerged a new and increasingly popular research area, neural topic models, with over a hundred models developed and a wide range of applications in neural language understanding such as text generation, summarisation and language models. There is a need to summarise research developments and discuss open problems and future directions. In this paper, we provide a focused yet comprehensive overview of neural topic models for interested researchers in the {AI} community, so as to facilitate them to navigate and innovate in this fast-growing research area. To the best of our knowledge, ours is the first review focusing on this specific topic.}
+      \field{day}{28}
+      \field{eprinttype}{arxiv}
+      \field{month}{2}
+      \field{number}{{arXiv}:2103.00498}
+      \field{shorttitle}{Topic Modelling Meets Deep Neural Networks}
+      \field{title}{Topic Modelling Meets Deep Neural Networks: A Survey}
+      \field{urlday}{4}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2103.00498
+      \endverb
+      \verb{eprint}
+      \verb 2103.00498 [cs]
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2103.00498
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2103.00498
       \endverb
     \endentry
   \enddatalist
