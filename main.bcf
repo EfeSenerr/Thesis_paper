@@ -93,7 +93,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
@@ -109,15 +109,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -333,7 +333,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
@@ -349,15 +349,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -553,7 +553,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
@@ -569,15 +569,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -2810,21 +2810,22 @@
     <bcf:citekey order="17">latex</bcf:citekey>
     <bcf:citekey order="18">latex</bcf:citekey>
     <bcf:citekey order="19">latex</bcf:citekey>
-    <bcf:citekey order="20">uysal_turkeys_twitter_public_diplomacy_2019</bcf:citekey>
-    <bcf:citekey order="21">pfeffer_twitter_24_Hours_just_another_day_2023</bcf:citekey>
-    <bcf:citekey order="22">mejova_twitter_2015_social_telescope</bcf:citekey>
-    <bcf:citekey order="23">yerlikaya_social_media_manipulation_politics_2020</bcf:citekey>
-    <bcf:citekey order="24">theocharis_twitter_political_incivility_2020</bcf:citekey>
-    <bcf:citekey order="25">anwar_analyzing_twitter_BERT_QAnon_2021</bcf:citekey>
-    <bcf:citekey order="26">zaharna_uysal_social_media_2016</bcf:citekey>
-    <bcf:citekey order="27">ogan__varol_twitter_gezi_park_2017</bcf:citekey>
-    <bcf:citekey order="28">secim2023</bcf:citekey>
-    <bcf:citekey order="29">rise_of_islam_turkey</bcf:citekey>
-    <bcf:citekey order="30">erdoganism_akp_after_15_years</bcf:citekey>
-    <bcf:citekey order="31">financial_crisis_turkey_1994</bcf:citekey>
-    <bcf:citekey order="32">Atila_medyascope_tr_secim_tarihi_2022</bcf:citekey>
-    <bcf:citekey order="33">Saç_Çoban_teyit_anketler_2023</bcf:citekey>
-    <bcf:citekey order="34">latex</bcf:citekey>
+    <bcf:citekey order="20">latex</bcf:citekey>
+    <bcf:citekey order="21">uysal_turkeys_twitter_public_diplomacy_2019</bcf:citekey>
+    <bcf:citekey order="22">pfeffer_twitter_24_Hours_just_another_day_2023</bcf:citekey>
+    <bcf:citekey order="23">mejova_twitter_2015_social_telescope</bcf:citekey>
+    <bcf:citekey order="24">yerlikaya_social_media_manipulation_politics_2020</bcf:citekey>
+    <bcf:citekey order="25">theocharis_twitter_political_incivility_2020</bcf:citekey>
+    <bcf:citekey order="26">anwar_analyzing_twitter_BERT_QAnon_2021</bcf:citekey>
+    <bcf:citekey order="27">zaharna_uysal_social_media_2016</bcf:citekey>
+    <bcf:citekey order="28">ogan__varol_twitter_gezi_park_2017</bcf:citekey>
+    <bcf:citekey order="29">secim2023</bcf:citekey>
+    <bcf:citekey order="30">rise_of_islam_turkey</bcf:citekey>
+    <bcf:citekey order="31">erdoganism_akp_after_15_years</bcf:citekey>
+    <bcf:citekey order="32">financial_crisis_turkey_1994</bcf:citekey>
+    <bcf:citekey order="33">Atila_medyascope_tr_secim_tarihi_2022</bcf:citekey>
+    <bcf:citekey order="34">Saç_Çoban_teyit_anketler_2023</bcf:citekey>
+    <bcf:citekey order="35">latex</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
