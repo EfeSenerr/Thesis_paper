@@ -19,6 +19,82 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{alshaabi_social_media_twitter_analysis_2021}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=e2969c633d82d35f48fe6f91e2a0bb26}{%
+           family={Alshaabi},
+           familyi={A\bibinitperiod},
+           given={Thayer},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=668c6f757d55646ca34e48803190dbc9}{%
+           family={Dewhurst},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima Rushing},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1171118fbafa9f66958d596e7a1375a2}{%
+           family={Minot},
+           familyi={M\bibinitperiod},
+           given={Joshua\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44e03346b3be5a59c74fac6f949038fc}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3e2a3399c18878047531e808f15351b}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Jane\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fc866d4ae873b776e72f5bac184a570}{%
+           family={Danforth},
+           familyi={D\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a0ebfc1f40f4fc5072be319b050d506}{%
+           family={Dodds},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima Sheridan},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{9c4322d2de35a3c3cb1f3a966a2a36ef}
+      \strng{fullhash}{3f486731630352c62a3e8742078c99a3}
+      \strng{bibnamehash}{3f486731630352c62a3e8742078c99a3}
+      \strng{authorbibnamehash}{3f486731630352c62a3e8742078c99a3}
+      \strng{authornamehash}{9c4322d2de35a3c3cb1f3a966a2a36ef}
+      \strng{authorfullhash}{3f486731630352c62a3e8742078c99a3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Working from a dataset of 118 billion messages running from the start of 2009 to the end of 2019, we identify and explore the relative daily use of over 150 languages on Twitter. We find that eight languages comprise 80\% of all tweets, with English, Japanese, Spanish, Arabic, and Portuguese being the most dominant. To quantify social spreading in each language over time, we compute the 'contagion ratio': The balance of retweets to organic messages. We find that for the most common languages on Twitter there is a growing tendency, though not universal, to retweet rather than share new content. By the end of 2019, the contagion ratios for half of the top 30 languages, including English and Spanish, had reached above 1-the naive contagion threshold. In 2019, the top 5 languages with the highest average daily ratios were, in order, Thai (7.3), Hindi, Tamil, Urdu, and Catalan, while the bottom 5 were Russian, Swedish, Esperanto, Cebuano, and Finnish (0.26). Further, we show that over time, the contagion ratios for most common languages are growing more strongly than those of rare languages.}
+      \field{issn}{2193-1127}
+      \field{journaltitle}{EPJ data science}
+      \field{number}{1}
+      \field{shorttitle}{The growing amplification of social media}
+      \field{title}{The growing amplification of social media: measuring temporal and social contagion dynamics for over 150 languages on {Twitter} for 2009-2020}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{15}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjds/s13688-021-00271-0
+      \endverb
+      \keyw{Twitter,NLP,Signal processing,Social contagion,Sociolinguistics}
+    \endentry
     \entry{anwar_analyzing_twitter_BERT_QAnon_2021}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=d9af7415fac6ab75940715206a89e79c}{%
@@ -180,7 +256,11 @@
       \field{journaltitle}{Medyascope}
       \field{month}{11}
       \field{title}{3 kasım 2002’den bugüne AKP ve erdoğan’ın 20 Yıllık Seçim tarihi}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
       \field{year}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://medyascope.tv/2022/11/03/3-kasim-2002den-bugune-akp-ve-erdoganin-20-yillik-secim-tarihi/
       \endverb
@@ -311,6 +391,142 @@
       \verb https://ieeexplore.ieee.org/document/9997766/
       \endverb
     \endentry
+    \entry{devlin_bert_2019}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=f974925c5c6cca1d67fd604cc9fc9c79}{%
+           family={Burstein},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3aec97177cb69c892f2c8a2d9bc31a10}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b47889ad94571547c92970150485798b}{%
+           family={Solorio},
+           familyi={S\bibinitperiod},
+           given={Thamar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, Minnesota}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{editorbibnamehash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \strng{editornamehash}{0f9989a68b9a4dd59d368e46c7ff0bda}
+      \strng{editorfullhash}{3ba8abc3fd60f22784bd617fd230d1c6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{booktitle}{Proceedings of the 2019 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}, {Volume} 1 ({Long} and {Short} {Papers})}
+      \field{month}{6}
+      \field{shorttitle}{{BERT}}
+      \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{4171\bibrangedash 4186}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1423
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N19-1423
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N19-1423
+      \endverb
+    \endentry
+    \entry{topic_model_comparison_bertopic_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=83eec92055b070c52a05f9e65a790051}{%
+           family={Egger},
+           familyi={E\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bc95b304b8204b4808ba79789bb04d8}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Joanne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30f025d59ee0c4b877a37d9d380c3bd6}
+      \strng{fullhash}{30f025d59ee0c4b877a37d9d380c3bd6}
+      \strng{bibnamehash}{30f025d59ee0c4b877a37d9d380c3bd6}
+      \strng{authorbibnamehash}{30f025d59ee0c4b877a37d9d380c3bd6}
+      \strng{authornamehash}{30f025d59ee0c4b877a37d9d380c3bd6}
+      \strng{authorfullhash}{30f025d59ee0c4b877a37d9d380c3bd6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The richness of social media data has opened a new avenue for social science research to gain insights into human behaviors and experiences. In particular, emerging data-driven approaches relying on topic models provide entirely new perspectives on interpreting social phenomena. However, the short, text-heavy, and unstructured nature of social media content often leads to methodological challenges in both data collection and analysis. In order to bridge the developing field of computational science and empirical social research, this study aims to evaluate the performance of four topic modeling techniques; namely latent Dirichlet allocation (LDA), non-negative matrix factorization (NMF), Top2Vec, and BERTopic. In view of the interplay between human relations and digital media, this research takes Twitter posts as the reference point and assesses the performance of different algorithms concerning their strengths and weaknesses in a social science context. Based on certain details during the analytical procedures and on quality issues, this research sheds light on the efficacy of using BERTopic and NMF to analyze Twitter data.}
+      \field{issn}{2297-7775}
+      \field{journaltitle}{Frontiers in Sociology}
+      \field{title}{A {Topic} {Modeling} {Comparison} {Between} {LDA}, {NMF}, {Top2Vec}, and {BERTopic} to {Demystify} {Twitter} {Posts}}
+      \field{urlday}{13}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fsoc.2022.886498
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fsoc.2022.886498
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fsoc.2022.886498
+      \endverb
+    \endentry
     \entry{bertopic_twitter_german_politics_2022}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1d853a20ae6289693e1af31a57ce9622}{%
@@ -383,6 +599,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Topic models can be useful tools to discover latent topics in collections of documents. Recent studies have shown the feasibility of approach topic modeling as a clustering task. We present BERTopic, a topic model that extends this process by extracting coherent topic representation through the development of a class-based variation of TF-IDF. More specifically, BERTopic generates document embedding with pre-trained transformer-based language models, clusters these embeddings, and finally, generates topic representations with the class-based TF-IDF procedure. BERTopic generates coherent topics and remains competitive across a variety of benchmarks involving classical models and those that follow the more recent clustering approach of topic modeling.}
+      \field{journaltitle}{arXiv (Cornell University)}
       \field{month}{3}
       \field{shorttitle}{{BERTopic}}
       \field{title}{{BERTopic}: {Neural} topic modeling with a class-based {TF}-{IDF} procedure}
@@ -391,6 +608,9 @@
       \field{urlyear}{2023}
       \field{year}{2022}
       \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arxiv.2203.05794
+      \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/2203.05794
       \endverb
@@ -496,6 +716,9 @@
            giveni={N\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
       \strng{namehash}{1ed058a8376ab3968867bc5a17080a09}
       \strng{fullhash}{7ecb6688884786ca325d86df1e99b553}
       \strng{bibnamehash}{7ecb6688884786ca325d86df1e99b553}
@@ -514,7 +737,6 @@
       \field{issn}{2167-0811}
       \field{journaltitle}{Digital Journalism}
       \field{month}{3}
-      \field{note}{Publisher: Routledge \_eprint: https://doi.org/10.1080/21670811.2019.1682629}
       \field{number}{3}
       \field{shorttitle}{Connecting the (Far-)Right Dots}
       \field{title}{Connecting the (Far-)Right Dots: A Topic Modeling and Hyperlink Analysis of (Far-)Right Media Coverage during the {US} Elections 2016}
@@ -530,13 +752,15 @@
       \verb{doi}
       \verb 10.1080/21670811.2019.1682629
       \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/21670811.2019.1682629
+      \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1080/21670811.2019.1682629
       \endverb
       \verb{url}
       \verb https://doi.org/10.1080/21670811.2019.1682629
       \endverb
-      \keyw{topic modeling,alt-right,alternative media,election,far-right,Networked public sphere}
     \endentry
     \entry{latex}{book}{}
       \name{author}{1}{}{%
@@ -695,6 +919,56 @@
       \endverb
       \verb{url}
       \verb http://arxiv.org/abs/2211.13121
+      \endverb
+    \endentry
+    \entry{turkishbertweet_2023}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=da6a097388ca8ce3f690062002f1abdd}{%
+           family={Najafi},
+           familyi={N\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a87d0c70e43b7e935e92f1f97c48d2e}{%
+           family={Varol},
+           familyi={V\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a80b0a4ddf5a5b30ec7f99cba3aa510f}
+      \strng{fullhash}{a80b0a4ddf5a5b30ec7f99cba3aa510f}
+      \strng{bibnamehash}{a80b0a4ddf5a5b30ec7f99cba3aa510f}
+      \strng{authorbibnamehash}{a80b0a4ddf5a5b30ec7f99cba3aa510f}
+      \strng{authornamehash}{a80b0a4ddf5a5b30ec7f99cba3aa510f}
+      \strng{authorfullhash}{a80b0a4ddf5a5b30ec7f99cba3aa510f}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Turkish is one of the most popular languages in the world. Wide us of this language on social media platforms such as Twitter, Instagram, or Tiktok and strategic position of the country in the world politics makes it appealing for the social network researchers and industry. To address this need, we introduce TurkishBERTweet, the first large scale pre-trained language model for Turkish social media built using almost 900 million tweets. The model shares the same architecture as base BERT model with smaller input length, making TurkishBERTweet lighter than BERTurk and can have significantly lower inference time. We trained our model using the same approach for RoBERTa model and evaluated on two text classification tasks: Sentiment Classification and Hate Speech Detection. We demonstrate that TurkishBERTweet outperforms the other available alternatives on generalizability and its lower inference time gives significant advantage to process large-scale datasets. We also compared our models with the commercial OpenAI solutions in terms of cost and performance to demonstrate TurkishBERTweet is scalable and cost-effective solution. As part of our research, we released TurkishBERTweet and fine-tuned LoRA adapters for the mentioned tasks under the MIT License to facilitate future research and applications on Turkish social media. Our TurkishBERTweet model is available at: https://github.com/ViralLab/TurkishBERTweet}
+      \field{month}{11}
+      \field{shorttitle}{{TurkishBERTweet}}
+      \field{title}{{TurkishBERTweet}: {Fast} and {Reliable} {Large} {Language} {Model} for {Social} {Media} {Analysis}}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2311.18063
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2311.18063
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2311.18063
       \endverb
     \endentry
     \entry{ogan__varol_twitter_gezi_park_2017}{article}{}
@@ -876,12 +1150,8 @@
       \field{number}{{arXiv}:2301.11429}
       \field{shorttitle}{Just Another Day on Twitter}
       \field{title}{Just Another Day on Twitter: A Complete 24 Hours of Twitter Data}
-      \field{urlday}{28}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
       \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{eprint}
       \verb 2301.11429 [cs]
       \endverb
@@ -927,11 +1197,7 @@
       \field{edition}{1}
       \field{isbn}{978-0-8330-4457-0}
       \field{title}{The {Rise} of {Political} {Islam} in {Turkey}}
-      \field{urlday}{31}
-      \field{urlmonth}{1}
-      \field{urlyear}{2024}
       \field{year}{2008}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.jstor.org/stable/10.7249/mg726osd
       \endverb
@@ -970,12 +1236,54 @@
       \field{journaltitle}{Teyit}
       \field{month}{6}
       \field{title}{Seçim Sonuçlarından Geriye Bakmak: Anketler Neden, Nasıl Yanıldı?}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
       \field{year}{2023}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://teyit.org/dosya/secim-sonuclarindan-geriye-bakmak-anketler-neden-nasil-yanildi
       \endverb
       \verb{url}
       \verb https://teyit.org/dosya/secim-sonuclarindan-geriye-bakmak-anketler-neden-nasil-yanildi
+      \endverb
+    \endentry
+    \entry{schweter_berturk_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eed8c5d6cba2548d63301ac7817cb7f7}{%
+           family={Schweter},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{eed8c5d6cba2548d63301ac7817cb7f7}
+      \strng{fullhash}{eed8c5d6cba2548d63301ac7817cb7f7}
+      \strng{bibnamehash}{eed8c5d6cba2548d63301ac7817cb7f7}
+      \strng{authorbibnamehash}{eed8c5d6cba2548d63301ac7817cb7f7}
+      \strng{authornamehash}{eed8c5d6cba2548d63301ac7817cb7f7}
+      \strng{authorfullhash}{eed8c5d6cba2548d63301ac7817cb7f7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{{BERTurk} - {BERT} models for {Turkish}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.5281/zenodo.3770924
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.3770924
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.3770924
       \endverb
     \endentry
     \entry{theocharis_twitter_political_incivility_2020}{article}{}
@@ -1165,6 +1473,9 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
       \strng{namehash}{5b8387db028a91e29b52a62e1dbfb687}
       \strng{fullhash}{5b8387db028a91e29b52a62e1dbfb687}
       \strng{bibnamehash}{5b8387db028a91e29b52a62e1dbfb687}
@@ -1183,21 +1494,19 @@
       \field{issn}{0143-6597}
       \field{journaltitle}{Third World Quarterly}
       \field{month}{9}
-      \field{note}{Publisher: Routledge \_eprint: https://doi.org/10.1080/01436597.2018.1447371}
       \field{number}{9}
       \field{shorttitle}{The {AKP} after 15 years}
       \field{title}{The {AKP} after 15 years: emergence of Erdoganism in Turkey}
-      \field{urlday}{31}
-      \field{urlmonth}{1}
-      \field{urlyear}{2024}
       \field{volume}{39}
       \field{year}{2018}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1812\bibrangedash 1830}
       \range{pages}{19}
       \verb{doi}
       \verb 10.1080/01436597.2018.1447371
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/01436597.2018.1447371
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1080/01436597.2018.1447371

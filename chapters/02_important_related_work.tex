@@ -7,41 +7,57 @@
 % Review studies that have applied topic modeling
 The recent advances in \ac{NLP} and easy access to open-source models allow researchers to 
 study text data by performing sentiment and emotional analysis, topic modeling, 
-semantic search, and many more. Large language models like ChatGPT by OpenAI considerably 
+semantic search, and many more. Large language models by OpenAI considerably 
 explain how fast the NLP field develops.
 
 In this thesis, topic modeling is performed on massive text data. Topic modeling is an 
 unsupervised tool that helps extract the underlying themes from the given text data. 
 There are several topic modeling approaches, and this thesis focuses on neural topic modeling. 
 Unlike conventional models like Latent Dirichlet Allocation (LDA), a generative probabilistic 
-model \parencite{blei_lda_2003}, neural topic models have been used in important NLP 
+model introduced by \textcite{blei_lda_2003}, neural topic models have been used in important NLP 
 tasks, including text generation, document summarisation, and translation, fields to 
 which conventional topic models are complex to apply \parencite{zhao_neural_topic_models_2021}.
 This thesis uses the neural topic model BERTopic, introduced by \textcite{bertopic}, 
-which is explained in detail in the following chapters.
+which is explained in detail in \autoref{chapter:experiments}.
 
 A tremendous number of studies have applied topic modeling in their research. 
-In the political science field, \textcite{ilyas_brexit_topic_modeling_2020} performed 
-topic modeling using LDA to evaluate Brexit’s impact in the UK.
+In the political science field, \textcite{ilyas_brexit_topic_modeling_2020} performed topic modeling 
+using LDA to discover daily discussion topics on Twitter about Brexit and to find out whether 
+the topics discussed on Twitter were representative of actual events taking place. 
+They found out that their model was representative of the actual events.
 \textcite{kaiser_right_media_USA_stm_topic_modeling_2020} used a structural topic model (STM), 
-similar to LDA, to analyze the right media coverage during the 2016 US elections, while 
-\textcite{anwar_analyzing_twitter_BERT_QAnon_2021} performed topic modeling using BERT on 
-Twitter data for 2020 US elections. \textcite{bertopic_twitter_german_politics_2022} 
-applied BERTopic on Twitter data from German politicians and analyzed its results. 
-\textcite{contreras_panama_lda_bertopic_2022} used both LDA and BERTopic on a 
-Panamanian parliamentary proceedings, which are Spanish. 
-% 2. Political Discourse on Twitter
-% role of Twitter in political campaigns, elections, and public discourse worldwide
-% Turkey's case
+similar to LDA, to analyze the right media coverage during the 2016 US elections. 
+The analysis shows that a media outlet is identified between the extreme far-right and 
+mainstream right by finding out that they cover extreme and conservative topics.
+For the 2020 US elections, \textcite{anwar_analyzing_twitter_BERT_QAnon_2021} applied 
+topic modeling using BERTopic on pro-Trump tweets to analyze the most mentioned words for 
+each topic and how frequent the topics were.
+\textcite{bertopic_twitter_german_politics_2022} applied BERTopic along with other 
+German BERT models on Twitter data from German politicians and analyzed their results. 
+She discovered that using BERTopic with the SBERT model yielded more valuable and significant topics.
+On the other hand, \textcite{contreras_panama_lda_bertopic_2022} used both LDA and BERTopic 
+on Panamanian parliamentary proceedings, which are Spanish. The research suggests that both 
+models perform well with long political texts despite the small dataset. 
+
+It is essential to mention that according to the available literature, few studies 
+apply topic modeling to multilingual political data. For the Turkish language, 
+since the introduction of BERTurk by \textcite{schweter_berturk_2020}, which is 
+based on the BERT model by \textcite{devlin_bert_2019} trained on Turkish dataset,
+the Turkish NLP community is getting bigger and bigger day by day. 
+Recently, a new model called TurkishBERTweet trained on the Turkish Twitter dataset 
+was presented by the same team\footnote{Center of Excellence in Data Analytics, Sabanci University, Turkey} 
+that released the public social media dataset \#Secim2023\footcite{secim2023} \parencite{turkishbertweet_2023}. 
+The team has used TurkishBERTweet to conduct daily sentiment analysis and 
+various other analyses on the \#Secim2023 dataset, which will be discussed later.
+
+This thesis will build upon the mentioned research and conduct one of the first 
+neural topic modeling researches on a massive political Turkish language dataset.
+
 
 % 3. Comparative Analyses
 %  include studies that offer a comparative analysis 
 
-% 4.Identify Gaps and Opportunities
-% gaps in the existing literature, e.g. for Turkey
-% Justify the research, by explaining the gap
-
-% 5. Methodological Considerations
+% 5. Methodological: methodologies used in the literature, their strengths and limitations.
 % strengths and limitations, why BERTopic?
 
 % 6. End: contribution of this thesis to existing literature
