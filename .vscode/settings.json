@@ -9,6 +9,11 @@
             "language": "latex",
             "scheme": "file",
             "pattern": "chapters/02_research_questions.tex"
+        },
+        {
+            "language": "latex",
+            "scheme": "file",
+            "pattern": "chapters/03_experiments.tex"
         }
     ]
 }
