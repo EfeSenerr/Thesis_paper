@@ -798,6 +798,42 @@
       \verb https://doi.org/10.1080/21670811.2019.1682629
       \endverb
     \endentry
+    \entry{klosowski_delete_tweets_2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ac91bec17907287815d6400276dba7df}{%
+           family={Klosowski},
+           familyi={K\bibinitperiod},
+           given={Thorin},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac91bec17907287815d6400276dba7df}
+      \strng{fullhash}{ac91bec17907287815d6400276dba7df}
+      \strng{bibnamehash}{ac91bec17907287815d6400276dba7df}
+      \strng{authorbibnamehash}{ac91bec17907287815d6400276dba7df}
+      \strng{authornamehash}{ac91bec17907287815d6400276dba7df}
+      \strng{authorfullhash}{ac91bec17907287815d6400276dba7df}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{{Why You should Delete (All) your tweets}}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/wirecutter/blog/why-you-should-delete-your-tweets/
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/wirecutter/blog/why-you-should-delete-your-tweets/
+      \endverb
+    \endentry
     \entry{latex}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d77435450d10a850a5b58577b9a456b}{%
@@ -1320,6 +1356,42 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.5281/zenodo.3770924
+      \endverb
+    \endentry
+    \entry{scott_turkey_social_media_ban_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ead3a155a8cddfc670a82d9abef90559}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ead3a155a8cddfc670a82d9abef90559}
+      \strng{fullhash}{ead3a155a8cddfc670a82d9abef90559}
+      \strng{bibnamehash}{ead3a155a8cddfc670a82d9abef90559}
+      \strng{authorbibnamehash}{ead3a155a8cddfc670a82d9abef90559}
+      \strng{authornamehash}{ead3a155a8cddfc670a82d9abef90559}
+      \strng{authorfullhash}{ead3a155a8cddfc670a82d9abef90559}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{How Turkey's Erdoğan uses social media to cling onto power}}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.politico.eu/article/recep-tayyip-erdogan-elon-musk-twitter-turkey-elections-social-media-power/
+      \endverb
+      \verb{url}
+      \verb https://www.politico.eu/article/recep-tayyip-erdogan-elon-musk-twitter-turkey-elections-social-media-power/
       \endverb
     \endentry
     \entry{theocharis_twitter_political_incivility_2020}{article}{}
