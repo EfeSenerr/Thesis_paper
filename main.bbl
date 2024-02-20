@@ -563,6 +563,39 @@
       \verb https://www.frontiersin.org/articles/10.3389/fsoc.2022.886498
       \endverb
     \endentry
+    \entry{freedom-house_turkey_report}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ab3109ee63ab462726af4164b8dda3e7}{%
+           family={Freedom\bibnamedelima House},
+           familyi={F\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab3109ee63ab462726af4164b8dda3e7}
+      \strng{fullhash}{ab3109ee63ab462726af4164b8dda3e7}
+      \strng{bibnamehash}{ab3109ee63ab462726af4164b8dda3e7}
+      \strng{authorbibnamehash}{ab3109ee63ab462726af4164b8dda3e7}
+      \strng{authornamehash}{ab3109ee63ab462726af4164b8dda3e7}
+      \strng{authorfullhash}{ab3109ee63ab462726af4164b8dda3e7}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Turkey}}
+      \field{type}{techreport}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://freedomhouse.org/country/turkey/freedom-world/2023
+      \endverb
+      \verb{url}
+      \verb https://freedomhouse.org/country/turkey/freedom-world/2023
+      \endverb
+    \endentry
     \entry{bertopic_twitter_german_politics_2022}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1d853a20ae6289693e1af31a57ce9622}{%
@@ -861,6 +894,70 @@
       \field{labeltitlesource}{title}
       \field{title}{LaTeX : A Documentation Preparation System User's Guide and Reference Manual}
       \field{year}{1994}
+    \endentry
+    \entry{mcinnes_umap_2020}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f3edd0ee6ca72eca5c532b9c1fcee621}{%
+           family={{McInnes}},
+           familyi={M\bibinitperiod},
+           given={Leland},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a653f5c3174b96798d6336399101032}{%
+           family={Healy},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=542b470ec223367aba58d9d095e4e340}{%
+           family={Melville},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{3341d13f7f8011d4c09baee830a3a666}
+      \strng{fullhash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{bibnamehash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{authorbibnamehash}{9bc0813b09f8460b9f60233db84de773}
+      \strng{authornamehash}{3341d13f7f8011d4c09baee830a3a666}
+      \strng{authorfullhash}{9bc0813b09f8460b9f60233db84de773}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{{UMAP} (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. {UMAP} is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data. The {UMAP} algorithm is competitive with t-{SNE} for visualization quality, and arguably preserves more of the global structure with superior run time performance. Furthermore, {UMAP} has no computational restrictions on embedding dimension, making it viable as a general purpose dimension reduction technique for machine learning.}
+      \field{day}{17}
+      \field{eprinttype}{arxiv}
+      \field{month}{9}
+      \field{number}{{arXiv}:1802.03426}
+      \field{shorttitle}{{UMAP}}
+      \field{title}{{UMAP}: Uniform Manifold Approximation and Projection for Dimension Reduction}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1802.03426
+      \endverb
+      \verb{eprint}
+      \verb 1802.03426 [cs, stat]
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1802.03426
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1802.03426
+      \endverb
+      \keyw{Computer Science - Computational Geometry,Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
     \entry{mejova_twitter_2015_social_telescope}{book}{}
       \name{editor}{3}{}{%
@@ -1276,6 +1373,112 @@
       \verb{url}
       \verb https://www.jstor.org/stable/10.7249/mg726osd
       \endverb
+    \endentry
+    \entry{sentence-bert}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=da9947b27b0d1c4c912e2b391426d443}{%
+           family={Reimers},
+           familyi={R\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea70b44be1920f6e8c379706bc7d047a}{%
+           family={Gurevych},
+           familyi={G\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{bibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorbibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authornamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{BERT (Devlin et al., 2018) and RoBERTa (Liu et al., 2019) has set a new state-of-the-art performance on sentence-pair regression tasks like semantic textual similarity (STS). However, it requires that both sentences are fed into the network, which causes a massive computational overhead: Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations ({\textasciitilde}65 hours) with BERT. The construction of BERT makes it unsuitable for semantic similarity search as well as for unsupervised tasks like clustering. In this publication, we present Sentence-BERT (SBERT), a modification of the pretrained BERT network that use siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT, while maintaining the accuracy from BERT. We evaluate SBERT and SRoBERTa on common STS tasks and transfer learning tasks, where it outperforms other state-of-the-art sentence embeddings methods.}
+      \field{month}{8}
+      \field{shorttitle}{Sentence-{BERT}}
+      \field{title}{Sentence-{BERT}: {Sentence} {Embeddings} using {Siamese} {BERT}-{Networks}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1908.10084
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1908.10084
+      \endverb
+    \endentry
+    \entry{reimers_sbert_multilingual_2020}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=da9947b27b0d1c4c912e2b391426d443}{%
+           family={Reimers},
+           familyi={R\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea70b44be1920f6e8c379706bc7d047a}{%
+           family={Gurevych},
+           familyi={G\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{bibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorbibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authornamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an easy and efficient method to extend existing sentence embedding models to new languages. This allows to create multilingual versions from previously monolingual models. The training is based on the idea that a translated sentence should be mapped to the same location in the vector space as the original sentence. We use the original (monolingual) model to generate sentence embeddings for the source language and then train a new system on translated sentences to mimic the original model. Compared to other methods for training multilingual sentence embeddings, this approach has several advantages: It is easy to extend existing models with relatively few samples to new languages, it is easier to ensure desired properties for the vector space, and the hardware requirements for training is lower. We demonstrate the effectiveness of our approach for 50+ languages from various language families. Code to extend sentence embeddings models to more than 400 languages is publicly available.}
+      \field{day}{5}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{{arXiv}:2004.09813}
+      \field{title}{Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2004.09813
+      \endverb
+      \verb{eprint}
+      \verb 2004.09813 [cs]
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2004.09813
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2004.09813
+      \endverb
+      \keyw{Computer Science - Computation and Language}
     \endentry
     \entry{Saç_Çoban_teyit_anketler_2023}{misc}{}
       \name{author}{2}{}{%
