@@ -106,6 +106,8 @@ Some long documents could occasionally involve multiple topics, but in this
 approach, every document is assigned to a single topic, which could be a 
 disadvantage.
 
+\subsection{The BERTopic Pipeline}
+
 According to \textcite{bertopic}, BERTopic generates topic representations in six steps,
 shown in \autoref{fig:bertopic_algorithm}. 
 First, without preprocessing, each document must be embedded using a pre-trained model. 
@@ -114,7 +116,7 @@ SBERT modifies the BERT model and derives semantically meaningful sentence embed
 also from multilingual documents, allowing tasks like clustering or information retrieval 
 via semantic search. SBERT also allows the selection of various pre-trained multilingual 
 models supporting more than 50 languages\footnote{\url{https://www.sbert.net/docs/pretrained_models.html}}. 
-This thesis uses the \textit{paraphrase-multilingual-MiniLM-L12-v2} model, which supports 
+This thesis uses the \texttt{paraphrase-multilingual-MiniLM-L12-v2} model, which supports 
 Turkish and is the fastest and one of the best performers among other multilingual models 
 \parencite{reimers_sbert_multilingual_2020}. This part of the pipeline allows to do 
 chunk embeddings, saving the results and using them later, making the big data analysis 
@@ -124,8 +126,9 @@ easier with restricted hardware availabilities.
     \centering
     \includegraphics[width=0.4\textwidth]{figures/bertopic_algorithm.png}
     \caption[Default BERTopic Algorithm]
-    {Default BERTopic Algorithm\footnote{\url{https://maartengr.github.io/BERTopic/algorithm/algorithm.html}}}\label{fig:bertopic_algorithm}
+    {Default BERTopic Algorithm\footnotemark}\label{fig:bertopic_algorithm}
 \end{wrapfigure}
+\footnotetext{\url{https://maartengr.github.io/BERTopic/algorithm/algorithm.html}}
 
 Secondly, the dimensionality of these resulting embeddings is reduced to optimize the 
 clustering process by the Uniform Manifold Approximation and Projection (UMAP) algorithm, 
@@ -152,6 +155,8 @@ and weights keywords to represent the related topics.
 This thesis also leverages the power of LLMs by OpenAI, specifically GPT-4 Turbo, 
 to better represent the resulting topics. One can also leverage other open-source LLMs, 
 but most only support English or a few other languages.
+
+\subsection{The Analysis Srategy}
 
 For hydration, this thesis used the \textit{Social5} server provided by Research Group Social 
 Computing\footnote{\url{https://www.soc.cit.tum.de}}, which had sufficient hardware 
@@ -198,21 +203,21 @@ by these changes. In this thesis, two approaches are made, resulting in two rela
 different results while being similar in most topics. The results of this process are 
 presented and discussed thoroughly in the following chapters.
 
-In short, the following parameters have been changed from their default value: 
+In short, the following parameters changed from their default value are discussed. 
 
-In UMAP, ``n\_neighbors'' is set to 25 from the default 15 to obtain a more global view of 
+In UMAP, \texttt{n\_neighbors} is set to 25 from the default 15 to obtain a more global view of 
 the embedding structure, resulting in larger clusters. Other parameters in UMAP followed 
 the default values.
 
-The ``min\_cluster\_size'' parameter in HDBSCAN is among the most critical parameters. It is 
+The \texttt{min\_cluster\_size} parameter in HDBSCAN is among the most critical parameters. It is 
 set to 100 from 10 as a default to increase the minimum size of a cluster, thereby reducing 
 the number of clusters the model generates. In the first analysis, this parameter was set to 
 20, and after getting too many topics, the parameter was increased to 100. For a massive 
 dataset like \#Secim2023, it could make sense to increase this parameter even more, but due 
-to time restrictions, this thesis could not test this additionally. The ``min\_samples'' 
-parameter is usually automatically set to the value of ``min\_cluster\_size'', but in this 
+to time restrictions, this thesis could not test this additionally. The \texttt{min\_samples} 
+parameter is usually automatically set to the value of \texttt{min\_cluster\_size}, but in this 
 case, it is left in 20 to reduce the number of outliers generated. In the second analysis, 
-the ``prediction\_data'' parameter is set to \textit{True} to predict new points later.
+the \texttt{prediction\_data} parameter is set to \texttt{True} to predict new points later.
 
 For passing out to CountVecorizer while training the model, one can prepare the vocabulary 
 of the dataset used in training beforehand so that the tokenizer does not need to do the 
@@ -226,9 +231,11 @@ used for only the top 50 topics to reduce the costs constructed from it.
 All these parameters mentioned above are passed to BERTopic along with its sampled text 
 data and pre-computed embeddings. One can also play with some parameters of the BERTopic, 
 but this thesis did not use any additional parameters. Some parameters do not play a 
-critical role. For instance, the ``min\_topic\_size'' parameter in BERTopic is automatically 
-set to the value of ``min\_cluster\_size.'' After several hours, this process resulted in 
+critical role. For instance, the \texttt{min\_topic\_size} parameter in BERTopic is automatically 
+set to the value of \texttt{min\_cluster\_size}. After several hours, this process resulted in 
 topics that are the baseline of all topics in Turkish political discourse during the May 
 2023 elections. The resulting collected tweet data is then, in sequence, embedded and 
 ``transformed'' by the trained topic model, which assigns topics to individual tweets. 
 These results are demonstrated in the following chapter.
+
+% add: third approach, to distribute the outliers
