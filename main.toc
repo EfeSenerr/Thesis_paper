@@ -8,16 +8,18 @@
 \contentsline {chapter}{\numberline {3}Experiments}{6}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The Dataset}{6}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The Methodology}{8}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Results}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Analysis of data findings}{12}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Discussion}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Limitations}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{13}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{14}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Section}{14}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Subsection}{14}{subsection.6.1.1}%
-\contentsline {chapter}{\nonumberline Abbreviations}{16}{chapter*.18}%
-\contentsline {chapter}{\nonumberline List of Figures}{17}{chapter*.19}%
-\contentsline {chapter}{\nonumberline List of Tables}{18}{chapter*.20}%
-\contentsline {chapter}{\nonumberline Bibliography}{19}{chapter*.21}%
+\contentsline {subsection}{\numberline {3.2.1}The BERTopic Pipeline}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}The Analysis Srategy}{10}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Results}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Analysis of data findings}{14}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Discussion}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Limitations}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{18}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Section}{19}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Subsection}{19}{subsection.6.1.1}%
+\contentsline {chapter}{\nonumberline Abbreviations}{22}{chapter*.23}%
+\contentsline {chapter}{\nonumberline List of Figures}{23}{chapter*.24}%
+\contentsline {chapter}{\nonumberline List of Tables}{24}{chapter*.25}%
+\contentsline {chapter}{\nonumberline Bibliography}{25}{chapter*.26}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
