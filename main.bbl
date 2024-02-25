@@ -355,6 +355,109 @@
       \verb https://www.theverge.com/2023/5/31/23739084/twitter-elon-musk-api-policy-chilling-academic-research
       \endverb
     \endentry
+    \entry{caramani_comparative_politics_2020}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32c7ee6003a71095fa7584b2d57e4dbf}{%
+           family={Caramani},
+           familyi={C\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{32c7ee6003a71095fa7584b2d57e4dbf}
+      \strng{fullhash}{32c7ee6003a71095fa7584b2d57e4dbf}
+      \strng{bibnamehash}{32c7ee6003a71095fa7584b2d57e4dbf}
+      \strng{authorbibnamehash}{32c7ee6003a71095fa7584b2d57e4dbf}
+      \strng{authornamehash}{32c7ee6003a71095fa7584b2d57e4dbf}
+      \strng{authorfullhash}{32c7ee6003a71095fa7584b2d57e4dbf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{Comparative Politics}}
+      \field{year}{2020}
+    \endentry
+    \entry{cevik_turkey_polarization_2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79387b2db9a5797f6cd426feae3c7d33}{%
+           family={Çevik},
+           familyi={Ç\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79387b2db9a5797f6cd426feae3c7d33}
+      \strng{fullhash}{79387b2db9a5797f6cd426feae3c7d33}
+      \strng{bibnamehash}{79387b2db9a5797f6cd426feae3c7d33}
+      \strng{authorbibnamehash}{79387b2db9a5797f6cd426feae3c7d33}
+      \strng{authornamehash}{79387b2db9a5797f6cd426feae3c7d33}
+      \strng{authorfullhash}{79387b2db9a5797f6cd426feae3c7d33}
+      \field{sortinit}{Ç}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{{The Future of Opposition in Turkey. Overcoming Identity Politics Is the Key for Success}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.swp-berlin.org/publikation/the-future-of-opposition-in-turkey
+      \endverb
+      \verb{url}
+      \verb https://www.swp-berlin.org/publikation/the-future-of-opposition-in-turkey
+      \endverb
+    \endentry
+    \entry{cevik_aksoy_turkey_earthquake_2023}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=79387b2db9a5797f6cd426feae3c7d33}{%
+           family={Çevik},
+           familyi={Ç\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cbf88a18787f12251fa343d6ecae2bb}{%
+           family={Aksoy},
+           familyi={A\bibinitperiod},
+           given={Hürcan\bibnamedelima Aslı},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20f24d3530391dbd0a9453ae74083d8a}
+      \strng{fullhash}{20f24d3530391dbd0a9453ae74083d8a}
+      \strng{bibnamehash}{20f24d3530391dbd0a9453ae74083d8a}
+      \strng{authorbibnamehash}{20f24d3530391dbd0a9453ae74083d8a}
+      \strng{authornamehash}{20f24d3530391dbd0a9453ae74083d8a}
+      \strng{authorfullhash}{20f24d3530391dbd0a9453ae74083d8a}
+      \field{sortinit}{Ç}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{Political and economic implications of the Turkish earthquakes}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.swp-berlin.org/publikation/political-and-economic-implications-of-the-turkish-earthquakes
+      \endverb
+      \verb{url}
+      \verb https://www.swp-berlin.org/publikation/political-and-economic-implications-of-the-turkish-earthquakes
+      \endverb
+    \endentry
     \entry{contreras_panama_lda_bertopic_2022}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=4cbc45859df65f769daaa0add45a1759}{%
@@ -561,6 +664,47 @@
       \endverb
       \verb{url}
       \verb https://www.frontiersin.org/articles/10.3389/fsoc.2022.886498
+      \endverb
+    \endentry
+    \entry{berk_esen_turkish_politics_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e779dd9eb433138d9afc920d4d84efa7}{%
+           family={Esen},
+           familyi={E\bibinitperiod},
+           given={Berk},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e779dd9eb433138d9afc920d4d84efa7}
+      \strng{fullhash}{e779dd9eb433138d9afc920d4d84efa7}
+      \strng{bibnamehash}{e779dd9eb433138d9afc920d4d84efa7}
+      \strng{authorbibnamehash}{e779dd9eb433138d9afc920d4d84efa7}
+      \strng{authornamehash}{e779dd9eb433138d9afc920d4d84efa7}
+      \strng{authorfullhash}{e779dd9eb433138d9afc920d4d84efa7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Millions of Turkish voters are geared up for the twin (parliamentary and presidential) elections that are scheduled to take place in June 2023...}
+      \field{month}{9}
+      \field{title}{Post-2023 Election Scenarios in Turkey}
+      \field{titleaddon}{Stiftung Wissenschaft und Politik ({SWP})}
+      \field{urlday}{4}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1802.03426
+      \endverb
+      \verb{urlraw}
+      \verb https://www.swp-berlin.org/publikation/post-2023-election-scenarios-in-turkey
+      \endverb
+      \verb{url}
+      \verb https://www.swp-berlin.org/publikation/post-2023-election-scenarios-in-turkey
       \endverb
     \endentry
     \entry{freedom-house_turkey_report}{report}{}

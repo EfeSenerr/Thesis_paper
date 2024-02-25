@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1708793953 "main.bcf" "main.bbl" "main" 1708793982
-  "bibliography.bib" 1708445087 44826 bea640458c74dc3fbabafbfa98e941f5 ""
-  "main.bcf" 1708793981 130265 d3f812c9e8c2e225b0c0d511e860155a "pdflatex"
+["biber main"] 1708876694 "main.bcf" "main.bbl" "main" 1708876875
+  "bibliography.bib" 1708876544 46153 d00debabe8cadb8ff005b49a0d52f138 ""
+  "main.bcf" 1708876875 131028 134a12bb6c9f9ee86ba2d42dc66b744e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1708793970 "/u/halle/sener/home_at/Desktop/thesis/Thesis_paper/main.tex" "main.pdf" "main" 1708793982
+["pdflatex"] 1708876860 "/u/halle/sener/home_at/Desktop/thesis/Thesis_paper/main.tex" "main.pdf" "main" 1708876875
   "/etc/texmf/web2c/texmf.cnf" 1651239960 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/u/halle/sener/home_at/Desktop/thesis/Thesis_paper/main.tex" 1707172286 2973 64826e370bd2e4222bd169c6279d85d3 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -286,7 +286,7 @@
   "chapters/01_introduction.tex" 1707216927 7651 ca10bd1b5aaeb1c29be3f4fedaab2f6a ""
   "chapters/02_important_related_work.tex" 1708437299 4568 fc4e0d45bb4cec55cf7ec569ca1ee5b7 ""
   "chapters/03_experiments.tex" 1708769232 15875 9371387013cc61c48f9ff19ef48e27e8 ""
-  "chapters/04_results.tex" 1708793940 28273 695221aff2c0c7e9fceabe29eb9f8c27 ""
+  "chapters/04_results.tex" 1708876860 37914 0114e69d312e6d48522b45d51e6c2ad1 ""
   "chapters/05_discussion.tex" 1708791289 297 51b51e38e7e5ec67b54726e2af8ca5d0 ""
   "chapters/06_conclusion.tex" 1708785763 6923 0ea4614c6574eeac20a2cbae979cbc8b ""
   "figures/bertopic_algorithm.png" 1708511239 31380 ee1421bb1b18c98bcd7c7e89fec9bda1 ""
@@ -295,14 +295,14 @@
   "figures/normalized_opposition_selected_topics_distribution_with_styles.png" 1708783511 144542 599cc77292563d620c7d1ccec6eb2e72 ""
   "figures/normalized_other_selected_topics_distribution_with_styles.png" 1708782693 145726 21f47144bcf38c6c3e694f4486a6e3a2 ""
   "logos/tum-white.pdf" 1706526472 19436 40650706753cb7dee7d4c237afea551e ""
-  "main.aux" 1708793981 26232 f5c5ac53e0972d7f29b5ec941cb53ccc "pdflatex"
-  "main.bbl" 1708793956 100542 ed26813676379797006a77d3c6203c61 "biber main"
-  "main.lof" 1708793981 1202 7451cefb2f6517c4256089ccaf977a10 "pdflatex"
-  "main.lot" 1708793981 661 51d4486c5d9b4fb614334ecf19b430e2 "pdflatex"
-  "main.out" 1708793976 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1708793981 2559 0e97bf850e2f7e267d52b972e285d05f "pdflatex"
+  "main.aux" 1708876874 27710 d1e4dd28607cc1d1cfefd777e9b0030d "pdflatex"
+  "main.bbl" 1708876698 106557 94cc12accdfc0926442ff74d4770b37e "biber main"
+  "main.lof" 1708876875 1202 4b0e30f41855b771d376215aca18f581 "pdflatex"
+  "main.lot" 1708876875 661 dc8e12d415a1feb0b1fcd97cebd0932b "pdflatex"
+  "main.out" 1708876868 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1708876875 2559 0e97bf850e2f7e267d52b972e285d05f "pdflatex"
   "main.tex" 1707172286 2973 64826e370bd2e4222bd169c6279d85d3 ""
-  "main.toc" 1708793981 1761 a89d78ae6fb2e19ec67b8206917d0634 "pdflatex"
+  "main.toc" 1708876875 1761 cc14ad31e624e06fdf68c0d912cf215f "pdflatex"
   "pages/abstract.tex" 1704211084 41 8587a8aa0ec76be6aa11be8412b50b4e ""
   "pages/acknowledgments.tex" 1704211084 242 8955d5a2fec3493bcfd4b1fe970e1c8c ""
   "pages/cover.tex" 1706526866 983 160fdb2d7fc562d0afa28182c05b0e56 ""
