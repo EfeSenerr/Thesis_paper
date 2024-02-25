@@ -50,8 +50,19 @@ There are several new approaches that BERTopic supports that overcome that issue
 One can try \textit{Online Topic Modeling} to incrementally train the model, or 
 \textit{Merge Multiple Fitted Models} approach, where multiple models are trained and, in the end, 
 merged so that no information is lost. These approaches are discussed in~\autoref{section:future_work}.
+% 
 
-\begin{table}[htb] % second approach without outleirs
+The top results of the topic modeling are presented in \autoref{tab:topic_modeling_results_1}, 
+ordered by the number of tweets in the clusters. The \autoref{tab:topic_modeling_results_1} shows 
+the topic labels on the left and their respective topic's eight representative words on the right. 
+Although it would be hard to translate the representative words, the labels are labeled and then 
+translated by GPT-4 Turbo for better interpretation. 
+
+The top 15 topics represent various themes around Turkish political discourse. These topics include 
+general political discussions, praise and criticism of both ruling and opposition parties, 
+wishes and demands from the government, and the earthquake disaster. 
+
+\begin{table}[h!] % second approach without outleirs
     \centering
     \small
     \begin{tabular}{|>{\hspace{0pt}}m{0.35\linewidth}|>{\hspace{0pt}}m{0.55\linewidth}|} 
@@ -81,9 +92,66 @@ merged so that no information is lost. These approaches are discussed in~\autore
     translated into English.}\label{tab:topic_modeling_results_1}
 \end{table}
 
-Right now I am testing.
+Before diving deeply into the topics and understanding the big picture, clarifying some topics 
+for better context would be beneficial. Topics like \textit{Political Discussions}, 
+\textit{Political Discussions \& Critism}, \textit{Critism of Political Figures},  
+
+\textit{Praise of Political Figures} are more general and include tweets with positive and 
+negative sentiments towards both the ruling and the opposition parties. 
+One can realize that the representative words of the first topic include Twitter user names, 
+which are active accounts that share news mainly about the elections. A high number of replies 
+and a high level of interaction with their tweets made this category the most noteworthy.
+
+However, topics like \textit{Opposition Candidates}, \textit{Opposition Coalition \& Criticism}, 
+\textit{Opposition Figures \& Preferences} and \textit{Erdogan's Election Chance} focus on and 
+express opinions about specific target groups, either the ruling party or the opposition parties 
+and their candidates. 
+
+It is hard not to notice the fourth biggest cluster \textit{Religious Wishes}, which includes 
+tweets that cover aspects of prayer and Islam. While most of the representative sentences show 
+tweets expressing condolences to various political figures who have lost their relatives, many 
+of these tweets also include phrases of support and sympathy, such as \textit{'God bless you'}, 
+underlining solidarity.
+
+The label \textit{Treason Accusations} might sound absurd. The main reason for that is, again, 
+the representative tweets that include some accusation against the political figures, 
+blaming them with extremes like committing treason or being a terrorist. As one of the largest 
+clusters, topics like this illustrate the polarization within the Turkish political landscape, 
+which has been prominent over the years \parencite{cevik_turkey_polarization_2018}. 
+Another topic in this table, \textit{Provocation \& Discussions}, also highlights the 
+polarization level in the Turkish Twitter political discourse. The representative tweets are 
+aggressive and show a high level of emotions.
+
+\textit{Erdogan \& Nationalism} topic and its representative words show a significant degree 
+of nationalist ideas. The label itself includes Erdogan because of the representative tweets 
+mentioning Erdogan and the tenth representative word \textit{Erdogan}, which is not seen in the table. 
+However, it is essential to mention that both the opposition and ruling party coalition 
+include parties based on Turkish nationalism that played a significant role in May 2023 
+elections, parties being \ac{IyiP} and \ac{MHP}.
+
+Although it is more explicit in other topic modeling strategies that this thesis tried, 
+one can also see the volume of topics like \textit{Teachers \& Demands} and \textit{Earthquake \& Demands} 
+in \autoref{tab:topic_modeling_results_1}. The role of Twitter in the latter topic is crucial. 
+Because of the earthquake on 6 February, all controversial telecommunication lines were disrupted, 
+where Twitter has been widely used for rescue operations \parencite{cevik_aksoy_turkey_earthquake_2023}.
+
+All these mentioned topics are deeply analyzed in the following section, with 
+graphs supporting understanding of the topics and their trends.
 
 \section{Analysis of data findings}
+
+For simplicity and better understanding purposes, this thesis analyzes the topic modeling results 
+in three categories: topics related to the ruling party visualized in \autoref{fig:topics_graph_akp}, 
+the opposition visualized in \autoref{fig:topics_graph_opposition}, and the remaining topics 
+visualized in \autoref{fig:topics_graph_other}. 
+
+These graphs visualize the selected topics in a normalized monthly distribution. 
+Normalization has been done considering the top 50 topics. Otherwise, the interpretation of topics 
+and their trends was almost impossible. One can not realize any trends in a frequency graph because 
+the \#Secim2023 dataset is not collected equally between months, demonstrated in \autoref{fig:collected_tweets}.
+
+In all these graphs, the biggest cluster \textit{Political Discussions} is shown as the baseline 
+in a straight blue line to compare these different graphs and analyze the trends more smoothly. 
 
 \begin{figure}[htb]
     \centering
@@ -93,6 +161,66 @@ Right now I am testing.
     The blue line represents the biggest cluster and is the baseline, 
     and the other lines represent topics related to Erdogan and the ruling party.}\label{fig:topics_graph_akp}
 \end{figure}
+
+Beginning the analysis with the first graph~\ref{fig:topics_graph_akp}, 
+it covers the monthly distribution of the ruling party and Erdogan-related topics. 
+It is essential to acknowledge the baseline topic \textit{Political Discussions}, 
+keeping its importance in the months to elections, massively increasing after the start of 2023 up 
+to more than 10\% of the top 50 tweets. That is normal, considering that in the months leading up 
+to the elections, almost all the news was political, and rallies around Turkey were happening daily. 
+Undecided opposition candidacy, hot topics like the economic crisis and migration policy, and 
+uncertainties in domestic and foreign policies led social media to a political discussion hub.
+
+Having the baseline topic covered, the next topic with a green dotted line covers the topic 
+\textit{Erdogan \& Nationalism}. As mentioned previously, it is essential not to converge Turkish 
+Nationalist ideas with Erdogan and the AKP regime. There are nationalism-based parties in both the 
+opposition and the ruling coalition. The opposition coalition's name is even `Nation Alliance', 
+in other words, the `Table of Six'.
+
+Turkish Nationalism has always been one of the base ideas of Turkish politics since the republic's 
+foundation. The reason for that is now the opposition and once the founding party, \ac{CHP}, who laid 
+Turkey's six founding fundamental ideologies called the `Six Arrows'. 
+One of the \textit{arrows} represents Nationalism. However, as Hotelling's model suggests, 
+throughout the years, because CHP's idealogy moved more toward the left wing, parties like AKP or 
+newly established parties like ZP started to fill the empty right-wing spots \parencite{caramani_comparative_politics_2020}. 
+Representative tweets showing support for different political figures using nationalist 
+ideas also underline this aspect. 
+
+The migration policy was one of the hottest topics of the May 2023 elections. 
+The government's attitude of welcoming more than six million refugees while getting funding from the 
+European Union for this purpose sparked lots of tensions amongst different ideologies and parties. 
+In 2021, a new party called the \ac{ZP} was formed from the ranks of the opposition. 
+It then rapidly increased its popularity as a mainly single-issue party focused on expelling refugees 
+back to their countries \parencite{berk_esen_turkish_politics_2023}. \ac{ZP} formed the second opposition 
+coalition against Erdogan, and their candidate received more than 5\% of the votes. 
+
+These events highlight why Nationalism has been one of the most trending topics during the months up 
+to the election. However, in the new year, more specifically after the 6 February earthquake, other 
+topics gained more significance.
+
+One of the topics that gained relatively more importance is the \textit{Criticism of Political Figures}, 
+visualized as a red dotted and straight line in \autoref{fig:topics_graph_akp}. On the other hand, 
+the topic \textit{Praise of Political Figures}, visualized as a turquoise dotted line, has lost volume 
+in time. The main explanation for that is the 6 February earthquake, which immediately changed 
+the course of the elections by changing everybody's attention towards the southeast of Turkey. 
+
+The following reasons, also underlined by \textcite{cevik_aksoy_turkey_earthquake_2023}, can explain 
+the change in the trends of these topics, where criticism outweighed the praise of political figures 
+on Twitter. The system lacked law enforcement until the earthquake, where the 
+contractors of the building constructions sought to maximize their profits. 
+The weakened state capacity led to the slowness of emergency response during the catastrophe. 
+The military was missing, and there were no plans against this kind of emergency, or in other words, 
+if there was a plan, it was not executed. 
+NGOs and volunteers started to organize themselves and worked together for days. Twitter was always 
+the central platform for the organizations and cry for help. Nonetheless, the government slowed down 
+Twitter to prevent `disinformation' from spreading, which worsened this process.
+
+The last topic in this graph is \textit{Erdogan's Election Chance}, visualized by a pink straight line. 
+It can be seen that this topic remained relatively low and reached the bottom rock during the month 
+of the earthquake, and in March, it increased a lot and outranked the other two topics in the election 
+month. The reasons for this increase will be discussed thoroughly in \autoref{fig:topics_graph_opposition}. 
+However, in short, the lack of collaboration and not being decisive about a candidate among the 
+opposition ranks make this increase feasible.
 
 \begin{figure}[htb]
     \centering
