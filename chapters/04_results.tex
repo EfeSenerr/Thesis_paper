@@ -77,7 +77,7 @@ wishes and demands from the government, and the earthquake disaster.
     Criticism of Political Figures 	& \footnotesize{siyaset, siyasetin, siyasetiniz, siyasetçi, siyaseti, batsın, siyasete, siyasette} \\
     Opposition Coalition \& Criticism	& \footnotesize{erbakancayazan, örneğinde, yolunuzdan, iddialar, atıldılar, seçicez, ihtimalde, omurgasızlıktır} \\
     Treason Accusations	& \footnotesize{ülkeyi, ülkeye, ülke, ülkenin, ülkede, yağdanlıkları, unutturacaksınız, sığınmayın} \\
-    Opposition Figures \& Preferences  & \footnotesize{oy, kılıçdaroğlu, oyları, seçmeni, oylar, vermem, aday, seçimde} \\
+    Opposition Figures \& Preferences  & \footnotesize{eu, me, que, aq, pra, amk, tudo, dedem} \\
     Retirement System	& \footnotesize{emeklilik, kısmi, kademeli, emekli, emeklilikte, prim, 5000} \\
     Earthquake \& Demands	& \footnotesize{neticesiz, uzunca, deprem, depremin, süredir, atanma, yumuşak, depremde} \\
     Provocation \& Discussions	& \footnotesize{kızmaz, ahhh, vura, yanarız, soğancı, mitink, arsibjk1903bjk, baskan} \\
@@ -291,9 +291,27 @@ The following topic, \textit{Treason Accusations} visualized as a turquoise dott
 accusations against those who did not support the same idealogy as the writer of these Tweets. 
 Blaming political figures with extremes like committing treason or being a terrorist is a standard 
 tongue that brings the polarization in the Turkish political discourse to light. 
-One can observe that this topic gained importance in February. The reason can be easily tied to 
-the earthquake, such as the lack of law enforcement or taking the necessary measures for an 
-earthquake.
+One can observe that this topic gained importance in February. 
+The reason can be easily tied to the earthquake, such as people accusing the government of lacking 
+law enforcement or not taking the necessary measures for the earthquake.
+
+Represented as a pink straight line, \textit{Opposition Figures \& Preferences} highlights a mixture of 
+tweets that include swear words, foreign words and sentences, and discussions around opposition figures.
+One can understand the abbreviations of Turkish swearwords in the representative words column in 
+\autoref{fig:topics_graph_opposition}, and it is likely that the BERTopic topic model could not make any 
+sense of the words and merged the topic with foreign words and sentences. 
+Another point the topic model had difficulties understanding is the word \textit{'dedem'}, 
+translated to \textit{'my grandfather'}. Grandfather nickname has been used by the younger generation on 
+social media and overall to refer to the opposition candidate Kılıçdaroğlu. The nickname itself has more of a 
+positive sentiment, emphasizing his kindness and, on the other hand, his age. 
+Although this topic beat all other topics than the baseline topic in July 2022, it started to gain importance 
+when the elections were getting closer and peaked during election month, possibly related to unexpected 
+election results, including comments about the opposition.
+
+The topic, \textit{Provocation \& Discussions}, marked by a yellow dotted line, indicates the polarization 
+level in the Turkish Twitter political discourse, as stated before. The representative tweets are aggressive 
+and show negative sentiments, with some of the tweets accusing political figures of being provocateurs. 
+The trend of the topic continues steadily, increasing slightly just before the election month.
 
 \begin{figure}[htb]
     \centering
@@ -304,6 +322,49 @@ earthquake.
     and the other lines represent topics like demands from the government and the earthquake.}\label{fig:topics_graph_other}
 \end{figure}
 
+The analysis proceeds with the last graph, as presented in \autoref{fig:topics_graph_other}, showcasing the 
+monthly trends of other than ruling party or opposition-related topics. As the baseline, 
+\textit{Political Discussions} topic can be seen as the blue straight line in the graph. 
+One can realize that multiple topics have crossed the baseline topic over the months up to the election. 
+
+Kicking things off with the topic \textit{Religious Wishes}, visualized as a green line, the topic contains 
+tweets that cover aspects of prayer and Islam. It features representative words like \textit{'Allah'}, 
+\textit{'müslüman'}, and \textit{'din'}, which than translates to \textit{'Muslim'} and \textit{'religion'}. 
+Some representative sentences exhibit tweets praising political figures from different ranks, 
+saying \textit{'God bless you'}. 
+Although the topic remained at the same level as the baseline and peaked during the month of the earthquake, 
+afterward, it kept its importance while falling in volume, leaving room for political discussions.
+
+Illustrated with a red straight and dotted line, the \textit{Retirement System} topic demonstrates tweets 
+around the retirement system policies. Before the elections, one of the government's promises was to renew 
+the last social security legislation in 1999. At the beginning of March, the government passed new legislation 
+that softens existing rules on retirement age and retirement eligibility requirements, allowing almost more 
+than 2 million workers to retire immediately \parencite{erdem_bisgin_retirement_2023}. 
+
+With the enactment of new legislation and a massive increase in the minimum wage, the government increased its 
+spending massively, which resulted in increased public opinion just before the elections 
+\parencite{cevik_aksoy_turkey_earthquake_2023}. One can recognize that the topic peaked in the month of 
+enactment, slightly lowering in volume afterward.
+
+The topic \textit{Earthquake \& Demands} is self-explanatory, highlighting the earthquake on 6 February. 
+In the earthquake, more than 53,000 people lost their lives, which created a social trauma and changed the 
+course of the elections. Although the government mishandled the earthquake, as 
+\textcite{cevik_aksoy_aydin_turkey_after_elections_2023} shares, the opposition failed to get the votes 
+from the region, and Erdoğan maintained his popularity in the region, where he received more than 
+70\% the votes in some provinces \parencite{michaelson_narli_earthquake_regions_erdogan_2023}.
+As mentioned previously, the role of social media in the earthquake is noteworthy.
+It is remarkable that the topic peaks massively in February. However, it is very interesting, and maybe 
+also not expected, that it lost almost all of its volume in just two months, making just around 
+1\% of the tweets afterward. 
+
+The last topic in the examination is \textit{Teachers \& Demands}. The representative sentences exist 
+of sentences like \textit{'We demand 100 thousand additional teacher positions.'}. One of the 
+representative words \textit{'cumhuriyet'}, translated to \textit{'republic'}, points out that tweets 
+exist of a rhyme, calling for an additional 100 thousand teachers at the 100\. anniversary of the Turkish 
+Republic. The massive volume of this topic can not be unseen, almost beating the baseline topic two times. 
+It is essential to mention that, as \textcite{pfeffer_twitter_24_Hours_just_another_day_2023} also points 
+out, Twitter has been used through bots and different means of coordinated automated activities to show 
+influence and power in the public discourse by making the relevant topic trending and keeping it before eyes.
 
 
 %  mention that topic is changed by me, ordered by frequency of it, after the transformation 
