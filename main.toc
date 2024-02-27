@@ -12,14 +12,14 @@
 \contentsline {subsection}{\numberline {3.2.2}The Analysis Srategy}{10}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Results}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Analysis of data findings}{16}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Discussion}{22}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Limitations}{22}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{22}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Section}{23}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Subsection}{23}{subsection.6.1.1}%
-\contentsline {chapter}{\nonumberline Abbreviations}{26}{chapter*.25}%
-\contentsline {chapter}{\nonumberline List of Figures}{27}{chapter*.26}%
-\contentsline {chapter}{\nonumberline List of Tables}{28}{chapter*.27}%
-\contentsline {chapter}{\nonumberline Bibliography}{29}{chapter*.28}%
+\contentsline {chapter}{\numberline {5}Discussion}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Limitations}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{23}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{24}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Section}{24}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Subsection}{24}{subsection.6.1.1}%
+\contentsline {chapter}{\nonumberline Abbreviations}{27}{chapter*.25}%
+\contentsline {chapter}{\nonumberline List of Figures}{28}{chapter*.26}%
+\contentsline {chapter}{\nonumberline List of Tables}{29}{chapter*.27}%
+\contentsline {chapter}{\nonumberline Bibliography}{30}{chapter*.28}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

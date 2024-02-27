@@ -471,6 +471,60 @@
       \verb https://www.swp-berlin.org/publikation/political-and-economic-implications-of-the-turkish-earthquakes
       \endverb
     \endentry
+    \entry{cevik_aksoy_aydin_turkey_after_elections_2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=79387b2db9a5797f6cd426feae3c7d33}{%
+           family={Çevik},
+           familyi={Ç\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cbf88a18787f12251fa343d6ecae2bb}{%
+           family={Aksoy},
+           familyi={A\bibinitperiod},
+           given={Hürcan\bibnamedelima Aslı},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1052a40c0188453d27af86ce67ffad58}{%
+           family={Aydın},
+           familyi={A\bibinitperiod},
+           given={Yaşar},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Stiftung Wissenschaft und Politik ({SWP})}%
+      }
+      \strng{namehash}{a1dbcb797bd499c643c4b256abfed920}
+      \strng{fullhash}{ddbc94d5abb3deb51ee3a0a2318fc3e6}
+      \strng{bibnamehash}{ddbc94d5abb3deb51ee3a0a2318fc3e6}
+      \strng{authorbibnamehash}{ddbc94d5abb3deb51ee3a0a2318fc3e6}
+      \strng{authornamehash}{a1dbcb797bd499c643c4b256abfed920}
+      \strng{authorfullhash}{ddbc94d5abb3deb51ee3a0a2318fc3e6}
+      \field{sortinit}{Ç}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{{The Opposition Alliance in Turkey: A Viable Alternative to Erdoğan?}}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.18449/2023C42
+      \endverb
+      \verb{urlraw}
+      \verb https://www.swp-berlin.org/publikation/turkeys-new-cabinet
+      \endverb
+      \verb{url}
+      \verb https://www.swp-berlin.org/publikation/turkeys-new-cabinet
+      \endverb
+    \endentry
     \entry{contreras_panama_lda_bertopic_2022}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=4cbc45859df65f769daaa0add45a1759}{%
@@ -677,6 +731,51 @@
       \endverb
       \verb{url}
       \verb https://www.frontiersin.org/articles/10.3389/fsoc.2022.886498
+      \endverb
+    \endentry
+    \entry{erdem_bisgin_retirement_2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=07517c84a36e60bd28aa8053055b32cc}{%
+           family={Erdem},
+           familyi={E\bibinitperiod},
+           given={Erdem},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3e44d9fdbad197b0c5e6326d23db555}{%
+           family={Bişgin},
+           familyi={B\bibinitperiod},
+           given={Ebru},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {KPMG}%
+      }
+      \strng{namehash}{b4867ac8a107f1efe3f485e1cc4d3b88}
+      \strng{fullhash}{b4867ac8a107f1efe3f485e1cc4d3b88}
+      \strng{bibnamehash}{b4867ac8a107f1efe3f485e1cc4d3b88}
+      \strng{authorbibnamehash}{b4867ac8a107f1efe3f485e1cc4d3b88}
+      \strng{authornamehash}{b4867ac8a107f1efe3f485e1cc4d3b88}
+      \strng{authorfullhash}{b4867ac8a107f1efe3f485e1cc4d3b88}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{{Turkey - Changes to Minimum Retirement Age Requirement}}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kpmg.com/xx/en/home/insights/2023/06/flash-alert-2023-121.html
+      \endverb
+      \verb{url}
+      \verb https://kpmg.com/xx/en/home/insights/2023/06/flash-alert-2023-121.html
       \endverb
     \endentry
     \entry{berk_esen_turkish_politics_2023}{article}{}
@@ -1222,6 +1321,48 @@
       \endverb
       \verb{url}
       \verb https://www.cambridge.org/core/books/twitter-a-digital-socioscope/4248FEAF39EE5DB8AAF316026585DD35
+      \endverb
+    \endentry
+    \entry{michaelson_narli_earthquake_regions_erdogan_2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5eed513c793c3a5e36ff02b667eb355d}{%
+           family={Michaelson},
+           familyi={M\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7482c2883037e727566b57025c736ede}{%
+           family={Narlı},
+           familyi={N\bibinitperiod},
+           given={Deniz\bibnamedelima Barış},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{faefdba3235479ce1917ff99f0879566}
+      \strng{fullhash}{faefdba3235479ce1917ff99f0879566}
+      \strng{bibnamehash}{faefdba3235479ce1917ff99f0879566}
+      \strng{authorbibnamehash}{faefdba3235479ce1917ff99f0879566}
+      \strng{authornamehash}{faefdba3235479ce1917ff99f0879566}
+      \strng{authorfullhash}{faefdba3235479ce1917ff99f0879566}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{‘He works hard’: Voters in Turkey’s quake zone backing Erdoğan in runoff }}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/world/2023/may/26/turkey-quake-zone-voters-backing-erdogan-in-runoff
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/world/2023/may/26/turkey-quake-zone-voters-backing-erdogan-in-runoff
       \endverb
     \endentry
     \entry{secim2023}{misc}{}
