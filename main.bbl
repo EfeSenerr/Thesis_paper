@@ -991,6 +991,126 @@
       \verb http://arxiv.org/abs/2203.05794
       \endverb
     \endentry
+    \entry{gultekin_kilicdaroglu_aday_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=44e58469ca4ba2923d8d17c857ba4c27}{%
+           family={Gültekin},
+           familyi={G\bibinitperiod},
+           given={Levent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44e58469ca4ba2923d8d17c857ba4c27}
+      \strng{fullhash}{44e58469ca4ba2923d8d17c857ba4c27}
+      \strng{bibnamehash}{44e58469ca4ba2923d8d17c857ba4c27}
+      \strng{authorbibnamehash}{44e58469ca4ba2923d8d17c857ba4c27}
+      \strng{authornamehash}{44e58469ca4ba2923d8d17c857ba4c27}
+      \strng{authorfullhash}{44e58469ca4ba2923d8d17c857ba4c27}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{Kılıçdaroğlu’nun adaylığını niçin riskli buluyorum? - Diken}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.diken.com.tr/kilicdaroglunun-adayligini-nicin-riskli-buluyorum/
+      \endverb
+      \verb{url}
+      \verb https://www.diken.com.tr/kilicdaroglunun-adayligini-nicin-riskli-buluyorum/
+      \endverb
+    \endentry
+    \entry{gundogan_chp_özgür_özel_2023}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e6ad43b8e8b35e8b07f8fc1dc8e338c7}{%
+           family={Gündoğan},
+           familyi={G\bibinitperiod},
+           given={Barış},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=374e13e4b96eb520eb87be386c6a76c9}{%
+           family={Yıldızalp},
+           familyi={Y\bibinitperiod},
+           given={Merve},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=314f208f81226212076937ba3117339b}{%
+           family={Tosun},
+           familyi={T\bibinitperiod},
+           given={Mehmet},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3643c24b6909513db3291bee3008c30d}
+      \strng{fullhash}{983e32fe85ab39b8ae269c94de880d87}
+      \strng{bibnamehash}{983e32fe85ab39b8ae269c94de880d87}
+      \strng{authorbibnamehash}{983e32fe85ab39b8ae269c94de880d87}
+      \strng{authornamehash}{3643c24b6909513db3291bee3008c30d}
+      \strng{authorfullhash}{983e32fe85ab39b8ae269c94de880d87}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{{CHP'nin yeni genel başkanı Özgür Özel oldu}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aa.com.tr/tr/politika/chpnin-yeni-genel-baskani-ozgur-ozel-oldu-/3044068
+      \endverb
+      \verb{url}
+      \verb https://www.aa.com.tr/tr/politika/chpnin-yeni-genel-baskani-ozgur-ozel-oldu-/3044068
+      \endverb
+    \endentry
+    \entry{trt_ogretmen_atamasi_kk_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1131879c8eeb2e8dc4091760c6bd549a}{%
+           family={Haber},
+           familyi={H\bibinitperiod},
+           given={TRT},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1131879c8eeb2e8dc4091760c6bd549a}
+      \strng{fullhash}{1131879c8eeb2e8dc4091760c6bd549a}
+      \strng{bibnamehash}{1131879c8eeb2e8dc4091760c6bd549a}
+      \strng{authorbibnamehash}{1131879c8eeb2e8dc4091760c6bd549a}
+      \strng{authornamehash}{1131879c8eeb2e8dc4091760c6bd549a}
+      \strng{authorfullhash}{1131879c8eeb2e8dc4091760c6bd549a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Kılıçdaroğlu: Cumhuriyet'in 100. yılında 100 bin öğretmen ataması yapacağız}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.trthaber.com/haber/gundem/kilicdaroglu-cumhuriyetin-100-yilinda-100-bin-ogretmen-atamasi-yapacagiz-765768.html
+      \endverb
+      \verb{url}
+      \verb https://www.trthaber.com/haber/gundem/kilicdaroglu-cumhuriyetin-100-yilinda-100-bin-ogretmen-atamasi-yapacagiz-765768.html
+      \endverb
+    \endentry
     \entry{ilyas_brexit_topic_modeling_2020}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=3b4275bbfaca44b748cfef93e618d502}{%
@@ -2002,6 +2122,39 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1177/2158244020919447
+      \endverb
+    \endentry
+    \entry{ulas_kilicdaroglu_aday_pankart_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1d65ea8e17acd9f58a43caaf6e4684e}{%
+           family={Ulaş},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1d65ea8e17acd9f58a43caaf6e4684e}
+      \strng{fullhash}{c1d65ea8e17acd9f58a43caaf6e4684e}
+      \strng{bibnamehash}{c1d65ea8e17acd9f58a43caaf6e4684e}
+      \strng{authorbibnamehash}{c1d65ea8e17acd9f58a43caaf6e4684e}
+      \strng{authornamehash}{c1d65ea8e17acd9f58a43caaf6e4684e}
+      \strng{authorfullhash}{c1d65ea8e17acd9f58a43caaf6e4684e}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{CHP'li Killik'in, parti önünde 'Kılıçdaroğlu aday olmasın' pankartı açan gence tepkisi tartışma yarattı}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://onedio.com/haber/chp-li-killik-in-parti-onunde-kilicdaroglu-aday-olmasin-pankarti-acan-gence-tepkisi-tartisma-yaratti-1126170
+      \endverb
+      \verb{url}
+      \verb https://onedio.com/haber/chp-li-killik-in-parti-onunde-kilicdaroglu-aday-olmasin-pankarti-acan-gence-tepkisi-tartisma-yaratti-1126170
       \endverb
     \endentry
     \entry{uysal_turkeys_twitter_public_diplomacy_2019}{article}{}
