@@ -138,7 +138,7 @@ where Twitter has been widely used for rescue operations \parencite{cevik_aksoy_
 All these mentioned topics are deeply analyzed in the following section, with 
 graphs supporting understanding of the topics and their trends.
 
-\section{Analysis of data findings}
+\section{Detailed Analysis of Topic Categories}
 
 For simplicity and better understanding purposes, this thesis analyzes the topic modeling results 
 in three categories: topics related to the ruling party visualized in \autoref{fig:topics_graph_akp}, 
@@ -152,6 +152,8 @@ the \#Secim2023 dataset is not collected equally between months, demonstrated in
 
 In all these graphs, the biggest cluster \textit{Political Discussions} is shown as the baseline 
 in a straight blue line to compare these different graphs and analyze the trends more smoothly. 
+
+\subsection{Ruling Party Discourse Analysis}
 
 \begin{figure}[htb]
     \centering
@@ -196,7 +198,7 @@ coalition against Erdogan, and their candidate received more than 5\% of the vot
 
 These events highlight why Nationalism has been one of the most trending topics during the months up 
 to the election. However, in the new year, more specifically after the 6 February earthquake, other 
-topics gained more significance.
+topics gained more significance, which can also be seen in the \autoref{fig:topics_graph_akp}.
 
 One of the topics that gained relatively more importance is the \textit{Criticism of Political Figures}, 
 visualized as a red dotted and straight line in \autoref{fig:topics_graph_akp}. On the other hand, 
@@ -221,7 +223,10 @@ It can be seen that this topic remained relatively low and reached the bottom ro
 of the earthquake, and in March, it increased a lot and outranked the other two topics in the election 
 month. The reasons for this increase will be discussed thoroughly in \autoref{fig:topics_graph_opposition}. 
 However, in short, the lack of collaboration and not being decisive about a candidate among the 
-opposition ranks make this increase feasible.
+opposition ranks make this increase feasible. Polls also support this 
+argument \parencite{cevik_aksoy_turkey_earthquake_2023}.
+
+\subsection{Opposition Discourse Analysis}
 
 \begin{figure}[htb]
     \centering
@@ -268,14 +273,25 @@ Erdo­ğan. As noteworthy evidence, one could show the most recent polls showing
 follows the popular mayors of Ankara, Mansur Yavaş; Istanbul, Ekrem Imamoğlu, and even the 
 \ac{IyiP} leader Meral Akşener \parencite{berk_esen_opposition_alliance_2023}.
 
-\ac{IyiP} thought he lacked sufficient public appeal to win the elections. 
+The trending level of the topic also aligns with the social movements at that time 
+\parencite{gultekin_kilicdaroglu_aday_2023}. 
+Just before the earthquake, on 5 February, Kılıçdaroğlu's candidacy topic sparked again. 
+There were campaigns against Kılıçdaroğlu on the streets and also on social media with a slogan 
+\textit{'Do not be a candidate Kılıçdaroğlu.'}. People were holding pan cards with the same slogan 
+in front of the \ac{CHP} general headquarters and sharing it on Twitter \parencite{ulas_kilicdaroglu_aday_pankart_2023}. 
+Some influencers even planned to march to the headquarters the next day to prevent his candidacy. 
+That is one of the main reasons why the earthquake on 6 February changed and deeply affected 
+the discourse of the May 2023 elections.
+
+\ac{IyiP} thought Kılıçdaroğlu lacked sufficient public appeal to win the elections. 
 That is why Akşener opposed his candidacy and supported the mayors of Ankara and Istanbul. 
 In short, after several days, the parties agreed on the vice presidency of these two mayors and 
 continued the election campaign as a united front. All these events resulted in the topic 
 \textit{Opposition Candidates} naming itself as the most articulated topic in March on Twitter, 
 surpassing the baseline. Even after the election month, the topic continued to be relevant, 
 beating the baseline again. The discussion rallied then around whether Kılıçdaroğlu was 
-\textit{'the right candidate'}.
+\textit{'the right candidate'}. Several months after the elections, Kılıçdaroğlu lost the in-party 
+elections after leading the main opposition party for 13 years \parencite{gundogan_chp_özgür_özel_2023}.
 
 %\%35 oy orani (?)
 
@@ -312,6 +328,8 @@ The topic, \textit{Provocation \& Discussions}, marked by a yellow dotted line, 
 level in the Turkish Twitter political discourse, as stated before. The representative tweets are aggressive 
 and show negative sentiments, with some of the tweets accusing political figures of being provocateurs. 
 The trend of the topic continues steadily, increasing slightly just before the election month.
+
+\subsection{Other Relevant Discourse Analysis}
 
 \begin{figure}[htb]
     \centering
@@ -360,24 +378,56 @@ also not expected, that it lost almost all of its volume in just two months, mak
 The last topic in the examination is \textit{Teachers \& Demands}. The representative sentences exist 
 of sentences like \textit{'We demand 100 thousand additional teacher positions.'}. One of the 
 representative words \textit{'cumhuriyet'}, translated to \textit{'republic'}, points out that tweets 
-exist of a rhyme, calling for an additional 100 thousand teachers at the 100\. anniversary of the Turkish 
+exist of a rhyme, calling for an additional 100 thousand teachers at the 100.\ anniversary of the Turkish 
 Republic. The massive volume of this topic can not be unseen, almost beating the baseline topic two times. 
 It is essential to mention that, as \textcite{pfeffer_twitter_24_Hours_just_another_day_2023} also points 
 out, Twitter has been used through bots and different means of coordinated automated activities to show 
 influence and power in the public discourse by making the relevant topic trending and keeping it before eyes.
 
+Regardless, this topic aligns with the agenda of the Nation Alliance, where the coalition promised to 
+create new positions for the teachers in one of their rallies \parencite{trt_ogretmen_atamasi_kk_2023}.
 
-%  mention that topic is changed by me, ordered by frequency of it, after the transformation 
-%  their order has cahnged. E.g. 7th topic was normally 24th before the transformation. 
+% research questions partly addressed: 
+% - "in what ways do these shifts mirror political movements?"
+% - "How do the Twitter discussions about the ruling party and the opposition during the election 
+% lead-up reflect and compare to their respective election agendas and public statements?"
+
+% to address:
+% - "How do the key themes, content, and engagement levels in the Turkish Twitter discourse
+% surrounding the May 2023 elections compare with those observed in the past elections
+% in other countries?"
+
+\section{Supplementary Visual Insights}
+
+xx
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\linewidth]{figures/visualization_2d.png}
+    \caption[The top 50 topics visualized and reduced to 2-dimensional space using cuML's UMAP]
+    {The top 50 topics visualized and reduced to 2-dimensional space using cuML's UMAP, following 
+    Maarten Grootendorst's guide.\footnotemark}\label{fig:topics_2d}
+\end{figure}
+\footnotetext{\url{https://huggingface.co/MaartenGr/BERTopic_Wikipedia}}
+
+xxx
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\linewidth]{figures/Hierarchical_Clustering.png}
+    \caption[Hierarchical Clustering]
+    {Hierarchical clustering of the top 50 topics using BERTopic functions.}\label{fig:topics_hierarchical_clustering}
+\end{figure}
+
+xxxx
+
+
+% refer to polutus, sentiment analysis etc.
 
 % hierarchical topic model figure fig_hieararchy_50.html: 
 % the top part represents requests from the government
 % and the bottom part represents other topics
 
-% percentage-wise graphs: show both of them, 
-% in the second analysis because that there are less clusters
-% the distribution makes it harder to see the trends and frequency 
-% differences between topics
 
 
 % add table of topics, keywords, openai labels
