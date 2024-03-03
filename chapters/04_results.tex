@@ -56,7 +56,9 @@ The top results of the topic modeling are presented in \autoref{tab:topic_modeli
 ordered by the number of tweets in the clusters. The \autoref{tab:topic_modeling_results_1} shows 
 the topic labels on the left and their respective topic's eight representative words on the right. 
 Although it would be hard to translate the representative words, the labels are labeled and then 
-translated by GPT-4 Turbo for better interpretation. 
+translated by GPT-4 Turbo for better interpretation. One can look at the GitHub repository\footnote{\url{https://github.com/EfeSenerr/Thesis_paper}} 
+for the original results of the model for the top 50 topics. Since OpenAI models are not cost-free, 
+they have been only used for the top 50 topics.
 
 The top 15 topics represent various themes around Turkish political discourse. These topics include 
 general political discussions, praise and criticism of both ruling and opposition parties, 
@@ -266,7 +268,7 @@ remarkable on \autoref{fig:topics_graph_opposition}.
 In March 2023, the majority of parties in the coalition then agreed on Kılıçdaroğlu, 
 who was the leader of the main opposition party \ac{CHP} and also played an essential role in 
 the establishment of this coalition. 
-After the agreement, the second largest opposition party \ac{IyiP} also thought that although 
+After the agreement, the second largest opposition party \ac{IyiP} also considered that although 
 Kılıçdaroğlu's collaborative personality and focus on unity was an asset for a democratic 
 transition, but stood behind the idea that this could weaken his electoral prospects against 
 Erdo­ğan. As noteworthy evidence, one could show the most recent polls showing that he 
@@ -283,7 +285,7 @@ Some influencers even planned to march to the headquarters the next day to preve
 That is one of the main reasons why the earthquake on 6 February changed and deeply affected 
 the discourse of the May 2023 elections.
 
-\ac{IyiP} thought Kılıçdaroğlu lacked sufficient public appeal to win the elections. 
+\ac{IyiP} considered Kılıçdaroğlu lacked sufficient public appeal to win the elections. 
 That is why Akşener opposed his candidacy and supported the mayors of Ankara and Istanbul. 
 In short, after several days, the parties agreed on the vice presidency of these two mayors and 
 continued the election campaign as a united front. All these events resulted in the topic 
@@ -389,46 +391,148 @@ create new positions for the teachers in one of their rallies \parencite{trt_ogr
 
 % research questions partly addressed: 
 % - "in what ways do these shifts mirror political movements?"
-% - "How do the Twitter discussions about the ruling party and the opposition during the election 
-% lead-up reflect and compare to their respective election agendas and public statements?"
-
-% to address:
-% - "How do the key themes, content, and engagement levels in the Turkish Twitter discourse
-% surrounding the May 2023 elections compare with those observed in the past elections
-% in other countries?"
 
 \section{Supplementary Visual Insights}
 
-xx
+This chapter presents additional visual representations of the topic model results.  
 
-\begin{figure}[htb]
+The first visualization is inspired by Maarten Grootendorst, who visualized the topic model 
+results from millions of Wikipedia pages in his Huggingface 
+repository\footnote{\url{https://huggingface.co/MaartenGr/BERTopic_Wikipedia}}. Like this thesis, 
+he also used BERTopic for big data analysis and visualized the results in the end. 
+
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/visualization_2d.png}
-    \caption[The top 50 topics visualized and reduced to 2-dimensional space using cuML's UMAP]
+    \caption[The top 50 topics visualized and reduced to  two dimensional embedding space using cuML's UMAP]
     {The top 50 topics visualized and reduced to 2-dimensional space using cuML's UMAP, following 
     Maarten Grootendorst's guide.\footnotemark}\label{fig:topics_2d}
 \end{figure}
 \footnotetext{\url{https://huggingface.co/MaartenGr/BERTopic_Wikipedia}}
 
-xxx
+The \autoref{fig:topics_2d} presents the top 50 topics, which have been reduced to 
+two-dimensional embedding space using UMAP.
+It pictures different clusters with different colors with respect to their sizes and 
+does not contain any outliers. The white background could not be seen if the figure would 
+have included outliers. 
+The topics are illustrated by their top three representative words. One can realize that 
+their top three representative words can differ from the ones from the previous table, 
+\autoref{tab:topic_modeling_results_1}. 
 
-\begin{figure}[htb]
+This is because a different BERTopic pipeline has been used for this visualization. 
+This pipeline includes pre-computing of required parameters of BERTopic, which are generally 
+computed during the fitting procedure. Different from the training pipeline of the base topic 
+model explained in \autoref{chapter:bertopic_pipeline}, the first step starts with UMAP, 
+which has a parameter \texttt{n\_components} of two instead of five. 
+That leverages the power of GPU by using the cuML library and reduces the topics to two-dimensional 
+space. 
+
+Afterward, HDBSCAN uses the two-dimensional reduced embeddings to pre-compute the clusters of 
+the topics from scratch. These results can be fed to BERTopic to perform manual topic 
+modeling\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/manual/manual.html}}.
+If the model already has topic labels, it can use those to label them using various 
+representation models.
+
+With embeddings, reduced dimensionality and clusters on hand allow the speeding up of the fitting 
+process. Additionally, Grootendorst presents a trick to get better results. 
+He states that if one directly gives BERTopic the reduced embeddings, BERTopic would use those 
+to create topic vectors, which could be better. For better results, he suggests giving the model 
+the full embeddings and creating a custom dimensionality reduction class that will return the 
+reduced embeddings. Further details can be found in the thesis GitHub repository.
+
+The results of this pipeline are then used for visualizing the \autoref{fig:topics_2d}, 
+with the usage of \texttt{seaborn} and \texttt{matplotlib} library.
+
+Some of the topics are relatively straightforward to pick up. The enormous red cluster on the 
+bottom of the figure, titled as \textit{'türkiyede -- türkçü -- istanbul'}, visualizes the 
+topic GPT-4 Turbo labeled as \textit{Erdogan \& Nationalism} from the default pipeline. 
+Next to that topic to the left, visualized as a green pipeline, is the topic 
+\textit{Teachers \& Demands}. 
+
+The middle of this figure is considerably chaotic. Almost all of the clusters in the middle are 
+related to the election. The topics from the political figures, votes, major Twitter accounts, 
+and the resignation of known figures are covered. At the top of the figure, the cluster 
+related to the earthquake can be seen as purple, titled as 
+\textit{'depreminden -- depremzedelerle -- depremzede'}.
+
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/Hierarchical_Clustering.png}
     \caption[Hierarchical Clustering]
     {Hierarchical clustering of the top 50 topics using BERTopic functions.}\label{fig:topics_hierarchical_clustering}
 \end{figure}
 
-xxxx
+The following visualization, \autoref{fig:topics_hierarchical_clustering}, is about the hierarchical 
+clustering of the top 50 topics of the sampled data and has been created using BERTopic 
+function \texttt{visualize\_hierarchy()}. The fitted BERTopic model has been used, and the 
+parameter \texttt{top\_n\_topics} has been set to 50, which returns that figure. A ward linkage 
+function performs the hierarchical clustering based on the cosine distance matrix between topic 
+embeddings. Since the GPT-4 Turbo labeling has been done after fitting the model, and only 
+for the top 50 topics, the labels in the figure show default labels after the fitting. 
+One can look at the English labels of each top 50 topic in the GitHub repository of the thesis.
 
+If the \autoref{fig:topics_hierarchical_clustering} is deeply analyzed, the topics are divided 
+into different colors, which are then connected together to build the total representation. 
+The colors present 13 main subjects among the top 50 topic representations.
 
-% refer to polutus, sentiment analysis etc.
+Beginning the exploration with the top topics, the green cluster represents the demands of military 
+sergeants willing to be permanently employed. A batch of sergeants who worked on a limited contract
+in the state institutions for almost 36 years sought permanent employment.
+
+The subsequent topic, visualized as red, addresses the demands of young people endorsing their 
+internships to be recognized as the start date for their insurance, a critical factor determining 
+the start of retirement eligibility.
+
+The following three topics, visualized as turquoise, brown, and green, represent the concerns of 
+agriculture engineers and their work appointments, the retirement system, teachers, and their 
+demands, respectively. The last topic in the top cluster covers general political discussions on 
+Twitter.
+
+Commencing with the bottom cluster, the green cluster illustrates topics related to foreigners, 
+refugees, and specifically, people from Ukraine and Syria in separate subclusters. 
+The volume of the topic related to Ukraine has stayed at a high level since the beginning of the 
+dataset till the beginning of 2023, and the importance of the migration policy in the May 2023 
+elections was discussed in the previous section. 
+
+The succeeding two topic clusters, visualized as red and turquoise, demonstrate topics related to 
+the earthquake, Arabic texts and Ramadan, respectively. 
+
+The next two clusters, colored as green and red, contain eight different partially political 
+topics that are challenging to generalize. One topic that is considerably interesting to point 
+out would be the topic titled as \textit{27\_köpek\_köpekler\_başıboş}. It refers to problems 
+caused by free-roaming dogs on the streets of Turkey, including increased dog attacks, hygiene 
+concerns, safety risks, and traffic accidents, worsened by uncontrolled abandonment and the 
+expansion of these animals in public spaces. 
+
+Another topic to highlight is the topic with \textit{30\_kadın\_mommy\_kadının}. \textit{kadın} 
+can be translated to \textit{woman} and both \textit{kadın} and \textit{mommy} refers to the 
+\ac{IyiP} leader Meral Akşener. Most of the young people on Twitter refer to her as a mom, 
+underlining her warmth and sympathy.
+
+The topic titled as \textit{34\_twitter\_tweet\_elonmusk} contains representative words 
+referring to Elon Musk's acquisition of Twitter, which started around April and concluded 
+around Oktober, the timeframe which this dataset also partially covers.
+
+The second last cluster, portrayed as turquoise, covers various political topics from Nationalism 
+to Atatürk, from political figures to presential candidates, from religious wishes to treason 
+accusations, from exchange rates to other economic topics. 
+
+The last cluster, illustrated as brown, covers topics related to terrorism and the 
+Kurdish community. One can realize the topic titled as \textit{15\_pkk\_terör\_hdp}, which includes 
+in its top three representative words terrorism and \ac{HDP}. \ac{HDP} received around 9\% of 
+the votes in the May 2023 elections, with a significant portion of their support coming 
+from the Kurdish community. The AKP government and other nationalists accuse HDP that it is 
+linked to the banned \ac{PKK}, which the European Union also lists as a ter­ror­ist organization 
+\parencite{berk_esen_opposition_alliance_2023}, which we can also see from the topic representation
+being in the top 50 topics and its' representative tweets.
+
+To remind it again, the extensive Turkish results and graphs, including the code, can be found 
+on the GitHub repository of the thesis.
+
 
 % hierarchical topic model figure fig_hieararchy_50.html: 
 % the top part represents requests from the government
 % and the bottom part represents other topics
-
-
 
 % add table of topics, keywords, openai labels
 % add english/turkish one at the end of the thesis
