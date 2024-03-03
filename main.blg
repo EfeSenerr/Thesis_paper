@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[158] biber:340> INFO - === Wed Feb 28, 2024, 10:46:51
-[198] Biber.pm:418> INFO - Reading 'main.bcf'
-[406] Biber.pm:972> INFO - Found 46 citekeys in bib section 0
-[456] Biber.pm:4383> INFO - Processing section 0
-[487] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[500] bibtex.pm:1713> INFO - LaTeX decoding ...
-[636] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
-[1995] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1996] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1997] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1999] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[2130] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[2863] bbl.pm:757> INFO - Output to main.bbl
-[2872] Biber.pm:130> WARN - legacy month field 'Jun' in entry 'Saç_Çoban_teyit_anketler_2023' is not an integer - this will probably not sort properly.
-[2875] Biber.pm:132> INFO - WARNINGS: 1
+[137] biber:340> INFO - === Sun Mar  3, 2024, 14:26:46
+[175] Biber.pm:418> INFO - Reading 'main.bcf'
+[334] Biber.pm:972> INFO - Found 46 citekeys in bib section 0
+[363] Biber.pm:4383> INFO - Processing section 0
+[382] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[390] bibtex.pm:1713> INFO - LaTeX decoding ...
+[506] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[1308] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1308] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1310] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1311] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1408] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1484] bbl.pm:757> INFO - Output to main.bbl
+[1487] Biber.pm:130> WARN - legacy month field 'Jun' in entry 'Saç_Çoban_teyit_anketler_2023' is not an integer - this will probably not sort properly.
+[1487] Biber.pm:132> INFO - WARNINGS: 1

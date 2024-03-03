@@ -9,13 +9,13 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Normalized monthly distribution of ruling party related topics}}{17}{figure.caption.15}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Normalized monthly distribution of opposition related topics}}{19}{figure.caption.17}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Normalized monthly distribution of other related topics}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The top 50 topics visualized and reduced to 2-dimensional space using cuML's UMAP}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Hierarchical Clustering}}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The top 50 topics visualized and reduced to two dimensional embedding space using cuML's UMAP}}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Hierarchical Clustering}}{26}{figure.caption.20}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{27}{figure.caption.23}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{29}{figure.caption.24}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{31}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{31}{figure.caption.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

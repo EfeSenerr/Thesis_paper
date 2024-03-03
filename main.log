@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  28 FEB 2024 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  3 MAR 2024 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1254,51 +1254,74 @@ chapter 4.
 
 
 ]
-Underfull \hbox (badness 2376) in paragraph at lines 83--84
+Underfull \hbox (badness 2376) in paragraph at lines 85--86
 []|\T1/pplx/m/n/9 (+20) k^^Yz-maz, ahhh, vura, ya-nar^^Yz, so§anc^^Y, mitink, ar-
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14]
+[14] [15]
 Package acronym Info: Label `acro:MHP' newly defined as it shall be overridden
-although it is yet undefined on input line 130.
- [15]
-<figures/normalized_akp_selected_topics_distribution_with_styles.png, id=354, 1011.78pt x 578.16pt>
+although it is yet undefined on input line 132.
+<figures/normalized_akp_selected_topics_distribution_with_styles.png, id=357, 1011.78pt x 578.16pt>
 File: figures/normalized_akp_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_akp_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_akp_selected_topics_distribution_with_styles.png  used on input line 160.
+Package pdftex.def Info: figures/normalized_akp_selected_topics_distribution_with_styles.png  used on input line 162.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [16]
 Package acronym Info: Label `acro:ZP' newly defined as it shall be overridden
-although it is yet undefined on input line 194.
+although it is yet undefined on input line 196.
  [17 <./figures/normalized_akp_selected_topics_distribution_with_styles.png>]
-<figures/normalized_opposition_selected_topics_distribution_with_styles.png, id=385, 1011.78pt x 578.16pt>
+<figures/normalized_opposition_selected_topics_distribution_with_styles.png, id=386, 1011.78pt x 578.16pt>
 File: figures/normalized_opposition_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_opposition_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_opposition_selected_topics_distribution_with_styles.png  used on input line 233.
+Package pdftex.def Info: figures/normalized_opposition_selected_topics_distribution_with_styles.png  used on input line 235.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [18] [19 <./figures/normalized_opposition_selected_topics_distribution_with_styles.png>] [20]
-<figures/normalized_other_selected_topics_distribution_with_styles.png, id=422, 1011.78pt x 578.16pt>
+<figures/normalized_other_selected_topics_distribution_with_styles.png, id=425, 1011.78pt x 578.16pt>
 File: figures/normalized_other_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_other_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_other_selected_topics_distribution_with_styles.png  used on input line 336.
+Package pdftex.def Info: figures/normalized_other_selected_topics_distribution_with_styles.png  used on input line 338.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [21] [22 <./figures/normalized_other_selected_topics_distribution_with_styles.png>]
-<figures/visualization_2d.png, id=442, 961.9137pt x 935.8965pt>
+<figures/visualization_2d.png, id=447, 961.9137pt x 935.8965pt>
 File: figures/visualization_2d.png Graphic file (type png)
 <use figures/visualization_2d.png>
 Package pdftex.def Info: figures/visualization_2d.png  used on input line 406.
 (pdftex.def)             Requested size: 418.25555pt x 406.94032pt.
-<figures/Hierarchical_Clustering.png, id=446, 1003.75pt x 953.5625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.80666pt too wide) in paragraph at lines 413--421
+[]\T1/pplx/m/n/10.95 (-20) The []Fig-ure 4.4[][] presents the top 50 top-ics, which have been re-duced to two-dimensional
+ []
+
+
+Overfull \hbox (2.49684pt too wide) in paragraph at lines 430--435
+[]\T1/pplx/m/n/10.95 (-20) Afterward, HDB-SCAN uses the two-dimensional re-duced em-bed-dings to pre-compute
+ []
+
+[23] [24 <./figures/visualization_2d.png>]
+<figures/Hierarchical_Clustering.png, id=472, 1003.75pt x 953.5625pt>
 File: figures/Hierarchical_Clustering.png Graphic file (type png)
 <use figures/Hierarchical_Clustering.png>
-Package pdftex.def Info: figures/Hierarchical_Clustering.png  used on input line 417.
+Package pdftex.def Info: figures/Hierarchical_Clustering.png  used on input line 460.
 (pdftex.def)             Requested size: 418.25555pt x 397.35068pt.
-) (./chapters/05_discussion.tex [23] [24 <./figures/visualization_2d.png>] [25 <./figures/Hierarchical_Clustering.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26 <./figures/Hierarchical_Clustering.png>]
+Package acronym Info: Label `acro:HDP' newly defined as it shall be overridden
+although it is yet undefined on input line 522.
+Package acronym Info: Label `acro:PKK' newly defined as it shall be overridden
+although it is yet undefined on input line 525.
+) (./chapters/05_discussion.tex [27]
 chapter 5.
-) (./chapters/06_conclusion.tex [26
+) (./chapters/06_conclusion.tex [28
 
 
 ]
@@ -1342,10 +1365,10 @@ Underfull \hbox (badness 2027) in paragraph at lines 117--118
 []|\T1/pplx/m/n/10 (+20) dr-fahret-tinkoca, sa§l^^Yk, 2020, t^^Ybbi, sa§l^^Ykç^^Ylar,
  []
 
-) [27
+) [29
 
 
-] [28] [29]
+] [30] [31]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 63.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
@@ -1355,39 +1378,39 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [30
+ [32
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{DEVA}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.86 \listoffigures
+l.87 \listoffigures
                    {}]
-Package tocbasic Info: character protrusion at lof deactivated on input line 86.
+Package tocbasic Info: character protrusion at lof deactivated on input line 87.
  (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [31
+ [33
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 87.
+Package tocbasic Info: character protrusion at lot deactivated on input line 88.
  (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [32
+ [34
 
 
 ]
 chapter without number
-[33
+[35
 
 
-] [34] [35]
+] [36] [37]
 No complaints by nag.
-[36] (./main.aux)
+[38] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1395,18 +1418,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50892 strings out of 478287
- 1143117 string characters out of 5849290
- 2194576 words of memory out of 5000000
- 67527 multiletter control sequences out of 15000+600000
+ 50913 strings out of 478287
+ 1143357 string characters out of 5849290
+ 2194803 words of memory out of 5000000
+ 67539 multiletter control sequences out of 15000+600000
  550387 words of font info for 459 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  115i,19n,109p,10650b,7159s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (43 pages, 1932185 bytes).
+Output written on main.pdf (45 pages, 1942264 bytes).
 PDF statistics:
- 809 PDF objects out of 1000 (max. 8388607)
- 727 compressed objects within 8 object streams
- 176 named destinations out of 1000 (max. 500000)
+ 847 PDF objects out of 1000 (max. 8388607)
+ 763 compressed objects within 8 object streams
+ 185 named destinations out of 1000 (max. 500000)
  117533 words of extra memory for PDF output out of 128383 (max. 10000000)
 
