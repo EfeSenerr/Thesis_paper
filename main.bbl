@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{aktürk_imamoglu_dava_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e96d457a616c8baf1e8f4c0b32f8f56}{%
+           family={Aktürk},
+           familyi={A\bibinitperiod},
+           given={Ali\bibnamedelima Cevahir},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e96d457a616c8baf1e8f4c0b32f8f56}
+      \strng{fullhash}{7e96d457a616c8baf1e8f4c0b32f8f56}
+      \strng{bibnamehash}{7e96d457a616c8baf1e8f4c0b32f8f56}
+      \strng{authorbibnamehash}{7e96d457a616c8baf1e8f4c0b32f8f56}
+      \strng{authornamehash}{7e96d457a616c8baf1e8f4c0b32f8f56}
+      \strng{authorfullhash}{7e96d457a616c8baf1e8f4c0b32f8f56}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{{İBB Başkanı İmamoğlu'na verilen hapis cezasının gerekçesi açıklandı}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aa.com.tr/tr/gundem/ibb-baskani-imamogluna-verilen-hapis-cezasinin-gerekcesi-aciklandi/2774662
+      \endverb
+      \verb{url}
+      \verb https://www.aa.com.tr/tr/gundem/ibb-baskani-imamogluna-verilen-hapis-cezasinin-gerekcesi-aciklandi/2774662
+      \endverb
+    \endentry
     \entry{alshaabi_social_media_twitter_analysis_2021}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=e2969c633d82d35f48fe6f91e2a0bb26}{%
@@ -268,6 +304,39 @@
       \verb https://medyascope.tv/2022/11/03/3-kasim-2002den-bugune-akp-ve-erdoganin-20-yillik-secim-tarihi/
       \endverb
     \endentry
+    \entry{bbc_imamoglu_dava_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a02eb0e151ad68a86fa8b4d51239b78d}{%
+           family={BBC\bibnamedelima News\bibnamedelima Türkçe},
+           familyi={B\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a02eb0e151ad68a86fa8b4d51239b78d}
+      \strng{fullhash}{a02eb0e151ad68a86fa8b4d51239b78d}
+      \strng{bibnamehash}{a02eb0e151ad68a86fa8b4d51239b78d}
+      \strng{authorbibnamehash}{a02eb0e151ad68a86fa8b4d51239b78d}
+      \strng{authornamehash}{a02eb0e151ad68a86fa8b4d51239b78d}
+      \strng{authorfullhash}{a02eb0e151ad68a86fa8b4d51239b78d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{{İmamoğlu 2 yıl 7 ay 15 gün hapis cezasına çarptırılması sonrası konuştu: 2023 ideallerimiz var}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bbc.com/turkce/articles/c4n2yzp3d7vo#:~:text=İstanbul%20Büyükşehir%20Belediye%20(İBB)%20Başkanı,15%20gün%20hapis%20cezası%20verildi.
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/turkce/articles/c4n2yzp3d7vo#:~:text=%C4%B0stanbul%20B%C3%BCy%C3%BCk%C5%9Fehir%20Belediye%20(%C4%B0BB)%20Ba%C5%9Fkan%C4%B1,15%20g%C3%BCn%20hapis%20cezas%C4%B1%20verildi.
+      \endverb
+    \endentry
     \entry{blei_lda_2003}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
@@ -509,7 +578,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
-      \field{title}{{The Opposition Alliance in Turkey: A Viable Alternative to Erdoğan?}}
+      \field{title}{{Turkey’s New Cabinet: A Wind of Change in Turkish Politics?}}
       \field{urlday}{27}
       \field{urlmonth}{2}
       \field{urlyear}{2024}
@@ -865,6 +934,145 @@
       \endverb
       \verb{url}
       \verb https://www.swp-berlin.org/publikation/the-opposition-alliance-in-turkey-a-viable-alternative-to-erdogan
+      \endverb
+    \endentry
+    \entry{euronews_sweden_f18_2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0184e252b5a7e44bd0340e93665c47c7}{%
+           family={Euronews},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0184e252b5a7e44bd0340e93665c47c7}
+      \strng{fullhash}{0184e252b5a7e44bd0340e93665c47c7}
+      \strng{bibnamehash}{0184e252b5a7e44bd0340e93665c47c7}
+      \strng{authorbibnamehash}{0184e252b5a7e44bd0340e93665c47c7}
+      \strng{authornamehash}{0184e252b5a7e44bd0340e93665c47c7}
+      \strng{authorfullhash}{0184e252b5a7e44bd0340e93665c47c7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{Biden Kongre'ye F-16 mektubu gönderdi, Türkiye İsveç'in NATO üyelik sürecini tamamladı}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tr.euronews.com/2024/01/25/biden-kongreye-f-16-mektubu-gonderdi-turkiye-isvecin-nato-uyelik-surecini-tamamladi
+      \endverb
+      \verb{url}
+      \verb https://tr.euronews.com/2024/01/25/biden-kongreye-f-16-mektubu-gonderdi-turkiye-isvecin-nato-uyelik-surecini-tamamladi
+      \endverb
+    \endentry
+    \entry{fang_US_elections_thesis_2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46a9d112f7cc535db2b143c340f31589}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Anjie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Glasgow}%
+      }
+      \strng{namehash}{46a9d112f7cc535db2b143c340f31589}
+      \strng{fullhash}{46a9d112f7cc535db2b143c340f31589}
+      \strng{bibnamehash}{46a9d112f7cc535db2b143c340f31589}
+      \strng{authorbibnamehash}{46a9d112f7cc535db2b143c340f31589}
+      \strng{authornamehash}{46a9d112f7cc535db2b143c340f31589}
+      \strng{authorfullhash}{46a9d112f7cc535db2b143c340f31589}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{shorttitle}{Analysing political events on Twitter}
+      \field{title}{Analysing political events on Twitter: topic modelling and user community classification}
+      \field{type}{phdthesis}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5525/gla.thesis.41135
+      \endverb
+      \verb{urlraw}
+      \verb https://eleanor.lib.gla.ac.uk/record=b3343041
+      \endverb
+      \verb{url}
+      \verb https://eleanor.lib.gla.ac.uk/record=b3343041
+      \endverb
+    \endentry
+    \entry{fang_US_elections_2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=46a9d112f7cc535db2b143c340f31589}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Anjie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e23f784017286c3c00d370fc70c50e4}{%
+           family={Habel},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9333f8879aa3ef9dc142dfaa2f77edbe}{%
+           family={Ounis},
+           familyi={O\bibinitperiod},
+           given={Iadh},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82657d832151b294c012db6d9a8a4634}{%
+           family={{MacDonald}},
+           familyi={M\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca65e3434c30063fd114b1fd45a3d6bf}
+      \strng{fullhash}{1074767de2c09f488117792adf42ce38}
+      \strng{bibnamehash}{1074767de2c09f488117792adf42ce38}
+      \strng{authorbibnamehash}{1074767de2c09f488117792adf42ce38}
+      \strng{authornamehash}{ca65e3434c30063fd114b1fd45a3d6bf}
+      \strng{authorfullhash}{1074767de2c09f488117792adf42ce38}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Social media offers scholars new and innovative ways of understanding public opinion, including citizens’ prospective votes in elections and referenda. We classify social media users’ preferences over the two U.S. presidential candidates in the 2016 election using Twitter data and explore the topics of conversation among {proClinton} and {proTrump} supporters. We take advantage of hashtags that signaled users’ vote preferences to train our machine learning model which employs a novel classifier—a Topic-Based Naive Bayes model—that we demonstrate improves on existing classifiers. Our findings demonstrate that we are able to classify users with a high degree of accuracy and precision. We further explore the similarities and divergences among what {proClinton} and {proTrump} users discussed on Twitter.}
+      \field{day}{1}
+      \field{issn}{2158-2440}
+      \field{journaltitle}{{SAGE} Open}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Publisher: {SAGE} Publications}
+      \field{number}{1}
+      \field{shorttitle}{Votes on Twitter}
+      \field{title}{Votes on Twitter: Assessing Candidate Preferences and Topics of Discussion During the 2016 U.S. Presidential Election}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{2158244018791653}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/2158244018791653
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/2158244018791653
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/2158244018791653
       \endverb
     \endentry
     \entry{freedom-house_turkey_report}{report}{}
@@ -1319,6 +1527,61 @@
       \field{title}{LaTeX : A Documentation Preparation System User's Guide and Reference Manual}
       \field{year}{1994}
     \endentry
+    \entry{levitsky_elections_2002}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5a385c7fc53d40f894bd4af8fd60a689}{%
+           family={Levitsky},
+           familyi={L\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81044f299cfdb8d6e35b39c8df72e7f4}{%
+           family={Way},
+           familyi={W\bibinitperiod},
+           given={Lucan\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c9e9bcb5a33b8cf02ae850987702dcb}
+      \strng{fullhash}{4c9e9bcb5a33b8cf02ae850987702dcb}
+      \strng{bibnamehash}{4c9e9bcb5a33b8cf02ae850987702dcb}
+      \strng{authorbibnamehash}{4c9e9bcb5a33b8cf02ae850987702dcb}
+      \strng{authornamehash}{4c9e9bcb5a33b8cf02ae850987702dcb}
+      \strng{authorfullhash}{4c9e9bcb5a33b8cf02ae850987702dcb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1086-3214}
+      \field{journaltitle}{Journal of Democracy}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{jod}
+      \field{shorttitle}{Elections Without Democracy}
+      \field{title}{Elections Without Democracy: The Rise of Competitive Authoritarianism}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{13}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{51\bibrangedash 65}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1353/jod.2002.0026
+      \endverb
+      \verb{urlraw}
+      \verb https://muse.jhu.edu/article/17196
+      \endverb
+      \verb{url}
+      \verb https://muse.jhu.edu/article/17196
+      \endverb
+    \endentry
     \entry{mcinnes_umap_2020}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f3edd0ee6ca72eca5c532b9c1fcee621}{%
@@ -1663,6 +1926,42 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/1369118X.2016.1229006
       \endverb
     \endentry
+    \entry{ogras_disinformation_chp_pkk_2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f90daea6a17b67ba78f67a12cddf3cf3}{%
+           family={Oğraş},
+           familyi={O\bibinitperiod},
+           given={Meltem},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f90daea6a17b67ba78f67a12cddf3cf3}
+      \strng{fullhash}{f90daea6a17b67ba78f67a12cddf3cf3}
+      \strng{bibnamehash}{f90daea6a17b67ba78f67a12cddf3cf3}
+      \strng{authorbibnamehash}{f90daea6a17b67ba78f67a12cddf3cf3}
+      \strng{authornamehash}{f90daea6a17b67ba78f67a12cddf3cf3}
+      \strng{authorfullhash}{f90daea6a17b67ba78f67a12cddf3cf3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Millet İttifakı kampanya filminde Murat Karayılan'ın yer aldığı iddiası - Teyit}}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://teyit.org/demec-kontrolu/millet-ittifaki-kampanya-filminde-murat-karayilanin-yer-aldigi-iddiasi
+      \endverb
+      \verb{url}
+      \verb https://teyit.org/demec-kontrolu/millet-ittifaki-kampanya-filminde-murat-karayilanin-yer-aldigi-iddiasi
+      \endverb
+    \endentry
     \entry{pfeffer_twitter_24_Hours_just_another_day_2023}{misc}{}
       \name{author}{16}{}{%
         {{un=0,uniquepart=base,hash=97578f9429d2a965b1e8cd31192a0ece}{%
@@ -1796,6 +2095,70 @@
       \verb{url}
       \verb http://arxiv.org/abs/2301.11429
       \endverb
+    \endentry
+    \entry{politusanalytics_1_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b4212e2369a63b2feab05da369e6a04a}{%
+           family={Politus\bibnamedelima Analytics},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{fullhash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{bibnamehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{authorbibnamehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{authornamehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{authorfullhash}{b4212e2369a63b2feab05da369e6a04a}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Politus Türkiye Panoraması 1: Seçimlere Giderken Hangi Seçmen Ne Hissediyor ve Neyi Konuşuyor}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://politusanalytics.com/portfolio/politus-turkiye-panoramasi/
+      \endverb
+      \verb{url}
+      \verb https://politusanalytics.com/portfolio/politus-turkiye-panoramasi/
+      \endverb
+      \warn{\item Entry 'politusanalytics_1_2023' (bibliography.bib): Invalid format '2023-11-5' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{politusanalytics_2_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b4212e2369a63b2feab05da369e6a04a}{%
+           family={Politus\bibnamedelima Analytics},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{fullhash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{bibnamehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{authorbibnamehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{authornamehash}{b4212e2369a63b2feab05da369e6a04a}
+      \strng{authorfullhash}{b4212e2369a63b2feab05da369e6a04a}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Politus Türkiye Panoraması 2: Birinci Tur Sonrası Seçmen Eğilimleri}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://politusanalytics.com/portfolio/politus-turkiye-panoramasi-ii/
+      \endverb
+      \verb{url}
+      \verb https://politusanalytics.com/portfolio/politus-turkiye-panoramasi-ii/
+      \endverb
+      \warn{\item Entry 'politusanalytics_2_2023' (bibliography.bib): Invalid format '2023-11-5' of date field 'urldate' - ignoring}
     \endentry
     \entry{rise_of_islam_turkey}{book}{}
       \name{author}{2}{}{%
@@ -1989,6 +2352,48 @@
       \verb https://teyit.org/dosya/secim-sonuclarindan-geriye-bakmak-anketler-neden-nasil-yanildi
       \endverb
     \endentry
+    \entry{edgar_sar_opposition_election_agenda_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2356e70c447a22647ac81350401a3fd1}{%
+           family={Şar},
+           familyi={Ş\bibinitperiod},
+           given={Edgar},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Stiftung Wissenschaft und Politik ({SWP})}%
+      }
+      \strng{namehash}{2356e70c447a22647ac81350401a3fd1}
+      \strng{fullhash}{2356e70c447a22647ac81350401a3fd1}
+      \strng{bibnamehash}{2356e70c447a22647ac81350401a3fd1}
+      \strng{authorbibnamehash}{2356e70c447a22647ac81350401a3fd1}
+      \strng{authornamehash}{2356e70c447a22647ac81350401a3fd1}
+      \strng{authorfullhash}{2356e70c447a22647ac81350401a3fd1}
+      \field{sortinit}{Ş}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{The Post-Erdoğan Vision of Turkish Opposition: Opportunities and Limitations}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.18449/2023C07
+      \endverb
+      \verb{urlraw}
+      \verb https://www.swp-berlin.org/publikation/the-post-erdogan-vision-of-turkish-opposition-opportunities-and-limitations
+      \endverb
+      \verb{url}
+      \verb https://www.swp-berlin.org/publikation/the-post-erdogan-vision-of-turkish-opposition-opportunities-and-limitations
+      \endverb
+    \endentry
     \entry{schweter_berturk_2020}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=eed8c5d6cba2548d63301ac7817cb7f7}{%
@@ -2061,6 +2466,138 @@
       \endverb
       \verb{url}
       \verb https://www.politico.eu/article/recep-tayyip-erdogan-elon-musk-twitter-turkey-elections-social-media-power/
+      \endverb
+    \endentry
+    \entry{stier_germany_election_2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d9eee4875da4f112d392be39acc4c6fe}{%
+           family={Stier},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7a97da372bbcc4c43da7c6409235795}{%
+           family={Bleier},
+           familyi={B\bibinitperiod},
+           given={Arnim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=808154312e2c27739284a403c165ea58}{%
+           family={Lietz},
+           familyi={L\bibinitperiod},
+           given={Haiko},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a886f243c9ad0d58b6297daa714e4d89}{%
+           family={Strohmaier},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{577b2b09b2bfae5793a9a8381f6c7b0d}
+      \strng{fullhash}{c102954ae5d07cd80e8848d21c4433f5}
+      \strng{bibnamehash}{c102954ae5d07cd80e8848d21c4433f5}
+      \strng{authorbibnamehash}{c102954ae5d07cd80e8848d21c4433f5}
+      \strng{authornamehash}{577b2b09b2bfae5793a9a8381f6c7b0d}
+      \strng{authorfullhash}{c102954ae5d07cd80e8848d21c4433f5}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Although considerable research has concentrated on online campaigning, it is still unclear how politicians use different social media platforms in political communication. Focusing on the German federal election campaign 2013, this article investigates whether election candidates address the topics most important to the mass audience and to which extent their communication is shaped by the characteristics of Facebook and Twitter. Based on open-ended responses from a representative survey conducted during the election campaign, we train a human-interpretable Bayesian language model to identify political topics. Applying the model to social media messages of candidates and their direct audiences, we find that both prioritize different topics than the mass audience. The analysis also shows that politicians use Facebook and Twitter for different purposes. We relate the various findings to the mediation of political communication on social media induced by the particular characteristics of audiences and sociotechnical environments.}
+      \field{day}{2}
+      \field{issn}{1058-4609}
+      \field{journaltitle}{Political Communication}
+      \field{month}{1}
+      \field{note}{Publisher: Routledge}
+      \field{number}{1}
+      \field{shorttitle}{Election Campaigning on Social Media}
+      \field{title}{Election Campaigning on Social Media: Politicians, Audiences, and the Mediation of Political Communication on Facebook and Twitter}
+      \field{volume}{35}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{50\bibrangedash 74}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1080/10584609.2017.1334728
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10584609.2017.1334728
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10584609.2017.1334728
+      \endverb
+    \endentry
+    \entry{stier_brazil_election_2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d9eee4875da4f112d392be39acc4c6fe}{%
+           family={Stier},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7a97da372bbcc4c43da7c6409235795}{%
+           family={Bleier},
+           familyi={B\bibinitperiod},
+           given={Arnim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=808154312e2c27739284a403c165ea58}{%
+           family={Lietz},
+           familyi={L\bibinitperiod},
+           given={Haiko},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a886f243c9ad0d58b6297daa714e4d89}{%
+           family={Strohmaier},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{577b2b09b2bfae5793a9a8381f6c7b0d}
+      \strng{fullhash}{c102954ae5d07cd80e8848d21c4433f5}
+      \strng{bibnamehash}{c102954ae5d07cd80e8848d21c4433f5}
+      \strng{authorbibnamehash}{c102954ae5d07cd80e8848d21c4433f5}
+      \strng{authornamehash}{577b2b09b2bfae5793a9a8381f6c7b0d}
+      \strng{authorfullhash}{c102954ae5d07cd80e8848d21c4433f5}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Although considerable research has concentrated on online campaigning, it is still unclear how politicians use different social media platforms in political communication. Focusing on the German federal election campaign 2013, this article investigates whether election candidates address the topics most important to the mass audience and to which extent their communication is shaped by the characteristics of Facebook and Twitter. Based on open-ended responses from a representative survey conducted during the election campaign, we train a human-interpretable Bayesian language model to identify political topics. Applying the model to social media messages of candidates and their direct audiences, we find that both prioritize different topics than the mass audience. The analysis also shows that politicians use Facebook and Twitter for different purposes. We relate the various findings to the mediation of political communication on social media induced by the particular characteristics of audiences and sociotechnical environments.}
+      \field{day}{2}
+      \field{issn}{1058-4609}
+      \field{journaltitle}{Political Communication}
+      \field{month}{1}
+      \field{note}{Publisher: Routledge}
+      \field{number}{1}
+      \field{shorttitle}{Election Campaigning on Social Media}
+      \field{title}{Election Campaigning on Social Media: Politicians, Audiences, and the Mediation of Political Communication on Facebook and Twitter}
+      \field{volume}{35}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{50\bibrangedash 74}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1080/10584609.2017.1334728
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10584609.2017.1334728
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10584609.2017.1334728
       \endverb
     \endentry
     \entry{theocharis_twitter_political_incivility_2020}{article}{}
@@ -2213,6 +2750,69 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0363811118306210
       \endverb
     \endentry
+    \entry{yaqub_US_election_analysis_2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f48c7f0cbe5faf0d9956c773dfa07b0f}{%
+           family={Yaqub},
+           familyi={Y\bibinitperiod},
+           given={Ussama},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=592e24b353de79f8fc5b975bbfbbf64e}{%
+           family={Chun},
+           familyi={C\bibinitperiod},
+           given={Soon\bibnamedelima Ae},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9cadbd444625f0fd0b27429054c807e}{%
+           family={Atluri},
+           familyi={A\bibinitperiod},
+           given={Vijayalakshmi},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de662f2772215553fddc5e97a97f8130}{%
+           family={Vaidya},
+           familyi={V\bibinitperiod},
+           given={Jaideep},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93925c210262207e85abceba98ae4680}
+      \strng{fullhash}{b3e7f59db9b10153a2f293b47bd34a6a}
+      \strng{bibnamehash}{b3e7f59db9b10153a2f293b47bd34a6a}
+      \strng{authorbibnamehash}{b3e7f59db9b10153a2f293b47bd34a6a}
+      \strng{authornamehash}{93925c210262207e85abceba98ae4680}
+      \strng{authorfullhash}{b3e7f59db9b10153a2f293b47bd34a6a}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Social media now plays a pivotal role in electoral campaigns. Rapid dissemination of information through platforms such as Twitter has enabled politicians to broadcast their message to a wide audience. In this paper, we investigated the sentiment of tweets by the two main presidential candidates, Hillary Clinton and Donald Trump, along with almost 2.9 million tweets by Twitter users during the 2016 {US} Presidential Elections. We analyzed these short texts to evaluate how accurately Twitter represented the public opinion and real world events of significance related with the elections. We also analyzed the behavior of over a million distinct Twitter users to identify whether the platform was used to share original opinions and to interact with other users or whether few opinions were repeated over and over again with little inter-user dialogue. Finally, we wanted to assess the sentiment of tweets by both candidates and their impact on the election related discourse on Twitter. Some of our findings included the discovery that little original content was created by users and Twitter was primarily used for rebroadcasting already present opinions in the form of retweets with little communication between users. Also of significance was the finding that sentiment and topics expressed on Twitter can be a good proxy of public opinion and important election related events. Moreover, we found that Donald Trump offered a more optimistic and positive campaign message than Hillary Clinton and enjoyed better sentiment when mentioned in messages by Twitter users.}
+      \field{day}{1}
+      \field{issn}{0740-624X}
+      \field{journaltitle}{Government Information Quarterly}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{Government Information Quarterly}
+      \field{title}{Analysis of political discourse on twitter in the context of the 2016 {US} presidential elections}
+      \field{volume}{34}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{613\bibrangedash 626}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.giq.2017.11.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0740624X17301910
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0740624X17301910
+      \endverb
+    \endentry
     \entry{yerlikaya_social_media_manipulation_politics_2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c8c36c58f95c14222acb805d5a0898df}{%
@@ -2306,7 +2906,7 @@
       \field{month}{9}
       \field{number}{9}
       \field{shorttitle}{The {AKP} after 15 years}
-      \field{title}{The {AKP} after 15 years: emergence of Erdoganism in Turkey}
+      \field{title}{The {AKP} after 15 years: emergence of {Erdoganism in Turkey}}
       \field{volume}{39}
       \field{year}{2018}
       \field{dateera}{ce}

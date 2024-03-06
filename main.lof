@@ -12,10 +12,11 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces The top 50 topics visualized and reduced to two dimensional embedding space using cuML's UMAP}}{24}{figure.caption.19}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Hierarchical Clustering}}{26}{figure.caption.20}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Daily sentiment analysis}}{34}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{31}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{41}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{41}{figure.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
