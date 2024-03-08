@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  6 MAR 2024 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  8 MAR 2024 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1358,7 +1358,7 @@ Package pdftex.def Info: figures/sentiment_plot.png  used on input line 232.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33] [34 <./figures/sentiment_plot.png>] [35] [36]) (./chapters/06_conclusion.tex [37] [38]
+[33] [34 <./figures/sentiment_plot.png>] [35] [36] [37] [38]) (./chapters/06_conclusion.tex [39]
 chapter 6.
 Package acronym Info: Label `acro:TUM' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
@@ -1399,10 +1399,10 @@ Underfull \hbox (badness 2027) in paragraph at lines 117--118
 []|\T1/pplx/m/n/10 (+20) dr-fahret-tinkoca, sa§l^^Yk, 2020, t^^Ybbi, sa§l^^Ykç^^Ylar,
  []
 
-) [39
+) [40
 
 
-] [40] [41]
+] [41] [42]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 63.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
@@ -1412,7 +1412,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [42
+ [43
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{DEVA}) has been already used, duplicate ignored
@@ -1425,7 +1425,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 87.
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [43
+ [44
 
 
 ]
@@ -1434,17 +1434,17 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 88.
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [44
+ [45
 
 
 ]
 chapter without number
-[45
+[46
 
 
-] [46] [47] [48]
+] [47] [48] [49] [50]
 No complaints by nag.
-[49] (./main.aux)
+[51] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1452,18 +1452,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51173 strings out of 478287
- 1150757 string characters out of 5849290
- 2213041 words of memory out of 5000000
- 67745 multiletter control sequences out of 15000+600000
+ 51197 strings out of 478287
+ 1151486 string characters out of 5849290
+ 2217828 words of memory out of 5000000
+ 67762 multiletter control sequences out of 15000+600000
  551148 words of font info for 466 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  115i,19n,109p,10650b,7159s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (56 pages, 2014010 bytes).
+Output written on main.pdf (58 pages, 2019882 bytes).
 PDF statistics:
- 999 PDF objects out of 1000 (max. 8388607)
- 898 compressed objects within 9 object streams
- 213 named destinations out of 1000 (max. 500000)
+ 1025 PDF objects out of 1200 (max. 8388607)
+ 921 compressed objects within 10 object streams
+ 218 named destinations out of 1000 (max. 500000)
  118570 words of extra memory for PDF output out of 128383 (max. 10000000)
 

@@ -802,6 +802,69 @@
       \verb https://www.frontiersin.org/articles/10.3389/fsoc.2022.886498
       \endverb
     \endentry
+    \entry{elmas_fake_attack_2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2cf580c400f1c0e649a7df6815394b02}{%
+           family={Elmas},
+           familyi={E\bibinitperiod},
+           given={Tuğrulcan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a03b395de8a3c7db04c7d360c6b27b3}{%
+           family={Overdorf},
+           familyi={O\bibinitperiod},
+           given={Rebekah},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4851b547f8b37497fcb55e677c319e7}{%
+           family={Özkalay},
+           familyi={Ö\bibinitperiod},
+           given={Ahmed\bibnamedelima Furkan},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a552ea986948881cb21d3eb65ac82d09}{%
+           family={Aberer},
+           familyi={A\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{54be56f21681ed6a3054b67a64b96808}
+      \strng{fullhash}{d9fea7cd263e83841c3f2babf85e221d}
+      \strng{bibnamehash}{d9fea7cd263e83841c3f2babf85e221d}
+      \strng{authorbibnamehash}{d9fea7cd263e83841c3f2babf85e221d}
+      \strng{authornamehash}{54be56f21681ed6a3054b67a64b96808}
+      \strng{authorfullhash}{d9fea7cd263e83841c3f2babf85e221d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We uncover a previously unknown, ongoing astroturfing attack on the popularity mechanisms of social media platforms: ephemeral astroturfing attacks. In this attack, a chosen keyword or topic is artificially promoted by coordinated and inauthentic activity to appear popular, and, crucially, this activity is removed as part of the attack. We observe such attacks on Twitter trends and find that these attacks are not only successful but also pervasive. We detected over 19,000 unique fake trends promoted by over 108,000 accounts, including not only fake but also compromised accounts, many of which remained active and continued participating in the attacks. Trends astroturfed by these attacks account for at least 20\% of the top 10 global trends. Ephemeral astroturfing threatens the integrity of popularity mechanisms on social media platforms and by extension the integrity of the platforms.}
+      \field{month}{3}
+      \field{note}{arXiv:1910.07783 [cs]}
+      \field{shorttitle}{Ephemeral {Astroturfing} {Attacks}}
+      \field{title}{Ephemeral {Astroturfing} {Attacks}: {The} {Case} of {Fake} {Twitter} {Trends}}
+      \field{urlday}{6}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1910.07783
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1910.07783
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1910.07783
+      \endverb
+    \endentry
     \entry{erdem_bisgin_retirement_2023}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=07517c84a36e60bd28aa8053055b32cc}{%
@@ -2748,6 +2811,67 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0363811118306210
+      \endverb
+    \endentry
+    \entry{yang_botometer_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=41dfba5c4d3b36f03ec338b7204ecaa0}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kai-Cheng},
+           giveni={K\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ff088972e751f036f6d04e4c835050d}{%
+           family={Ferrara},
+           familyi={F\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e3991fca812b39b0448729fca507968}{%
+           family={Menczer},
+           familyi={M\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3901616b25fb38df37dbd080eff5eea2}
+      \strng{fullhash}{94e6ad7d1b19b6bc989cae6ff1802e5b}
+      \strng{bibnamehash}{94e6ad7d1b19b6bc989cae6ff1802e5b}
+      \strng{authorbibnamehash}{94e6ad7d1b19b6bc989cae6ff1802e5b}
+      \strng{authornamehash}{3901616b25fb38df37dbd080eff5eea2}
+      \strng{authorfullhash}{94e6ad7d1b19b6bc989cae6ff1802e5b}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Social bots have become an important component of online social media. Deceptive bots, in particular, can manipulate online discussions of important issues ranging from elections to public health, threatening the constructive exchange of information. Their ubiquity makes them an interesting research subject and requires researchers to properly handle them when conducting studies using social media data. Therefore, it is important for researchers to gain access to bot detection tools that are reliable and easy to use. This paper aims to provide an introductory tutorial of Botometer, a public tool for bot detection on Twitter, for readers who are new to this topic and may not be familiar with programming and machine learning. We introduce how Botometer works, the different ways users can access it, and present a case study as a demonstration. Readers can use the case study code as a template for their own research. We also discuss recommended practice for using Botometer.}
+      \field{eprinttype}{arxiv}
+      \field{issn}{2432-2717, 2432-2725}
+      \field{journaltitle}{Journal of Computational Social Science}
+      \field{month}{11}
+      \field{number}{2}
+      \field{shortjournal}{J Comput Soc Sc}
+      \field{shorttitle}{Botometer 101}
+      \field{title}{Botometer 101: Social bot practicum for computational social scientists}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1511\bibrangedash 1528}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s42001-022-00177-5
+      \endverb
+      \verb{eprint}
+      \verb 2201.01608 [cs]
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2201.01608
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2201.01608
       \endverb
     \endentry
     \entry{yaqub_US_election_analysis_2017}{article}{}

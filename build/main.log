@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  24 FEB 2024 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  8 MAR 2024 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,18 +855,998 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-! Interruption.
-\IfFileExists@ ... \reserved@a {\@iffileonpath {#1
-                                                  }}\fi \else \closein \@inp...
-l.13 
-      
-Here is how much of TeX's memory you used:
- 22885 strings out of 478287
- 461301 string characters out of 5849290
- 1046229 words of memory out of 5000000
- 40756 multiletter control sequences out of 15000+600000
- 470328 words of font info for 30 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 115i,1n,109p,10599b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
-!  ==> Fatal error occurred, no output PDF file produced!
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen187
+\pgffor@skip=\dimen188
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count430
+\pgfplotmarksize=\dimen189
+)
+\tikz@lastx=\dimen190
+\tikz@lasty=\dimen191
+\tikz@lastxsaved=\dimen192
+\tikz@lastysaved=\dimen193
+\tikz@lastmovetox=\dimen194
+\tikz@lastmovetoy=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count431
+\tikznumberofchildren=\count432
+\tikznumberofcurrentchild=\count433
+\tikz@fig@count=\count434
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count435
+\pgfmatrixcurrentcolumn=\count436
+\pgf@matrix@numberofcolumns=\count437
+)
+\tikz@expandcount=\count438
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks35
+\t@pgfplots@tokb=\toks36
+\t@pgfplots@tokc=\toks37
+\pgfplots@tmpa=\dimen198
+\c@pgfplots@coordindex=\count439
+\c@pgfplots@scanlineindex=\count440
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count441
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count442
+\t@pgfplotstable@a=\toks38
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count443
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen199
+\pgfdecoratedremainingdistance=\dimen256
+\pgfdecoratedinputsegmentcompleteddistance=\dimen257
+\pgfdecoratedinputsegmentremainingdistance=\dimen258
+\pgf@decorate@distancetomove=\dimen259
+\pgf@decorate@repeatstate=\count444
+\pgfdecorationsegmentamplitude=\dimen260
+\pgfdecorationsegmentlength=\dimen261
+)
+\tikz@lib@dec@box=\box68
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
+ntourlua.code.tex)
+\pgfplots@numplots=\count445
+\pgfplots@xmin@reg=\dimen262
+\pgfplots@xmax@reg=\dimen263
+\pgfplots@ymin@reg=\dimen264
+\pgfplots@ymax@reg=\dimen265
+\pgfplots@zmin@reg=\dimen266
+\pgfplots@zmax@reg=\dimen267
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing
+ (1.18.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code
+.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.colt
+ype.code.tex))) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen268
+\lightrulewidth=\dimen269
+\cmidrulewidth=\dimen270
+\belowrulesep=\dimen271
+\belowbottomsep=\dimen272
+\aboverulesep=\dimen273
+\abovetopsep=\dimen274
+\cmidrulesep=\dimen275
+\cmidrulekern=\dimen276
+\defaultaddspace=\dimen277
+\@cmidla=\count446
+\@cmidlb=\count447
+\@aboverulesep=\dimen278
+\@belowrulesep=\dimen279
+\@thisruleclass=\count448
+\@lastruleclass=\count449
+\@thisrulewidth=\dimen280
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
+\MT@toks=\toks39
+\MT@count=\count450
+\MT@tempbox=\box69
+LaTeX Info: Redefining \leftprotrusion on input line 1010.
+LaTeX Info: Redefining \rightprotrusion on input line 1018.
+LaTeX Info: Redefining \textls on input line 1173.
+\MT@outer@kern=\dimen281
+LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
+\MT@listname@count=\count451
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2021/12/10 v3.0b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 897.
+LaTeX Info: Redefining \lslig on input line 897.
+\MT@outer@space=\skip89
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen282
+\captionmargin@=\dimen283
+\captionwidth=\dimen284
+\caption@tempdima=\dimen285
+\caption@indent=\dimen286
+\caption@parindent=\dimen287
+\caption@hangindent=\dimen288
+Package caption Info: KOMA-Script document class detected.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
+KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count452
+\c@continuedfloat=\count453
+Package caption Info: listings package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count454
+\decimalpart=\count455
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+\AC@clearlist=\toks40
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of KOMA-Script class, that doesn't
+(scrhack)             need that hack, on input line 29.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen289
+\Hy@linkcounter=\count456
+\Hy@pagecounter=\count457
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count458
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count459
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen290
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count460
+\Field@Width=\dimen291
+\Fld@charsize=\dimen292
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count461
+\c@Item=\count462
+\c@Hfootnote=\count463
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count464
+\c@bookmark@seq@number=\count465
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip90
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen293
+\WF@size=\dimen294
+\c@WF@wrappedlines=\count466
+\WF@box=\box70
+\WF@everypar=\toks41
+Package: wrapfig 2003/01/31  v 3.6
+)
+TUM-Dev LaTeX-Thesis-Template: oneside
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+LaTeX Font Info:    Trying to load font information for T1+pplx on input line 2
+7.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
+File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
+) (build/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 27.
+Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
+line 27.
+Package nag Info: Command \RaggedRight not defined, skipping amendment on input
+ line 27.
+Package scrbase Info: activating american \contentsname on input line 27.
+Package scrbase Info: activating american \listfigurename on input line 27.
+Package scrbase Info: activating american \listtablename on input line 27.
+\big@size=\dimen295
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)))))
+Package biblatex Info: Trying to load language 'ngerman' -> 'ngerman-apa'...
+Package biblatex Info: ... file 'ngerman-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/ngerman-apa.lbx
+File: ngerman-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
+File: german-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
+File: german-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+
+(./main.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'politusanalytics_1_2023':
+(biblatex)                - Entry 'politusanalytics_1_2023' (bibliography.bib):
+ Invalid format '2023-11-5' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'politusanalytics_2_2023':
+(biblatex)                - Entry 'politusanalytics_2_2023' (bibliography.bib):
+ Invalid format '2023-11-5' of date field 'urldate' - ignoring.
+
+)
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count467
+\scratchdimen=\dimen296
+\scratchbox=\box71
+\nofMPsegments=\count468
+\nofMParguments=\count469
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count470
+\MPscratchDim=\dimen297
+\MPnumerator=\count471
+\makeMPintoPDFobject=\count472
+\everyMPtoPDFconversion=\toks43
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count473
+Package scrhack Info: undefining \float@addtolists on input line 27.
+
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+LaTeX Info: Redefining \microtypecontext on input line 27.
+Package microtype Info: Applying patch `item' on input line 27.
+Package microtype Info: Applying patch `toc' on input line 27.
+Package microtype Info: Applying patch `eqnum' on input line 27.
+Package microtype Info: Applying patch `footnote' on input line 27.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 27.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count474
+)
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
+
+(build/main.out) (build/main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+Class scrbook Info: loading recommended package `bookmark'.
+(scrbook)           Using `bookmark' together with `hyperref' is recommended,
+(scrbook)           because of handling of possible bookmark level gaps.
+(scrbook)           You can avoid loading `bookmark' with KOMA-Script option
+(scrbook)           `bookmarkpackage=false' before \begin{document} and
+(scrbook)           you can avoid this message adding:
+(scrbook)             \usepackage{bookmark}
+(scrbook)           before \begin{document} on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count475
+))
+Package nag Info: Command \hc@caption not defined, skipping amendment on input 
+line 27.
+Package nag Info: Command \topcaption not defined, skipping amendment on input 
+line 27.
+
+(./pages/cover.tex
+<logos/tum-white.pdf, id=7, 742.775pt x 391.4625pt>
+File: logos/tum-white.pdf Graphic file (type pdf)
+<use logos/tum-white.pdf>
+Package pdftex.def Info: logos/tum-white.pdf  used on input line 16.
+(pdftex.def)             Requested size: 107.96596pt x 56.9055pt.
+ [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/tum-white.pdf>]) (
+./pages/title.tex
+File: logos/tum-white.pdf Graphic file (type pdf)
+<use logos/tum-white.pdf>
+Package pdftex.def Info: logos/tum-white.pdf  used on input line 8.
+(pdftex.def)             Requested size: 107.96596pt x 56.9055pt.
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
+26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
+26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
+26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
+26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
+26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
+
+
+
+])
+(./pages/disclaimer.tex [2]) (./pages/acknowledgments.tex
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `sectioning' that is an alias of element `disposition'
+(scrkbase)              on input line 7.
+ [3
+
+
+])
+(./pages/abstract.tex
+chapter without number
+) [4
+
+
+
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 41
+.
+ (build/main.toc [5
+
+
+
+
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 44.
+ [6] (./chapters/01_introduction.tex
+chapter 1.
+[1
+
+
+
+]
+Package acronym Info: Label `acro:CHP' newly defined as it shall be overridden
+although it is yet undefined on input line 55.
+Package acronym Info: Label `acro:AKP' newly defined as it shall be overridden
+although it is yet undefined on input line 69.
+Package acronym Info: Label `acro:IyiP' newly defined as it shall be overridden
+
+although it is yet undefined on input line 74.
+Package acronym Info: Label `acro:SAADET' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 74.
+Package acronym Info: Label `acro:DP' newly defined as it shall be overridden
+although it is yet undefined on input line 75.
+Package acronym Info: Label `acro:DEVA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 75.
+Package acronym Info: Label `acro:GP' newly defined as it shall be overridden
+although it is yet undefined on input line 75.
+ [2]) (./chapters/02_important_related_work.tex [3]
+chapter 2.
+Package acronym Info: Label `acro:NLP' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+[4
+
+
+]) (./chapters/03_experiments.tex [5]
+chapter 3.
+<figures/collected_tweets_2.png, id=220, 1011.78pt x 578.16pt>
+File: figures/collected_tweets_2.png Graphic file (type png)
+<use figures/collected_tweets_2.png>
+Package pdftex.def Info: figures/collected_tweets_2.png  used on input line 20.
+
+(pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
+[6
+
+
+] [7 <./figures/collected_tweets_2.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [8]
+<figures/bertopic_algorithm.png, id=274, 265.74281pt x 248.42813pt>
+File: figures/bertopic_algorithm.png Graphic file (type png)
+<use figures/bertopic_algorithm.png>
+Package pdftex.def Info: figures/bertopic_algorithm.png  used on input line 128
+.
+(pdftex.def)             Requested size: 167.29967pt x 156.40062pt.
+ [9 <./figures/bertopic_algorithm.png>] [10] [11]) (./chapters/04_results.tex [
+12]
+chapter 4.
+[13
+
+
+]
+Underfull \hbox (badness 2376) in paragraph at lines 85--86
+[]|\T1/pplx/m/n/9 (+20) k^^Yz-maz, ahhh, vura, ya-nar^^Yz, so§anc^^Y, mitink, a
+r-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15]
+Package acronym Info: Label `acro:MHP' newly defined as it shall be overridden
+although it is yet undefined on input line 132.
+<figures/normalized_akp_selected_topics_distribution_with_styles.png, id=359, 1
+011.78pt x 578.16pt>
+File: figures/normalized_akp_selected_topics_distribution_with_styles.png Graph
+ic file (type png)
+<use figures/normalized_akp_selected_topics_distribution_with_styles.png>
+Package pdftex.def Info: figures/normalized_akp_selected_topics_distribution_wi
+th_styles.png  used on input line 162.
+(pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
+ [16]
+Package acronym Info: Label `acro:ZP' newly defined as it shall be overridden
+although it is yet undefined on input line 196.
+ [17 <./figures/normalized_akp_selected_topics_distribution_with_styles.png>]
+<figures/normalized_opposition_selected_topics_distribution_with_styles.png, id
+=388, 1011.78pt x 578.16pt>
+File: figures/normalized_opposition_selected_topics_distribution_with_styles.pn
+g Graphic file (type png)
+<use figures/normalized_opposition_selected_topics_distribution_with_styles.png
+>
+Package pdftex.def Info: figures/normalized_opposition_selected_topics_distribu
+tion_with_styles.png  used on input line 235.
+(pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
+ [18] [19 <./figures/normalized_opposition_selected_topics_distribution_with_st
+yles.png>] [20]
+<figures/normalized_other_selected_topics_distribution_with_styles.png, id=427,
+ 1011.78pt x 578.16pt>
+File: figures/normalized_other_selected_topics_distribution_with_styles.png Gra
+phic file (type png)
+<use figures/normalized_other_selected_topics_distribution_with_styles.png>
+Package pdftex.def Info: figures/normalized_other_selected_topics_distribution_
+with_styles.png  used on input line 338.
+(pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
+ [21] [22 <./figures/normalized_other_selected_topics_distribution_with_styles.
+png>]
+<figures/visualization_2d.png, id=449, 961.9137pt x 935.8965pt>
+File: figures/visualization_2d.png Graphic file (type png)
+<use figures/visualization_2d.png>
+Package pdftex.def Info: figures/visualization_2d.png  used on input line 406.
+(pdftex.def)             Requested size: 418.25555pt x 406.94032pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.80666pt too wide) in paragraph at lines 413--421
+[]\T1/pplx/m/n/10.95 (-20) The []Fig-ure 4.4[][] presents the top 50 top-ics, w
+hich have been re-duced to two-dimensional
+ []
+
+
+Overfull \hbox (2.49684pt too wide) in paragraph at lines 430--435
+[]\T1/pplx/m/n/10.95 (-20) Afterward, HDB-SCAN uses the two-dimensional re-duce
+d em-bed-dings to pre-compute
+ []
+
+[23] [24 <./figures/visualization_2d.png>]
+<figures/Hierarchical_Clustering.png, id=474, 1003.75pt x 953.5625pt>
+File: figures/Hierarchical_Clustering.png Graphic file (type png)
+<use figures/Hierarchical_Clustering.png>
+Package pdftex.def Info: figures/Hierarchical_Clustering.png  used on input lin
+e 460.
+(pdftex.def)             Requested size: 418.25555pt x 397.35068pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26 <./figures/Hierarchical_Clustering.png>]
+Package acronym Info: Label `acro:HDP' newly defined as it shall be overridden
+although it is yet undefined on input line 522.
+Package acronym Info: Label `acro:PKK' newly defined as it shall be overridden
+although it is yet undefined on input line 525.
+)
+(./chapters/05_discussion.tex [27]
+chapter 5.
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family pplx in TS1 encoding.
+            Default family used instead on input line 26.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family pplx in TS1 encoding.
+            Default family used instead on input line 39.
+ [28
+
+
+] [29]
+[30] [31]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family pplx in TS1 encoding.
+            Default family used instead on input line 162.
+ [32]
+<figures/sentiment_plot.png, id=555, 473.97075pt x 271.61475pt>
+File: figures/sentiment_plot.png Graphic file (type png)
+<use figures/sentiment_plot.png>
+Package pdftex.def Info: figures/sentiment_plot.png  used on input line 232.
+(pdftex.def)             Requested size: 418.25555pt x 239.68483pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33] [34 <./figures/sentiment_plot.png>] [35] [36])
+(./chapters/06_conclusion.tex [37] [38]
+chapter 6.
+Package acronym Info: Label `acro:TUM' newly defined as it shall be overridden
+although it is yet undefined on input line 11.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 91.
+
+Underfull \hbox (badness 2452) in paragraph at lines 105--105
+[]|\T1/pplx/m/n/10 (+20) Er-do-gan & Po-lit-i-cal De-vel-op-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[]|\T1/pplx/m/n/10 (+20) ö§ret-men, ö§ret-men-ler, tcmeb, ata-mas^^Y,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[]|\T1/pplx/m/n/10 (+20) de-prem, de-premde, de-premzede, de-premin,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]|\T1/pplx/m/n/10 (+20) ba³kan^^Ym, ba³kan, cumhur-ba³kan^^Ym,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+\T1/pplx/m/n/10 (+20) mansuryavas06, ekrem_imamoglu, ba³bakan,
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 117--118
+[]|\T1/pplx/m/n/10 (+20) dr-fahret-tinkoca, sa§l^^Yk, 2020, t^^Ybbi, sa§l^^Ykç^
+^Ylar,
+ []
+
+) [39
+
+
+] [40] [41]
+chapter without number
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
+3.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [42
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{DEVA}) has be
+en already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.87 \listoffigures
+                   {}]
+Package tocbasic Info: character protrusion at lof deactivated on input line 87
+.
+ (build/main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [43
+
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 88
+.
+ (build/main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [44
+
+
+]
+chapter without number
+[45
+
+
+] [46] [47] [48]
+No complaints by nag.
+[49] (build/main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 51156 strings out of 478287
+ 1150490 string characters out of 5849290
+ 2212541 words of memory out of 5000000
+ 67728 multiletter control sequences out of 15000+600000
+ 551148 words of font info for 466 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 115i,19n,109p,10599b,7159s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/
+enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
+uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+
+Output written on build/main.pdf (56 pages, 2014007 bytes).
+PDF statistics:
+ 999 PDF objects out of 1000 (max. 8388607)
+ 898 compressed objects within 9 object streams
+ 213 named destinations out of 1000 (max. 500000)
+ 118570 words of extra memory for PDF output out of 128383 (max. 10000000)
+

@@ -20,12 +20,12 @@
 \contentsline {section}{\numberline {5.1}Interpreting the results in a broader context}{28}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Comparing the results with relevant research}{33}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Limitations}{37}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Future Work}{39}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Conclusion}{40}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Section}{40}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Subsection}{40}{subsection.6.1.1}%
-\contentsline {chapter}{\nonumberline Abbreviations}{43}{chapter*.30}%
-\contentsline {chapter}{\nonumberline List of Figures}{44}{chapter*.31}%
-\contentsline {chapter}{\nonumberline List of Tables}{45}{chapter*.32}%
-\contentsline {chapter}{\nonumberline Bibliography}{46}{chapter*.33}%
+\contentsline {section}{\numberline {5.4}Future Work}{38}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Conclusion}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Section}{39}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Subsection}{39}{subsection.6.1.1}%
+\contentsline {chapter}{\nonumberline Abbreviations}{42}{chapter*.30}%
+\contentsline {chapter}{\nonumberline List of Figures}{43}{chapter*.31}%
+\contentsline {chapter}{\nonumberline List of Tables}{44}{chapter*.32}%
+\contentsline {chapter}{\nonumberline Bibliography}{45}{chapter*.33}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
