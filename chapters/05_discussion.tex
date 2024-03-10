@@ -7,7 +7,7 @@ The last chapter focused on results derived from the BERTopic topic model and an
 detail. This chapter focuses on interpreting these results in a broader context and discusses this
 thesis's limitations and future work. 
 
-\section{Interpreting the results in a broader context}
+\section{Interpreting the Results in a Broader Context}
 
 Having the results analyzed in detail, this section focuses on interpreting these results in a more 
 expansive concept. It aims to answer the remaining research questions about parties and their election 
@@ -173,11 +173,12 @@ At least three clusters in the top 100 topic model results present topics relate
 President Erdo­ğan. While two of them show support for Erdo­ğan, the other prays for Erdo­ğan. A 
 representative tweet for the latter topic would be \textit{'May God keep Erdo­ğan in power.'}. No 
 less than two clusters in the top 100 topic model results cover nationalism, and at least one of them 
-is directly related to the \ac{MHP} since its name includes nationalism. The representative tweets 
+is directly related to the \ac{MHP} since its name includes nationalism and the party's idealogy is based on nationalism. 
+The representative tweets 
 in this cluster demonstrate voting for Erdo­ğan and \ac{MHP} in the first round of the elections, 
 mainly aiming to increase \ac{MHP}'s power in the parliament.
 
-The cluster on the 40\. place of the topic model result is about trust in the state, which would 
+The cluster on the 40.\ place of the topic model result is about trust in the state, which would 
 mean supporting the governing block. An example representative tweet here is 
 \textit{'We trust our state, our goal is to serve our state.'}. That is a solid example of how the 
 ruling block successfully merged the state and the party. The merger of the state and the government, 
@@ -216,7 +217,7 @@ following century.
 % agendas
 % TODO: already a little bit mentioned in the results part
 
-\section{Comparing the results with relevant research}
+\section{Comparing the Results with Relevant Research}
 
 This section aims to compare and analyze the results of this thesis with other relevant research and 
 their results and answer the last research question. While the first focus lies on research relevant 
@@ -443,8 +444,8 @@ overlap and cover a mixture of two to three different aspects. Although that cou
 analysis, in this thesis, having different aspects of one topic can explain the stance towards the topics, 
 clarifying the relationship to the government or the opposition.
 
-While labor-intensive analysis of each topic is necessary, objective evaluation is also missing in this 
-approach. Also in this thesis, the underlying meanings are subject to human interpretation. During the 
+While labor-intensive analysis of each topic is necessary, objective evaluation needs to be included in this approach. 
+Also in this thesis, the underlying meanings are subject to human interpretation. During the 
 analysis of the results, the necessity in many cases to look at more than five representative tweets was 
 not available. That was also the case because, in numerous instances, most representative words are 
 redundant, making it almost impossible to interpret the topic cluster. The topic 
@@ -453,4 +454,111 @@ redundant, making it almost impossible to interpret the topic cluster. The topic
 example.
 
 \section{Future Work}\label{section:future_work}
-Citation test~\parencite{latex}.
+
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=0.75\linewidth]{figures/intertopic_distance_plot.png}
+%     \caption[BERTopic's intertopic distance plot]
+%     {BERTopic's intertopic distance plot, created by using BERTopic
+%     functions and focusing on top 250 topics.}\label{fig:intertopic_distance_plot}
+% \end{figure}
+
+Since the time of this thesis was limited and there were lots of hardships in collecting the massive 
+Twitter data because of the lack of Academic API, the outlook of this thesis could have been 
+extended to various aspects. This section discusses the future work of this thesis by first focusing 
+on short-term and then long-term periods of extension opportunities.
+
+Various other approaches could have been used to obtain better topic modeling results from BERTopic. 
+For instance, \textcite{topic_model_comparison_bertopic_2022} suggests that using BERTopic's 
+intertopic distance map allows researchers to determine the number of topics to which the topic 
+model results can be reduced. When one decides that, BERTopic functions can be used to quickly 
+reduce the number of topic clusters. As seen in the \autoref{fig:intertopic_distance_plot}, 
+one can realize that various topic clusters overlap, although many separate clusters exist. 
+
+Another approach for determining the number of topics would be looking at the hierarchical 
+clustering figure, visualized in \autoref{fig:topics_hierarchical_clustering}. It assists, 
+in particular, in finding a proper number of topics and shows which topics would be merged.
+Future research should take a decision and try these approaches to see if better results are 
+obtained. However, it is necessary to mention that some topics or aspects could be eliminated in 
+this way.
+
+% \begin{wrapfigure}{r}{0.6\textwidth}
+%     \centering
+%     \includegraphics[width=\linewidth]{figures/intertopic_distance_plot.png}
+%     \caption[BERTopic's intertopic distance plot]
+%     {BERTopic's intertopic distance plot, created by using BERTopic
+%     functions and focusing on top 250 topics.}\label{fig:intertopic_distance_plot}
+% \end{wrapfigure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/intertopic_distance_plot.png}
+    \caption[BERTopic's intertopic distance plot]
+    {Intertopic distance plot of the Turkish political discourse on Twitter, created by using BERTopic
+    functions and focusing on the top 250 topics.}\label{fig:intertopic_distance_plot}
+\end{figure}
+
+Since BERTopic allows various approaches to be used for the analysis, these other approaches could 
+have also been used and compared with the default approach. Two approaches could be beneficial for 
+the analysis of this thesis. 
+
+The first one is called Online Topic 
+Modeling\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/online/online.html}}. It 
+is also called incremental topic modeling, and as the name suggests, its main objective lies in 
+incrementally learning from a small batch of instances. So, it updates the model with the new data 
+on which it was not trained. In comparison, this thesis trains a model based on sample data and 
+uses it to determine the topics of the remaining data without updating the model. It is essential 
+to mention that this approach does not support the default HDBSCAN and UMAP models.
+ 
+The second option is to merge multiple trained 
+models\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/merge/merge.html}}. Unlike 
+Online Topic Modeling, this approach can leverage the default HDBSCAN and UMAP models. In this 
+approach, a base model is trained with the initial data. A separate new model is trained and 
+merged with the base model with every new dataset. This method helps detect whether the new model 
+contains new topics not found in the base model. So, the base model could be trained on an 
+initial week or month, and the emergence of new topics could give insights into understanding the 
+trends.  
+
+Since the data has been collected, this thesis could also use pre-trained language models to 
+conduct a sentiment and emotional analysis. That approach would give a deeper understanding of 
+analyzed specific topics, making the analyzed results and social media users' perspective more 
+objective. This analysis would also help further distinguish the perspectives of social media users 
+who support the ruling or the opposition block for trending topics. 
+
+For example, analyzing the sentiment toward the refugee discourse on Twitter could help determine 
+whether that correlates with the shifts in election voting patterns, considering weekly polls 
+from various organizations and the election results.
+
+Another example is an analysis of the sentiment toward the presidential candidates and other 
+political figures. That would determine the perspective of social media users about the actions 
+and speeches of political figures over time, and comparing the results with the trending topics 
+would conclude how a particular event has affected the approval of the political figure.
+
+There are also other aspects to analyze the May 2023 elections. Further research could analyze 
+traditional media platforms and compare the topics discussed with those on social media. Since 
+traditional media platforms tend to favor the government block in Turkey, this approach would 
+give an insight into the differences in discussed topics and the role of different media platforms 
+during the elections \parencite{freedom-house_turkey_report}. 
+
+As mentioned in the previous chapter, there was lots of disinformation and fake news on Twitter 
+during the months up to the election, even the ones accusing the opposition candidate of having a 
+relationship with terrorist organizations. Further research could analyze the frequency, themes, 
+narratives, and effects of fake news on Twitter using the same dataset.
+
+There are also entirely different approaches to analyzing the May 2023 elections. Further research 
+could focus on politicians' and parties' public announcements and speeches. For instance, the 
+research from \textcite{contreras_panama_lda_bertopic_2022} focused on parliamentary proceedings to 
+discover the tendencies and characteristics of the political parties. The same approach could be 
+applied using Turkish parliament discussions, public announcements of the parties, transcripts of 
+speeches from rallies, and YouTube, for example. Specific patterns, sentiment trends, and topic 
+trends could give insights into a better understanding of political figures and parties.
+
+The last suggested outlook of the thesis would be using different datasets than \#Secim2023. 
+Although finding and collecting a dataset with the size of \#Secim2023 is incredibly challenging, 
+there are various other datasets one could leverage. For instance, further research can scrape and 
+analyze the platform called Ekşi Sözlük\footnote{\url{https://eksisozluk.com}}. It is one the most 
+well-known platforms in Turkey for the number of registered people, and users can create posts and 
+share their opinions under the posts as entries while remaining anonymous. One should manually 
+search and find the entries to scrape, but initial research shows more than three million posts 
+regarding the Turkish election. Examining a different platform  like Ekşi Sözlük could offer fresh 
+insights into analyzing the May 2023 elections from an alternative perspective.

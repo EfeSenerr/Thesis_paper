@@ -9,7 +9,7 @@ how the tweet hydration\footnote{The process of retrieving a tweet's complete in
 with only tweet ID.} is performed on the tweets from the dataset, how BERTopic and 
 neural topic modeling works generally.
 
-\section{The Dataset}
+\section{Dataset}
 
 The dataset published by \textcite{secim2023} consists of tweet IDs collected daily 
 between July 2022 and June 2023, a total of around 250 million tweets. 
@@ -86,7 +86,7 @@ that could not be collected. Due to time limitations
 and the lengthy duration of big data analysis, the hydration process resulted in the 
 maximum feasible collection of tweets within the constraints.
 
-\section{The Methodology}
+\section{Methodology}
 
 As mentioned in the previous chapter, topic modeling is an unsupervised tool that helps 
 extract the underlying themes from the given text data. BERTopic is a neural topic model, 
@@ -107,7 +107,7 @@ Some long documents could occasionally involve multiple topics, but in this
 approach, every document is assigned to a single topic, which could be a 
 disadvantage.
 
-\subsection{The BERTopic Pipeline}\label{chapter:bertopic_pipeline}
+\subsection{BERTopic Pipeline}\label{chapter:bertopic_pipeline}
 
 According to \textcite{bertopic}, BERTopic generates topic representations in six steps,
 shown in \autoref{fig:bertopic_algorithm}. 
@@ -157,7 +157,7 @@ This thesis also leverages the power of LLMs by OpenAI, specifically GPT-4 Turbo
 to better represent the resulting topics. One can also leverage other open-source LLMs, 
 but most only support English or a few other languages.
 
-\subsection{The Analysis Srategy}
+\subsection{Analysis Srategy}
 
 For hydration, this thesis used the \textit{Social5} server provided by Research Group Social 
 Computing\footnote{\url{https://www.soc.cit.tum.de}}, which had sufficient hardware 

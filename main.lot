@@ -4,11 +4,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Result of the topic modeling with labels and representative words.}}{15}{table.caption.13}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces The result of the topic modeling with label and representative words.}}{15}{table.caption.15}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Example table}}{40}{table.caption.25}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Result of the topic modeling with labels and representative words.}}{41}{table.caption.29}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces The result of the second topic modeling approach with count and label}}{46}{table.caption.27}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces The result of the second topic modeling approach with labels and representative words.}}{47}{table.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

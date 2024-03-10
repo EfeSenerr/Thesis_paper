@@ -3,128 +3,107 @@
 
 \chapter{Conclusion}\label{chapter:conclusion}
 
-\section{Section}
-Citation test~\parencite{latex}.
+In conclusion, this thesis analyzes 150 million tweets from July 2022 to June 2023 to discover 
+frequently discussed topics during the months up to the election. Since the academic API no longer 
+functions, the analyzed tweets have been collected from the \#Secim2023 dataset published by 
+\textcite{secim2023}. BERTopic, a neural topic model, has been used for topic modeling. A base 
+model has been trained using a random sample of 1\%, and the rest of the data has been transformed 
+to the corresponding topic results of the base model.
 
-Acronyms must be added in \texttt{main.tex} and are referenced using macros. The first occurrence is automatically replaced with the long version of the acronym, while all subsequent usages use the abbreviation.
+Two different analysis strategies have been used. The results contain more than 1000 topic clusters for 
+the first and more than 7000 for the second approach. The top 15 trending topics of the results and 
+their corresponding representative words can be found in 
+\autoref{tab:topic_modeling_results_1} and \autoref{tab:topic_modeling_results_2}, and the remaining 
+detailed information is on the affiliated GitHub page of the 
+repository\footnote{\url{https://github.com/EfeSenerr/Thesis}}. The resulting top 15 topics include general 
+political discussions, praise and criticism of both ruling and opposition parties, wishes and demands from 
+the government, and the earthquake disaster. In \autoref{chapter:results}, the results have been 
+analyzed in detail and divided into three main categories for better interpretation. These categories 
+are the ruling party, opposition, and other related topics. For each category, the topics are 
+visualized to interpret the topic trends on a normalized monthly basis. 
 
-E.g. \texttt{\textbackslash ac\{TUM\}, \textbackslash ac\{TUM\}} $\Rightarrow$ \ac{TUM}, \ac{TUM}
+In the analysis, the most significant topic cluster emerged, identified as 
+\textit{Political Discussions}, has been used as the baseline topic and includes tweets with positive 
+and negative sentiments towards both the ruling and the opposition parties. Over one-tenth of the 
+tweets are in this topic cluster in the election month. 
 
-For more details, see the documentation of the \texttt{acronym} package\footnote{\url{https://ctan.org/pkg/acronym}}.
-\subsection{Subsection}
+The topics related to the government lean toward nationalism, criticism and praise of political 
+figures, and Erdoğan's chance of winning the elections.
+On the other hand, the topics related to the opposition lean toward the discussions around opposition 
+figures and 
+presidential candidates, the Nation Alliance coalition and criticism against them, treason accusations,
+and provocations. For instance, looking at the increasing trend of the opposition presidential 
+candidacy in the \autoref{fig:topics_graph_opposition}, one can notice how the topic gains importance 
+throughout the months. 
 
-See~\autoref{tab:sample}, \autoref{fig:sample-drawing}, \autoref{fig:sample-plot}, \autoref{fig:sample-listing}.
+The thesis highlights the polarized political discourse and discovers essential topics for Twitter 
+users by analyzing the trends of the topic clusters. The topics that are not related to the previous 
+two categories include topics like the earthquake disaster, religious wishes, demands from the 
+government related to teachers, and the retirement system.
 
-\begin{table}[htpb]
-  \caption[Example table]{An example for a simple table.}\label{tab:sample}
-  \centering
-  \begin{tabular}{l l l l}
-    \toprule
-      A & B & C & D \\
-    \midrule
-      1 & 2 & 1 & 2 \\
-      2 & 3 & 2 & 3 \\
-    \bottomrule
-  \end{tabular}
-\end{table}
+Moving forward, two additional visualizations were presented to analyze the remaining topic clusters 
+in detail, which were not discussed earlier. The first shows the topics in a two-dimensional space, 
+and the second displays the hierarchical clustering of the top 50 topics. Various topic clusters were 
+noticed and discussed. For instance, the war between Russia and Ukraine, demands from the government 
+in regards to military sergeants and agriculture engineers, refugee policy, problems caused by 
+free-roaming dogs, political figures like Meral Akşener, nationalism, Atatürk, and accusation of 
+parties to having a relationship with terrorist organizations. With this, the thesis answers the first 
+research question, which aims to discover the most prevalent Twitter topics during the May election.
 
-\begin{figure}[htpb]
-  \centering
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}[node distance=3cm]
-    \node (R0) {$R_1$};
-    \node (R1) [right of=R0] {$R_2$};
-    \node (R2) [below of=R1] {$R_4$};
-    \node (R3) [below of=R0] {$R_3$};
-    \node (R4) [right of=R1] {$R_5$};
+After that, the topic model results have been analyzed in a broader concept, highlighting the 
+correlation between real-life events and the shifts in discussions on Twitter. The top 1000 topics 
+have been intensively interpreted and picked for analysis, where the thesis emphasizes the mirror 
+between the trending topics on social media and the parties' agendas and public statements on both 
+ruling and opposition ranks. The detailed focus starts with the opposition ranks and continues with 
+the ruling block. The election agendas, strategies, and mottos of parties and political figures have 
+been highlighted for each focus. These are then compared with their corresponding topic clusters, 
+underlining their similarities and differences. 
 
-    \path[every node]
-      (R0) edge (R1)
-      (R0) edge (R3)
-      (R3) edge (R2)
-      (R2) edge (R1)
-      (R1) edge (R4);
-  \end{tikzpicture}
-  \caption[Example drawing]{An example for a simple drawing.}\label{fig:sample-drawing}
-\end{figure}
+Furthermore, besides the agendas and strategies, the focus on opposition rank covers miscalibration 
+amongst the Nation Alliance and the incapability to select an opposition candidate, unlawful and 
+biased use of judiciary against the opposition block, the hyperinflation and the economic situation, 
+and the disinformation and fake news campaign against the opposition block. On the other hand, the 
+focus on the ruling rank covers the success rate of the ruling party in the polls and then the 
+elections by highlighting the foreign policy, the President Erdoğan, the second powerful party in 
+the People Alliance \ac{MHP} and nationalism,  the problem of the merge of the state and the ruling 
+party, emphasis on religion, and the theme of continuity and stability.
 
-\begin{figure}[htpb]
-  \centering
+The thesis continues by comparing the results with other research that has research questions similar 
+to this thesis. The key themes, content, and engagement levels of the resulting topics are considered 
+in the comparison, which answers the last research question of this thesis.
+First, the focus lies on research relevant to Turkish elections. The topic model results are compared 
+with those of other research that also analyzed Twitter data but focused on other methods, such as 
+sentiment and emotional analysis. 
+Next, the comparison continues with research that leveraged the BERTopic and other topic models on 
+different political domains. The thesis highlights the similarities in relevant research findings, 
+such as the correlation between real-life events and trending topics on Twitter.
 
-  \pgfplotstableset{col sep=&, row sep=\\}
-  % This should probably go into a file in data/
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1000 \\
-    2 & 1500 \\
-    3 & 1600 \\
-  }\exampleA
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1200 \\
-    2 & 800 \\
-    3 & 1400 \\
-  }\exampleB
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}
-    \begin{axis}[
-        ymin=0,
-        legend style={legend pos=south east},
-        grid,
-        thick,
-        ylabel=Y,
-        xlabel=X
-      ]
-      \addplot table[x=a, y=b]{\exampleA};
-      \addlegendentry{Example A};
-      \addplot table[x=a, y=b]{\exampleB};
-      \addlegendentry{Example B};
-    \end{axis}
-  \end{tikzpicture}
-  \caption[Example plot]{An example for a simple plot.}\label{fig:sample-plot}
-\end{figure}
+The discussion continues with the limitations of this thesis. The analyzed dataset is partially 
+collected in this thesis due to the lack of academic API and the deletion of tweets. The limitations 
+of the Twitter data are also highlighted, mentioning the creation of trending topics by automated 
+attacks, the high percentage of rebroadcasting information, and the low number of users that post 
+almost all the tweets.
 
-\begin{figure}[htpb]
-  \centering
-  \begin{tabular}{c}
-  \begin{lstlisting}[language=SQL]
-    SELECT * FROM tbl WHERE tbl.str = "str"
-  \end{lstlisting}
-  \end{tabular}
-  \caption[Example listing]{An example for a source code listing.}\label{fig:sample-listing}
-\end{figure}
+The second mentioned limitation covers the leveraged topic model, BERTopic. The performance of 
+BERTopic varies slightly due to the dataset's multilingualism and varies significantly by adjusting 
+the parameters. The embedding approach of BERTopic results in a massive number of resulting topics, 
+which requires effort to examine each topic. In addition, labor-intensive analysis of each topic 
+prevents objective evaluation of the topics.
 
-\begin{table} % last appriach
-  \centering
-  \small
-  \begin{tabular}{|>{\hspace{0pt}}m{0.35\linewidth}|>{\hspace{0pt}}m{0.55\linewidth}|} 
-  \hline
-  \textbf{Topic Label}                                 & \textbf{Representative Words}                                                                                                                \\ 
-  \hline\hline
-  Elections \& Candidates                       & oy, kılıçdaroğlu, aday, seçim, erdoğan, tayyip, seçimi, istifa                                                                  \\
-  Erdogan \& Political Developments             & türk, türkiye, stanbul, yüzyılı, turkey, türkiyeyüzyılı, ankara, cumhuriyeti                                              \\
-  Political Agenda \& Demands                   & yirmiucderece, numankurtulmus, aysedogan1955, cenginyurt52, herkesicinchp, meral\_aksener, secimtr2023, hassa61  \\
-  Religious Wishes \& Political Figures         & allah, versin, razı, eylesin, müslüman, etsin, din, rabbim,                                                                \\
-  Teachers \& Demands         & öğretmen, öğretmenler, tcmeb, ataması, prof\_mahmutozer, 100, bin, kpss                                               \\
-  Earthquake \& Demands                & deprem, depremde, depremzede, depremin, yapıkayıt, yumuşak, depremden, müstakil                                       \\
-  Nation \& Country                             & ülkeyi, ülke, ülkenin, ülkeye, ülkede, millet, milletin, milleti                                                            \\
-  Leading Figures                                & başkanım, başkan, cumhurbaşkanım, mansuryavas06, ekrem\_imamoglu, başbakan, cumhurbaşkanı, sayın                     \\
-  Fair Trial \& Amnesty Demands        & mahkum, af, adalet, genelaf, 77, adil, adli, mahkumlar                                                                    \\
-  Mixed Emotions                                 & que, me, eu, não, no, dedem, aq, amk                                                                                            \\
-  Civil Servants \& Demands               & sırtlayan, hafızası, kurumların, yükünü, kamunun, 3600ekgösterge, devletine, umudumuz                                 \\
-  Retirement System                              & emeklilik, emekli, kısmi, kademeli, prim, 5000, yaş, zorunlu                                                                    \\
-  Reserves Demands               & degildi, tercihimiz, dileğimiz, milletvekilim, etmektir, yedek, talebimiz, mehmetfatihser5                             \\
-  Medical Secretaries \& Demands          & drfahrettinkoca, sağlık, 2020, tıbbi, sağlıkçılar, sekreterlik, sağlıkçı, yönetimi,                         \\
-  Election News \& Comments                     & secimtr2023, yirmiucderece, cumhuriyetgzt, vekilince, https, co, ozan\_blk07, furkancerkes                   \\
-  % Internship Grievances and Solution Calls       & mağdurlari, kisa, sayin, çözülmeli, deği, üzmeyi, mahzun, alalim                                                         \\
-  % Staff Sergeant Position Demands                & kadro, alitilkici38, çavuşlar, uzman, haktır, sırauzmançavuşakadro, yilmaz\_ismet58, 3269torbayasaya    \\
-  % Industrial Internship Victims and Their Rights & mağdurları, sayildi, bedenleri, staj, büyüdü, çalişan, mağdurlarının, alin                                             \\
-  % Police Training Candidates Demands            & pomem, yedek, adayları, aliyerlikaya, 3546, ylmz\_colak, dönem, ergunyolcu                                 \\
-  % Political Dialogue in Hopes and Expectations   & düşürmeyeceğinizden, umutlarımıza, gölge, eminiz, mehmetfatihser5, mehmetersoy57, düşeni, üzerimize                     \\
-  \hline
-  \end{tabular}
-  \caption[Result of the topic modeling with labels and representative words.]
-  {Result of the topic modeling with reduced topic distribution. The top eight representative words
-  from MMR model for each of the top 15 topics with their respective topic label 
-  translated into English.}\label{tab:topic_modeling_results_2}
-\end{table}
+Finally, various future works of the thesis are highlighted. In the short period, one could change 
+the parameters of BERTopic, try a different topic modeling strategy or embedding model, or reduce 
+the number of topics to obtain better topic clusters. Besides topic modeling, sentiment and emotional 
+analysis could be conducted, leveraging pre-trained language models. That could help determine 
+whether the sentiment toward specific topics correlates with the shifts in election voting patterns.
+
+In the long term, other methods exist to interpret and analyze the May 2023 election. One could 
+scrape and analyze traditional media platforms or other platforms like Ekşi Sözlük to gain a different 
+perspective and see how their trending topics and sentiments vary between platforms. 
+The analysis focus could also be directly on politicians' speeches, parties' public announcements, 
+and parliament discussions, which could give insights into better interpreting the political figures 
+and parties.
+
+In short, this thesis contributes to the academic environment by pioneering one of the first 
+topic modeling analyses on Turkish political discourse utilizing big data, which sheds light on 
+the May 2023 general elections. This thesis aims to better understand the Turkish political discourse 
+and motivate future research by presenting the tested methodologies and findings.

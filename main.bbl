@@ -1562,34 +1562,6 @@
       \verb https://www.nytimes.com/wirecutter/blog/why-you-should-delete-your-tweets/
       \endverb
     \endentry
-    \entry{latex}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5d77435450d10a850a5b58577b9a456b}{%
-           family={Lamport},
-           familyi={L\bibinitperiod},
-           given={Leslie},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley Professional}%
-      }
-      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{bibnamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authorbibnamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authornamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authorfullhash}{5d77435450d10a850a5b58577b9a456b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{LaTeX : A Documentation Preparation System User's Guide and Reference Manual}
-      \field{year}{1994}
-    \endentry
     \entry{levitsky_elections_2002}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5a385c7fc53d40f894bd4af8fd60a689}{%

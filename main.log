@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  8 MAR 2024 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  10 MAR 2024 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1231,12 +1231,16 @@ although it is yet undefined on input line 75.
 chapter 2.
 Package acronym Info: Label `acro:NLP' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
+Package acronym Info: Label `acro:LDA' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+Package acronym Info: Label `acro:BERT' newly defined as it shall be overridden
+although it is yet undefined on input line 49.
 [4
 
 
 ]) (./chapters/03_experiments.tex [5]
 chapter 3.
-<figures/collected_tweets_2.png, id=220, 1011.78pt x 578.16pt>
+<figures/collected_tweets_2.png, id=225, 1011.78pt x 578.16pt>
 File: figures/collected_tweets_2.png Graphic file (type png)
 <use figures/collected_tweets_2.png>
 Package pdftex.def Info: figures/collected_tweets_2.png  used on input line 20.
@@ -1254,7 +1258,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [8]
-<figures/bertopic_algorithm.png, id=274, 265.74281pt x 248.42813pt>
+<figures/bertopic_algorithm.png, id=279, 265.74281pt x 248.42813pt>
 File: figures/bertopic_algorithm.png Graphic file (type png)
 <use figures/bertopic_algorithm.png>
 Package pdftex.def Info: figures/bertopic_algorithm.png  used on input line 128.
@@ -1274,52 +1278,52 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14] [15]
 Package acronym Info: Label `acro:MHP' newly defined as it shall be overridden
-although it is yet undefined on input line 132.
-<figures/normalized_akp_selected_topics_distribution_with_styles.png, id=359, 1011.78pt x 578.16pt>
+although it is yet undefined on input line 131.
+<figures/normalized_akp_selected_topics_distribution_with_styles.png, id=364, 1011.78pt x 578.16pt>
 File: figures/normalized_akp_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_akp_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_akp_selected_topics_distribution_with_styles.png  used on input line 162.
+Package pdftex.def Info: figures/normalized_akp_selected_topics_distribution_with_styles.png  used on input line 161.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [16]
 Package acronym Info: Label `acro:ZP' newly defined as it shall be overridden
-although it is yet undefined on input line 196.
+although it is yet undefined on input line 195.
  [17 <./figures/normalized_akp_selected_topics_distribution_with_styles.png>]
-<figures/normalized_opposition_selected_topics_distribution_with_styles.png, id=388, 1011.78pt x 578.16pt>
+<figures/normalized_opposition_selected_topics_distribution_with_styles.png, id=393, 1011.78pt x 578.16pt>
 File: figures/normalized_opposition_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_opposition_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_opposition_selected_topics_distribution_with_styles.png  used on input line 235.
+Package pdftex.def Info: figures/normalized_opposition_selected_topics_distribution_with_styles.png  used on input line 234.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [18] [19 <./figures/normalized_opposition_selected_topics_distribution_with_styles.png>] [20]
-<figures/normalized_other_selected_topics_distribution_with_styles.png, id=427, 1011.78pt x 578.16pt>
+<figures/normalized_other_selected_topics_distribution_with_styles.png, id=432, 1011.78pt x 578.16pt>
 File: figures/normalized_other_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_other_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_other_selected_topics_distribution_with_styles.png  used on input line 338.
+Package pdftex.def Info: figures/normalized_other_selected_topics_distribution_with_styles.png  used on input line 337.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [21] [22 <./figures/normalized_other_selected_topics_distribution_with_styles.png>]
-<figures/visualization_2d.png, id=449, 961.9137pt x 935.8965pt>
+<figures/visualization_2d.png, id=454, 961.9137pt x 935.8965pt>
 File: figures/visualization_2d.png Graphic file (type png)
 <use figures/visualization_2d.png>
-Package pdftex.def Info: figures/visualization_2d.png  used on input line 406.
+Package pdftex.def Info: figures/visualization_2d.png  used on input line 405.
 (pdftex.def)             Requested size: 418.25555pt x 406.94032pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.80666pt too wide) in paragraph at lines 413--421
+Overfull \hbox (0.80666pt too wide) in paragraph at lines 412--420
 []\T1/pplx/m/n/10.95 (-20) The []Fig-ure 4.4[][] presents the top 50 top-ics, which have been re-duced to two-dimensional
  []
 
 
-Overfull \hbox (2.49684pt too wide) in paragraph at lines 430--435
+Overfull \hbox (2.49684pt too wide) in paragraph at lines 429--434
 []\T1/pplx/m/n/10.95 (-20) Afterward, HDB-SCAN uses the two-dimensional re-duced em-bed-dings to pre-compute
  []
 
 [23] [24 <./figures/visualization_2d.png>]
-<figures/Hierarchical_Clustering.png, id=474, 1003.75pt x 953.5625pt>
+<figures/Hierarchical_Clustering.png, id=479, 1003.75pt x 953.5625pt>
 File: figures/Hierarchical_Clustering.png Graphic file (type png)
 <use figures/Hierarchical_Clustering.png>
-Package pdftex.def Info: figures/Hierarchical_Clustering.png  used on input line 460.
+Package pdftex.def Info: figures/Hierarchical_Clustering.png  used on input line 459.
 (pdftex.def)             Requested size: 418.25555pt x 397.35068pt.
 
 
@@ -1327,9 +1331,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25] [26 <./figures/Hierarchical_Clustering.png>]
 Package acronym Info: Label `acro:HDP' newly defined as it shall be overridden
-although it is yet undefined on input line 522.
+although it is yet undefined on input line 521.
 Package acronym Info: Label `acro:PKK' newly defined as it shall be overridden
-although it is yet undefined on input line 525.
+although it is yet undefined on input line 524.
 ) (./chapters/05_discussion.tex [27]
 chapter 5.
 LaTeX Info: Symbol \textasciiacute not provided by
@@ -1349,62 +1353,61 @@ LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
             Default family used instead on input line 162.
  [32]
-<figures/sentiment_plot.png, id=555, 473.97075pt x 271.61475pt>
+<figures/sentiment_plot.png, id=560, 473.97075pt x 271.61475pt>
 File: figures/sentiment_plot.png Graphic file (type png)
 <use figures/sentiment_plot.png>
-Package pdftex.def Info: figures/sentiment_plot.png  used on input line 232.
+Package pdftex.def Info: figures/sentiment_plot.png  used on input line 233.
 (pdftex.def)             Requested size: 418.25555pt x 239.68483pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33] [34 <./figures/sentiment_plot.png>] [35] [36] [37] [38]) (./chapters/06_conclusion.tex [39]
-chapter 6.
-Package acronym Info: Label `acro:TUM' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 91.
+[33] [34 <./figures/sentiment_plot.png>] [35] [36] [37] [38]
+<figures/intertopic_distance_plot.png, id=631, 652.4375pt x 652.4375pt>
+File: figures/intertopic_distance_plot.png Graphic file (type png)
+<use figures/intertopic_distance_plot.png>
+Package pdftex.def Info: figures/intertopic_distance_plot.png  used on input line 495.
+(pdftex.def)             Requested size: 313.69167pt x 313.70403pt.
 
-Underfull \hbox (badness 2452) in paragraph at lines 105--105
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39] [40 <./figures/intertopic_distance_plot.png>]) (./chapters/06_conclusion.tex [41] [42]
+chapter 6.
+[43
+
+
+] [44]) (./pages/appendix.tex [45]
+chapter A.
+
+Underfull \hbox (badness 1728) in paragraph at lines 51--51
 []|\T1/pplx/m/n/10 (+20) Er-do-gan & Po-lit-i-cal De-vel-op-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 3078) in paragraph at lines 52--53
+[]|\T1/pplx/m/n/10 (+20) yir-mi-ucderece, nu-mankur-tul-mus, ayse-do-gan1955,
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 52--53
+\T1/pplx/m/n/10 (+20) cenginyurt52, herkesicinchp, meral_aksener, sec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 []|\T1/pplx/m/n/10 (+20) ö§ret-men, ö§ret-men-ler, tcmeb, ata-mas^^Y,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-[]|\T1/pplx/m/n/10 (+20) de-prem, de-premde, de-premzede, de-premin,
- []
+LaTeX Warning: Float too large for page by 19.72104pt on input line 76.
+
+[46
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-[]|\T1/pplx/m/n/10 (+20) ba³kan^^Ym, ba³kan, cumhur-ba³kan^^Ym,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-\T1/pplx/m/n/10 (+20) mansuryavas06, ekrem_imamoglu, ba³bakan,
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 117--118
-[]|\T1/pplx/m/n/10 (+20) dr-fahret-tinkoca, sa§l^^Yk, 2020, t^^Ybbi, sa§l^^Ykç^^Ylar,
- []
-
-) [40
-
-
-] [41] [42]
+]) [47]
 chapter without number
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 63.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1412,39 +1415,39 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [43
+ [48
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{DEVA}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.87 \listoffigures
+l.85 \listoffigures
                    {}]
-Package tocbasic Info: character protrusion at lof deactivated on input line 87.
+Package tocbasic Info: character protrusion at lof deactivated on input line 85.
  (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [44
+ [49
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 88.
+Package tocbasic Info: character protrusion at lot deactivated on input line 86.
  (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [45
+ [50
 
 
 ]
 chapter without number
-[46
+[51
 
 
-] [47] [48] [49] [50]
+] [52] [53] [54] [55]
 No complaints by nag.
-[51] (./main.aux)
+[56] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1452,18 +1455,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51197 strings out of 478287
- 1151486 string characters out of 5849290
- 2217828 words of memory out of 5000000
- 67762 multiletter control sequences out of 15000+600000
- 551148 words of font info for 466 fonts, out of 8000000 for 9000
+ 50183 strings out of 478287
+ 1132655 string characters out of 5849290
+ 2196474 words of memory out of 5000000
+ 66754 multiletter control sequences out of 15000+600000
+ 548389 words of font info for 461 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 115i,19n,109p,10650b,7159s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (58 pages, 2019882 bytes).
+ 115i,12n,109p,10650b,7159s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (63 pages, 2057796 bytes).
 PDF statistics:
- 1025 PDF objects out of 1200 (max. 8388607)
- 921 compressed objects within 10 object streams
- 218 named destinations out of 1000 (max. 500000)
- 118570 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 1051 PDF objects out of 1200 (max. 8388607)
+ 942 compressed objects within 10 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 112423 words of extra memory for PDF output out of 128383 (max. 10000000)
 
