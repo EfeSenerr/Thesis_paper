@@ -19,7 +19,7 @@
 \contentsline {chapter}{\numberline {5}Discussion}{28}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Interpreting the Results in a Broader Context}{28}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Comparing the Results with Relevant Research}{33}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitations}{37}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Limitations}{38}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Future Work}{39}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Appendix}{46}{appendix.A}%
