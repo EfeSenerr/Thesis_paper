@@ -12,19 +12,19 @@
 \contentsline {subsection}{\numberline {3.2.2}Analysis Srategy}{10}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Results}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Detailed Analysis of Topic Categories}{16}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Ruling Party Discourse Analysis}{16}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Opposition Discourse Analysis}{18}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.1}Ruling Block Discourse Analysis}{16}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Opposition Discourse Analysis}{19}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Other Relevant Discourse Analysis}{21}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Supplementary Visual Insights}{23}{section.4.2}%
 \contentsline {chapter}{\numberline {5}Discussion}{28}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Interpreting the Results in a Broader Context}{28}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Comparing the Results with Relevant Research}{33}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitations}{38}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Limitations}{37}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Future Work}{39}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Appendix}{46}{appendix.A}%
-\contentsline {chapter}{\nonumberline Abbreviations}{48}{chapter*.29}%
-\contentsline {chapter}{\nonumberline List of Figures}{49}{chapter*.30}%
-\contentsline {chapter}{\nonumberline List of Tables}{50}{chapter*.31}%
-\contentsline {chapter}{\nonumberline Bibliography}{51}{chapter*.32}%
+\contentsline {chapter}{\nonumberline Abbreviations}{48}{chapter*.33}%
+\contentsline {chapter}{\nonumberline List of Figures}{50}{chapter*.34}%
+\contentsline {chapter}{\nonumberline List of Tables}{51}{chapter*.35}%
+\contentsline {chapter}{\nonumberline Bibliography}{52}{chapter*.36}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

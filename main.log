@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  12 MAR 2024 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  15 MAR 2024 08:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,30 +1217,39 @@ Package acronym Info: Label `acro:CHP' newly defined as it shall be overridden
 although it is yet undefined on input line 55.
 Package acronym Info: Label `acro:AKP' newly defined as it shall be overridden
 although it is yet undefined on input line 69.
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family pplx in TS1 encoding.
+            Default family used instead on input line 71.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
 Package acronym Info: Label `acro:IyiP' newly defined as it shall be overridden
-although it is yet undefined on input line 74.
+although it is yet undefined on input line 75.
 Package acronym Info: Label `acro:SAADET' newly defined as it shall be overridden
-although it is yet undefined on input line 74.
+although it is yet undefined on input line 75.
 Package acronym Info: Label `acro:DP' newly defined as it shall be overridden
-although it is yet undefined on input line 75.
+although it is yet undefined on input line 76.
 Package acronym Info: Label `acro:DEVA' newly defined as it shall be overridden
-although it is yet undefined on input line 75.
+although it is yet undefined on input line 76.
 Package acronym Info: Label `acro:GP' newly defined as it shall be overridden
-although it is yet undefined on input line 75.
+although it is yet undefined on input line 76.
+Package acronym Info: Label `acro:MHP' newly defined as it shall be overridden
+although it is yet undefined on input line 79.
  [2]) (./chapters/02_important_related_work.tex [3]
 chapter 2.
 Package acronym Info: Label `acro:NLP' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:LDA' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
-Package acronym Info: Label `acro:BERT' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
 [4
 
 
-]) (./chapters/03_experiments.tex [5]
+]
+Package acronym Info: Label `acro:BERT' newly defined as it shall be overridden
+although it is yet undefined on input line 51.
+) (./chapters/03_experiments.tex [5]
 chapter 3.
-<figures/collected_tweets_2.png, id=225, 1011.78pt x 578.16pt>
+<figures/collected_tweets_2.png, id=232, 1011.78pt x 578.16pt>
 File: figures/collected_tweets_2.png Graphic file (type png)
 <use figures/collected_tweets_2.png>
 Package pdftex.def Info: figures/collected_tweets_2.png  used on input line 20.
@@ -1258,18 +1267,26 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [8]
-<figures/bertopic_algorithm.png, id=279, 265.74281pt x 248.42813pt>
+<figures/bertopic_algorithm.png, id=286, 265.74281pt x 248.42813pt>
 File: figures/bertopic_algorithm.png Graphic file (type png)
 <use figures/bertopic_algorithm.png>
 Package pdftex.def Info: figures/bertopic_algorithm.png  used on input line 128.
 (pdftex.def)             Requested size: 167.29967pt x 156.40062pt.
+Package acronym Info: Label `acro:UMAP' newly defined as it shall be overridden
+although it is yet undefined on input line 135.
+Package acronym Info: Label `acro:HDBSCAN' newly defined as it shall be overridden
+although it is yet undefined on input line 137.
+Package acronym Info: Label `acro:c-TF-IDF' newly defined as it shall be overridden
+although it is yet undefined on input line 145.
+Package acronym Info: Label `acro:MMR' newly defined as it shall be overridden
+although it is yet undefined on input line 151.
  [9 <./figures/bertopic_algorithm.png>] [10] [11]) (./chapters/04_results.tex [12]
 chapter 4.
 [13
 
 
 ]
-Underfull \hbox (badness 2376) in paragraph at lines 85--86
+Underfull \hbox (badness 2376) in paragraph at lines 87--88
 []|\T1/pplx/m/n/9 (+20) k^^Yz-maz, ahhh, vura, ya-nar^^Yz, so§anc^^Y, mitink, ar-
  []
 
@@ -1277,98 +1294,98 @@ Underfull \hbox (badness 2376) in paragraph at lines 85--86
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14] [15]
-Package acronym Info: Label `acro:MHP' newly defined as it shall be overridden
-although it is yet undefined on input line 131.
-<figures/normalized_akp_selected_topics_distribution_with_styles.png, id=364, 1011.78pt x 578.16pt>
+<figures/normalized_akp_selected_topics_distribution_with_styles.png, id=391, 1011.78pt x 578.16pt>
 File: figures/normalized_akp_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_akp_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_akp_selected_topics_distribution_with_styles.png  used on input line 161.
+Package pdftex.def Info: figures/normalized_akp_selected_topics_distribution_with_styles.png  used on input line 163.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [16]
 Package acronym Info: Label `acro:ZP' newly defined as it shall be overridden
-although it is yet undefined on input line 195.
+although it is yet undefined on input line 190.
  [17 <./figures/normalized_akp_selected_topics_distribution_with_styles.png>]
-<figures/normalized_opposition_selected_topics_distribution_with_styles.png, id=393, 1011.78pt x 578.16pt>
+<figures/normalized_opposition_selected_topics_distribution_with_styles.png, id=420, 1011.78pt x 578.16pt>
 File: figures/normalized_opposition_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_opposition_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_opposition_selected_topics_distribution_with_styles.png  used on input line 234.
+Package pdftex.def Info: figures/normalized_opposition_selected_topics_distribution_with_styles.png  used on input line 236.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [18] [19 <./figures/normalized_opposition_selected_topics_distribution_with_styles.png>] [20]
-<figures/normalized_other_selected_topics_distribution_with_styles.png, id=432, 1011.78pt x 578.16pt>
+<figures/normalized_other_selected_topics_distribution_with_styles.png, id=458, 1011.78pt x 578.16pt>
 File: figures/normalized_other_selected_topics_distribution_with_styles.png Graphic file (type png)
 <use figures/normalized_other_selected_topics_distribution_with_styles.png>
-Package pdftex.def Info: figures/normalized_other_selected_topics_distribution_with_styles.png  used on input line 337.
+Package pdftex.def Info: figures/normalized_other_selected_topics_distribution_with_styles.png  used on input line 339.
 (pdftex.def)             Requested size: 418.25555pt x 239.00562pt.
  [21] [22 <./figures/normalized_other_selected_topics_distribution_with_styles.png>]
-<figures/visualization_2d.png, id=453, 961.9137pt x 935.8965pt>
+<figures/visualization_2d.png, id=476, 961.9137pt x 935.8965pt>
 File: figures/visualization_2d.png Graphic file (type png)
 <use figures/visualization_2d.png>
-Package pdftex.def Info: figures/visualization_2d.png  used on input line 405.
+Package pdftex.def Info: figures/visualization_2d.png  used on input line 407.
 (pdftex.def)             Requested size: 418.25555pt x 406.94032pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.80666pt too wide) in paragraph at lines 412--420
+Overfull \hbox (0.80666pt too wide) in paragraph at lines 414--422
 []\T1/pplx/m/n/10.95 (-20) The []Fig-ure 4.4[][] presents the top 50 top-ics, which have been re-duced to two-dimensional
  []
 
-[23]
-Overfull \hbox (2.49684pt too wide) in paragraph at lines 429--434
+[23] [24 <./figures/visualization_2d.png>]
+Overfull \hbox (2.49684pt too wide) in paragraph at lines 431--436
 []\T1/pplx/m/n/10.95 (-20) Afterward, HDB-SCAN uses the two-dimensional re-duced em-bed-dings to pre-compute
  []
 
-[24 <./figures/visualization_2d.png>]
-<figures/Hierarchical_Clustering.png, id=478, 1003.75pt x 953.5625pt>
+<figures/Hierarchical_Clustering.png, id=501, 1003.75pt x 953.5625pt>
 File: figures/Hierarchical_Clustering.png Graphic file (type png)
 <use figures/Hierarchical_Clustering.png>
-Package pdftex.def Info: figures/Hierarchical_Clustering.png  used on input line 459.
+Package pdftex.def Info: figures/Hierarchical_Clustering.png  used on input line 461.
 (pdftex.def)             Requested size: 418.25555pt x 397.35068pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25] [26 <./figures/Hierarchical_Clustering.png>]
 Package acronym Info: Label `acro:HDP' newly defined as it shall be overridden
-although it is yet undefined on input line 522.
+although it is yet undefined on input line 524.
 Package acronym Info: Label `acro:PKK' newly defined as it shall be overridden
-although it is yet undefined on input line 525.
+although it is yet undefined on input line 527.
 ) (./chapters/05_discussion.tex [27]
 chapter 5.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
-            Default family used instead on input line 26.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-)
+            Default family used instead on input line 25.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
-            Default family used instead on input line 39.
- [28
+            Default family used instead on input line 25.
+[28
 
 
 ] [29] [30] [31]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
-            Default family used instead on input line 162.
+            Default family used instead on input line 161.
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family pplx in TS1 encoding.
+            Default family used instead on input line 161.
  [32]
-<figures/sentiment_plot.png, id=560, 473.97075pt x 271.61475pt>
+<figures/sentiment_plot.png, id=582, 473.97075pt x 271.61475pt>
 File: figures/sentiment_plot.png Graphic file (type png)
 <use figures/sentiment_plot.png>
-Package pdftex.def Info: figures/sentiment_plot.png  used on input line 233.
+Package pdftex.def Info: figures/sentiment_plot.png  used on input line 232.
 (pdftex.def)             Requested size: 418.25555pt x 239.68483pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [33] [34 <./figures/sentiment_plot.png>] [35] [36] [37] [38]
-<figures/intertopic_distance_plot.png, id=630, 652.4375pt x 652.4375pt>
+<figures/intertopic_distance_plot.png, id=653, 652.4375pt x 652.4375pt>
 File: figures/intertopic_distance_plot.png Graphic file (type png)
 <use figures/intertopic_distance_plot.png>
-Package pdftex.def Info: figures/intertopic_distance_plot.png  used on input line 495.
+Package pdftex.def Info: figures/intertopic_distance_plot.png  used on input line 494.
 (pdftex.def)             Requested size: 313.69167pt x 313.70403pt.
- [39] [40 <./figures/intertopic_distance_plot.png>] [41]) (./chapters/06_conclusion.tex [42]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39] [40 <./figures/intertopic_distance_plot.png>]) (./chapters/06_conclusion.tex [41] [42]
 chapter 6.
 [43
 
@@ -1414,36 +1431,36 @@ Package microtype Info: Loading generic protrusion settings for font family
  [48
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{DEVA}) has been already used, duplicate ignored
+] [49pdfTeX warning (ext4): destination with the same identifier (name{DEVA}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.85 \listoffigures
+l.89 \listoffigures
                    {}]
-Package tocbasic Info: character protrusion at lof deactivated on input line 85.
+Package tocbasic Info: character protrusion at lof deactivated on input line 89.
  (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
-
- [49
-
-
-]
-Package tocbasic Info: character protrusion at lot deactivated on input line 86.
- (./main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
 
  [50
 
 
 ]
+Package tocbasic Info: character protrusion at lot deactivated on input line 90.
+ (./main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [51
+
+
+]
 chapter without number
-[51
+[52
 
 
-] [52] [53] [54] [55]
+] [53] [54] [55] [56]
 No complaints by nag.
-[56] (./main.aux)
+[57] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1451,18 +1468,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50183 strings out of 478287
- 1132655 string characters out of 5849290
- 2196521 words of memory out of 5000000
- 66754 multiletter control sequences out of 15000+600000
- 548389 words of font info for 461 fonts, out of 8000000 for 9000
+ 50220 strings out of 478287
+ 1133140 string characters out of 5849290
+ 2196087 words of memory out of 5000000
+ 66778 multiletter control sequences out of 15000+600000
+ 548573 words of font info for 464 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  115i,12n,109p,10650b,7159s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (63 pages, 2058439 bytes).
+Output written on main.pdf (64 pages, 2061614 bytes).
 PDF statistics:
- 1052 PDF objects out of 1200 (max. 8388607)
- 943 compressed objects within 10 object streams
- 222 named destinations out of 1000 (max. 500000)
+ 1088 PDF objects out of 1200 (max. 8388607)
+ 978 compressed objects within 10 object streams
+ 231 named destinations out of 1000 (max. 500000)
  112423 words of extra memory for PDF output out of 128383 (max. 10000000)
 

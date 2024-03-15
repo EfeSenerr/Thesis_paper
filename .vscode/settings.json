@@ -24,6 +24,11 @@
             "language": "latex",
             "scheme": "file",
             "pattern": "chapters/06_conclusion.tex"
+        },
+        {
+            "language": "latex",
+            "scheme": "file",
+            "pattern": "chapters/05_discussion.tex"
         }
     ]
 }

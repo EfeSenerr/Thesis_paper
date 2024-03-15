@@ -847,7 +847,6 @@
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We uncover a previously unknown, ongoing astroturfing attack on the popularity mechanisms of social media platforms: ephemeral astroturfing attacks. In this attack, a chosen keyword or topic is artificially promoted by coordinated and inauthentic activity to appear popular, and, crucially, this activity is removed as part of the attack. We observe such attacks on Twitter trends and find that these attacks are not only successful but also pervasive. We detected over 19,000 unique fake trends promoted by over 108,000 accounts, including not only fake but also compromised accounts, many of which remained active and continued participating in the attacks. Trends astroturfed by these attacks account for at least 20\% of the top 10 global trends. Ephemeral astroturfing threatens the integrity of popularity mechanisms on social media platforms and by extension the integrity of the platforms.}
       \field{month}{3}
-      \field{note}{arXiv:1910.07783 [cs]}
       \field{shorttitle}{Ephemeral {Astroturfing} {Attacks}}
       \field{title}{Ephemeral {Astroturfing} {Attacks}: {The} {Case} of {Fake} {Twitter} {Trends}}
       \field{urlday}{6}
@@ -1217,7 +1216,7 @@
       \verb https://epub.ub.uni-muenchen.de/92617/
       \endverb
     \endentry
-    \entry{bertopic}{misc}{}
+    \entry{bertopic}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a07dee61406b9c48310bff46188c983b}{%
            family={Grootendorst},
@@ -1344,42 +1343,6 @@
       \endverb
       \verb{url}
       \verb https://www.aa.com.tr/tr/politika/chpnin-yeni-genel-baskani-ozgur-ozel-oldu-/3044068
-      \endverb
-    \endentry
-    \entry{trt_ogretmen_atamasi_kk_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1131879c8eeb2e8dc4091760c6bd549a}{%
-           family={Haber},
-           familyi={H\bibinitperiod},
-           given={TRT},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1131879c8eeb2e8dc4091760c6bd549a}
-      \strng{fullhash}{1131879c8eeb2e8dc4091760c6bd549a}
-      \strng{bibnamehash}{1131879c8eeb2e8dc4091760c6bd549a}
-      \strng{authorbibnamehash}{1131879c8eeb2e8dc4091760c6bd549a}
-      \strng{authornamehash}{1131879c8eeb2e8dc4091760c6bd549a}
-      \strng{authorfullhash}{1131879c8eeb2e8dc4091760c6bd549a}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{5}
-      \field{title}{{Kılıçdaroğlu: Cumhuriyet'in 100. yılında 100 bin öğretmen ataması yapacağız}}
-      \field{urlday}{28}
-      \field{urlmonth}{2}
-      \field{urlyear}{2024}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.trthaber.com/haber/gundem/kilicdaroglu-cumhuriyetin-100-yilinda-100-bin-ogretmen-atamasi-yapacagiz-765768.html
-      \endverb
-      \verb{url}
-      \verb https://www.trthaber.com/haber/gundem/kilicdaroglu-cumhuriyetin-100-yilinda-100-bin-ogretmen-atamasi-yapacagiz-765768.html
       \endverb
     \endentry
     \entry{ilyas_brexit_topic_modeling_2020}{article}{}
@@ -1617,7 +1580,7 @@
       \verb https://muse.jhu.edu/article/17196
       \endverb
     \endentry
-    \entry{mcinnes_umap_2020}{misc}{}
+    \entry{mcinnes_umap_2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f3edd0ee6ca72eca5c532b9c1fcee621}{%
            family={{McInnes}},
@@ -1783,7 +1746,7 @@
       \verb https://www.theguardian.com/world/2023/may/26/turkey-quake-zone-voters-backing-erdogan-in-runoff
       \endverb
     \endentry
-    \entry{secim2023}{misc}{}
+    \entry{secim2023}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=da6a097388ca8ce3f690062002f1abdd}{%
            family={Najafi},
@@ -1854,7 +1817,7 @@
       \verb http://arxiv.org/abs/2211.13121
       \endverb
     \endentry
-    \entry{turkishbertweet_2023}{misc}{}
+    \entry{turkishbertweet_2023}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=da6a097388ca8ce3f690062002f1abdd}{%
            family={Najafi},
@@ -1997,7 +1960,7 @@
       \verb https://teyit.org/demec-kontrolu/millet-ittifaki-kampanya-filminde-murat-karayilanin-yer-aldigi-iddiasi
       \endverb
     \endentry
-    \entry{pfeffer_twitter_24_Hours_just_another_day_2023}{misc}{}
+    \entry{pfeffer_twitter_24_Hours_just_another_day_2023}{article}{}
       \name{author}{16}{}{%
         {{un=0,uniquepart=base,hash=97578f9429d2a965b1e8cd31192a0ece}{%
            family={Pfeffer},
@@ -2238,7 +2201,7 @@
       \verb https://www.jstor.org/stable/10.7249/mg726osd
       \endverb
     \endentry
-    \entry{sentence-bert}{misc}{}
+    \entry{sentence-bert}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=da9947b27b0d1c4c912e2b391426d443}{%
            family={Reimers},
@@ -2286,7 +2249,7 @@
       \verb http://arxiv.org/abs/1908.10084
       \endverb
     \endentry
-    \entry{reimers_sbert_multilingual_2020}{misc}{}
+    \entry{reimers_sbert_multilingual_2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=da9947b27b0d1c4c912e2b391426d443}{%
            family={Reimers},
@@ -2696,6 +2659,39 @@
       \verb https://doi.org/10.1177/2158244020919447
       \endverb
     \endentry
+    \entry{trt_ogretmen_atamasi_kk_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8db1f04e6532849a8bcceaab1673eb71}{%
+           family={TRT\bibnamedelima Haber},
+           familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8db1f04e6532849a8bcceaab1673eb71}
+      \strng{fullhash}{8db1f04e6532849a8bcceaab1673eb71}
+      \strng{bibnamehash}{8db1f04e6532849a8bcceaab1673eb71}
+      \strng{authorbibnamehash}{8db1f04e6532849a8bcceaab1673eb71}
+      \strng{authornamehash}{8db1f04e6532849a8bcceaab1673eb71}
+      \strng{authorfullhash}{8db1f04e6532849a8bcceaab1673eb71}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Kılıçdaroğlu: Cumhuriyet'in 100. yılında 100 bin öğretmen ataması yapacağız}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.trthaber.com/haber/gundem/kilicdaroglu-cumhuriyetin-100-yilinda-100-bin-ogretmen-atamasi-yapacagiz-765768.html
+      \endverb
+      \verb{url}
+      \verb https://www.trthaber.com/haber/gundem/kilicdaroglu-cumhuriyetin-100-yilinda-100-bin-ogretmen-atamasi-yapacagiz-765768.html
+      \endverb
+    \endentry
     \entry{ulas_kilicdaroglu_aday_pankart_2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c1d65ea8e17acd9f58a43caaf6e4684e}{%
@@ -3077,7 +3073,7 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0363811115001010
       \endverb
     \endentry
-    \entry{zhao_neural_topic_models_2021}{misc}{}
+    \entry{zhao_neural_topic_models_2021}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=f020e3fcb5d7b3ca19b58f57e8a2b4f3}{%
            family={Zhao},
