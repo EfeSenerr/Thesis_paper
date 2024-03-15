@@ -13,55 +13,57 @@ The main reason behind the mass number of topics is \texttt{min\_cluster\_size} 
 allowing around five thousand topics with less than five thousand tweets. The other main reason 
 is the diversity of the analyzed data. To determine the topics, sample data of 1\% of all collected 
 tweets is used from a dataset that contains more than 200,000 daily tweets. 
-When manually looking at the data, one can realize that even though the size is small, the topic 
-can be related to a real-life event. Nevertheless, on the other hand, most of the topics can be 
-combined or be in the outlier category.
+When manually looking at the data, one can realize that even though the size of a topic cluster
+is small, the topic can be related to a real-life event. Nevertheless, on the other hand, most of the 
+topics can be merged or be in the outlier category.
 
 With the experiences from the first approach, the second approach tries to minimize the 
-cluster size of the topics to obtain a better result. When the \texttt{min\_cluster\_size} remained 
+number of topic clusters to obtain a better result. When the \texttt{min\_cluster\_size} remained 
 at 100, around 1000 topics were returned from the topic model. Similar to the first approach, 
 this approach also covered the most significant topics. Because the cluster sizes are bigger 
-with this approach, the topics are more challenging to label and categorize in one area. Although 
+with this approach, the topics are more challenging to label and categorize in one specific area. Although 
 one can realize the similarities between these approaches in the top eight representative words, 
 the representative tweets differ. These representative tweets are used in OpenAI prompt to label 
-the topics, so the quality of these tweets is of high importance. In this approach, most 
+the topics, so the quality of these tweets is of high importance. In the second approach, most 
 representative tweets include three similar long texts with a high proportion of hashtags and 
 mentions. That is also why almost half of the top 20 topics are demands or requests from the 
-government, where many users and bots spam almost similar tweets to put the topic in trends, 
+government, where many users and bots spam almost similar tweets to put a topic in trends, 
 promoting politicians, parties, and specific agendas \parencite{secim2023}.
 % add additional information here about bots and etc 
 
 After considering these arguments, this thesis mainly analyzes the results of the first approach, 
-where one can realize topic trends consisting of specific topics that make comparing and analyzing 
+where one can discover topic trends consisting of specific topics that make comparing and analyzing 
 the results considerably more straightforward.
 
 It is essential to mention that outliers are not mentioned via graphs but are remembered 
-during the results. Although some approaches in this tried to redistribute outliers, outliers 
-exist for a reason. As Grootendorst notes, outliers are to be expected, and pushing the 
-output to have no outliers may not correctly represent the data. 
+during the results. Although some methods in the first approach tried to redistribute outliers, outliers 
+exist for a reason. As Grootendorst notes, 
+outliers are to be expected, and pushing the 
+output to have no outliers may not correctly represent the data\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/parameter\%20tuning/parametertuning.html}}. 
 
 One disadvantage of following the default pipeline of BERTopic is that when the model is first trained, 
-the biggest cluster is usually the outliers. However, when training the model and transforming 
+the biggest cluster is usually the outliers. However, when training the base model and transforming 
 the rest of the data, the outlier cluster is considered a usual topic cluster like any other. 
 For instance, during one of the approaches, the model had more tweets in the outlier cluster 
-while training than after transforming all the collected data, which might, on the one hand, 
-cause lots of meaningless topics and, on the other hand, not accurately represent the data. 
-There are several new approaches that BERTopic supports that overcome that issue. 
+while training the base model than after transforming all the collected data. That might cause many 
+meaningless topics and, on the other hand, not accurately represent the data. 
+There are several new approaches that BERTopic supports to overcome that issue. 
 One can try \textit{Online Topic Modeling} to incrementally train the model, or 
 \textit{Merge Multiple Fitted Models} approach, where multiple models are trained and, in the end, 
-merged so that no information is lost. These approaches are discussed in~\autoref{section:future_work}.
+merged so that no information is lost. These approaches are discussed in detail later in~\autoref{section:future_work}.
 % 
 
-The top results of the topic modeling are presented in \autoref{tab:topic_modeling_results_1}, 
+The top trending results of the topic modeling are presented in \autoref{tab:topic_modeling_results_1}, 
 ordered by the number of tweets in the clusters. The \autoref{tab:topic_modeling_results_1} shows 
 the topic labels on the left and their respective topic's eight representative words on the right. 
-Although it would be hard to translate the representative words, the labels are labeled and then 
-translated by GPT-4 Turbo for better interpretation. One can look at the GitHub repository\footnote{\url{https://github.com/EfeSenerr/Thesis_paper}} 
+Although it would be hard to translate the representative words, the labels are labeled,
+translated by GPT-4 Turbo for better interpretation, and then manually shortened. One can look at the 
+GitHub repository\footnote{\url{https://github.com/EfeSenerr/Thesis}} 
 for the original results of the model for the top 50 topics. Since OpenAI models are not cost-free, 
 they have been only used for the top 50 topics.
 
 The top 15 topics represent various themes around Turkish political discourse. These topics include 
-general political discussions, praise and criticism of both ruling and opposition parties, 
+general political discussions, praise and criticism of both ruling and opposition blocks, 
 wishes and demands from the government, and the earthquake disaster. 
 
 \begin{table}[h!] % second approach without outleirs
@@ -98,9 +100,9 @@ Before diving deeply into the topics and understanding the big picture, clarifyi
 for better context would be beneficial. Topics like \textit{Political Discussions}, 
 \textit{Political Discussions \& Critism}, \textit{Critism of Political Figures}, 
 \textit{Praise of Political Figures} are more general and include tweets with positive and 
-negative sentiments towards both the ruling and the opposition parties. 
+negative sentiments towards both the ruling and the opposition blocks. 
 One can realize that the representative words of the first topic include Twitter user names, 
-which are active accounts that share news mainly about the elections. A high number of replies 
+which are active accounts that share news and opinions mainly about the elections. A high number of replies 
 and a high level of interaction with their tweets made this category the most noteworthy.
 
 However, topics like \textit{Opposition Candidates}, \textit{Opposition Coalition \& Criticism}, 
@@ -119,14 +121,14 @@ the representative tweets that include some accusations against the political fi
 blaming them with extremes like committing treason or being a terrorist. As one of the largest 
 clusters, topics like this illustrate the polarization within the Turkish political landscape, 
 which has been prominent over the years \parencite{cevik_turkey_polarization_2018}. 
-Another topic in this table, \textit{Provocation \& Discussions}, also highlights the 
+Another topic in the table, \textit{Provocation \& Discussions}, also highlights the 
 polarization level in the Turkish Twitter political discourse. The representative tweets are 
 aggressive and show a high level of emotions.
 
 \textit{Erdoğan \& Nationalism} topic and its representative words show a significant degree 
 of nationalist ideas. The label itself includes Erdoğan because of the representative tweets 
-mentioning Erdoğan and the tenth representative word \textit{Erdoğan}, which is not seen in the table. 
-However, it is essential to mention that both the opposition and ruling party coalition 
+mentioning him and the tenth representative word \textit{Erdoğan}, which could not be presented in the table. 
+However, it is essential to mention that both the opposition and ruling blocks 
 include parties based on Turkish nationalism that played a significant role in May 2023 
 elections, parties being \ac{IyiP} and \ac{MHP}.
 
@@ -137,24 +139,24 @@ Because of the earthquake on 6 February, all controversial telecommunication lin
 where Twitter has been widely used for rescue operations \parencite{cevik_aksoy_turkey_earthquake_2023}.
 
 All these mentioned topics are deeply analyzed in the following section, with 
-graphs supporting understanding of the topics and their trends.
+graphs supporting the interpretability of the topics and their trends.
 
 \section{Detailed Analysis of Topic Categories}
 
-For simplicity and better understanding purposes, this thesis analyzes the topic modeling results 
-in three categories: topics related to the ruling party visualized in \autoref{fig:topics_graph_akp}, 
+For simplicity and better interpretation purposes, this thesis analyzes the topic modeling results 
+in three categories: topics related to the ruling block visualized in \autoref{fig:topics_graph_akp}, 
 the opposition visualized in \autoref{fig:topics_graph_opposition}, and the remaining topics 
 visualized in \autoref{fig:topics_graph_other}. 
 
 These graphs visualize the selected topics in a normalized monthly distribution. 
-Normalization has been done considering the top 50 topics. Otherwise, the interpretation of topics 
-and their trends was almost impossible. One can not realize any trends in a frequency graph because 
+Normalization has been accomplished considering the top 50 topics. Otherwise, the interpretation of topics 
+and their trends was almost impossible. One can not discover any trends in a frequency graph because 
 the \#Secim2023 dataset is not collected equally between months, demonstrated in \autoref{fig:collected_tweets}.
 
-In all these graphs, the biggest cluster \textit{Political Discussions} is shown as the baseline 
+In all these graphs, the biggest cluster \textit{Political Discussions} is presented as the baseline 
 in a straight blue line to compare these different graphs and analyze the trends more smoothly. 
 
-\subsection{Ruling Party Discourse Analysis}
+\subsection{Ruling Block Discourse Analysis}
 
 \begin{figure}[htb]
     \centering
@@ -166,7 +168,7 @@ in a straight blue line to compare these different graphs and analyze the trends
 \end{figure}
 
 Beginning the analysis with the first graph~\ref{fig:topics_graph_akp}, 
-it covers the monthly distribution of the ruling party and Erdoğan-related topics. 
+it covers the monthly distribution of the ruling block and Erdoğan-related topics. 
 It is essential to acknowledge the baseline topic \textit{Political Discussions}, 
 keeping its importance in the months to elections, massively increasing after the start of 2023 up 
 to more than 10\% of the top 50 tweets. That is normal, considering that in the months leading up 
@@ -177,15 +179,15 @@ uncertainties in domestic and foreign policies led social media to a political d
 Having the baseline topic covered, the next topic with a green dotted line covers the topic 
 \textit{Erdoğan \& Nationalism}. As mentioned previously, it is essential not to converge Turkish 
 Nationalist ideas with Erdoğan and the AKP regime. There are nationalism-based parties in both the 
-opposition and the ruling coalition. The opposition coalition's name is even `Nation Alliance', 
-in other words, the `Table of Six'.
+opposition and the ruling coalition. The opposition coalition's name is even ``Nation Alliance'', 
+in other words, the ``Table of Six''.
 
 Turkish Nationalism has always been one of the base ideas of Turkish politics since the republic's 
 foundation. The reason for that is now the opposition and once the founding party, \ac{CHP}, who laid 
-Turkey's six founding fundamental ideologies called the `Six Arrows'. 
-One of the \textit{arrows} represents Nationalism. However, as Hotelling's model suggests, 
+Turkey's six founding fundamental ideologies called the ``Six Arrows''. 
+One of the \textit{arrows} represents nationalism. However, as Hotelling's model suggests, 
 throughout the years, because CHP's idealogy moved more toward the left wing, parties like AKP or 
-newly established parties like ZP started to fill the empty right-wing spots \parencite{caramani_comparative_politics_2020}. 
+newly established parties like \ac{ZP} started to fill the empty right-wing spots \parencite{caramani_comparative_politics_2020}. 
 Representative tweets showing support for different political figures using nationalist 
 ideas also underline this aspect. 
 
@@ -197,8 +199,8 @@ It then rapidly increased its popularity as a mainly single-issue party focused 
 back to their countries \parencite{berk_esen_turkish_politics_2023}. \ac{ZP} formed the second opposition 
 coalition against Erdoğan, and their candidate received more than 5\% of the votes. 
 
-These events highlight why Nationalism has been one of the most trending topics during the months up 
-to the election. However, in the new year, more specifically after the 6 February earthquake, other 
+These events highlight why nationalism has been one of the most trending topics during the months up 
+to the election. However, in 2023, more specifically after the 6 February earthquake, other 
 topics gained more significance, which can also be seen in the \autoref{fig:topics_graph_akp}.
 
 One of the topics that gained relatively more importance is the \textit{Criticism of Political Figures}, 
@@ -209,20 +211,20 @@ the course of the elections by changing everybody's attention towards the southe
 
 The following reasons, also underlined by \textcite{cevik_aksoy_turkey_earthquake_2023}, can explain 
 the change in the trends of these topics, where criticism outweighed the praise of political figures 
-on Twitter. The system lacked law enforcement until the earthquake, where the 
+on Twitter. The construction system lacked law enforcement until the earthquake, where the 
 contractors of the building constructions sought to maximize their profits without taking the 
 necessary precautions. 
 The weakened state capacity led to the slowness of emergency response during the catastrophe. 
 The military was missing, and there were no plans against this kind of emergency, or in other words, 
 if there was a plan, it was not executed thoroughly. 
-NGOs and volunteers organized themselves and worked together for days after the earthquake. Twitter was always 
+NGOs and volunteers organized themselves and worked together for weeks after the earthquake. Twitter was always 
 the central platform for organizations and cry for help. Nonetheless, the government slowed down 
-Twitter to prevent `disinformation' from spreading, which worsened this process.
+Twitter to prevent ``disinformation'' from spreading, which worsened the process.
 
-The last topic in this graph is \textit{Erdoğan's Election Chance}, visualized as a pink straight line. 
+The last topic in this graph is \textit{Erdoğan's Election Chance}, visualized as a purple straight line. 
 It can be seen that this topic remained relatively low and reached the bottom rock during the month 
 of the earthquake, and in March, it increased a lot and outranked the other two topics in the election 
-month. The reasons for this increase will be discussed thoroughly in \autoref{fig:topics_graph_opposition}. 
+month. The reasons for this increase is discussed thoroughly in \autoref{fig:topics_graph_opposition}. 
 However, in short, the lack of collaboration and not being decisive about a candidate among the 
 opposition ranks make this increase feasible. Polls also support this 
 argument \parencite{cevik_aksoy_turkey_earthquake_2023}.
@@ -243,11 +245,11 @@ which covers the monthly distribution of the opposition-related topics. As a rem
 \textit{Political Discussions} topic can also be found in this graph, which is used as a baseline 
 for comparing the graphs.
 
-Continuing with the second topic, \textit{Opposition Candidates} visualized as a green line in the 
+Continuing with the second topic, \textit{Opposition Candidates} is visualized as a green line in the 
 graph. While the representative words cover topics like vote, the main opposition coalition 
 Nation Alliance's candidate Kılıçdaroğlu, and elections, the representative tweets are about 
 people's opinions about who they would vote for in the opposition ranks. For instance, some of 
-them state that \textit{'they would not vote for Kılıçdaroğlu, who does not have any victory 
+them state that \textit{'they would not vote for Kılıçdaroğlu, who has not had any victory 
 against Erdoğan for all these years.'}, or  \textit{'they would only vote for Mansur Yavaş'}, 
 who is the mayor of the capital city Ankara. 
 
@@ -256,7 +258,7 @@ a.k.a. `Table of Six', consists of six parties that signed a joint manifesto in 
 plans to abolish the presidential system and restore the rule of law and civil liberties by 
 returning to the previous parliamentary system \parencite{berk_esen_opposition_alliance_2023}. 
 The coalition wanted to achieve this goal by selecting a joint presidential candidate. 
-Like most people in the opposition ranks, \parencite{berk_esen_opposition_alliance_2023} saw 
+Like most people supporting the opposition ranks, \textcite{berk_esen_opposition_alliance_2023} saw 
 selecting a joint presidential candidate as the most demanding task. 
 Since the president holds immense powers in the Turkish presidential election system, the parties 
 were uncertain whether to hand that authority to one individual, so they sought to concentrate 
@@ -264,34 +266,34 @@ more on the alliance than the candidate. Due to these reasons, the coalition pus
 further back and could only start to discuss these matters after the earthquake, which is easily 
 remarkable on \autoref{fig:topics_graph_opposition}. 
 
-In March 2023, the majority of parties in the coalition then agreed on Kılıçdaroğlu, 
+In March 2023, the majority of parties in the coalition agreed on Kılıçdaroğlu, 
 who was the leader of the main opposition party \ac{CHP} and also played an essential role in 
 the establishment of this coalition. 
-After the agreement, the second largest opposition party \ac{IyiP} also considered that although 
+After the agreement, the second largest opposition party \ac{IyiP} considered that 
 Kılıçdaroğlu's collaborative personality and focus on unity was an asset for a democratic 
-transition, but stood behind the idea that this could weaken his electoral prospects against 
-Erdo­ğan. As noteworthy evidence, one could show the most recent polls showing that he 
-follows the popular mayors of Ankara, Mansur Yavaş; Istanbul, Ekrem Imamoğlu, and even the 
+transition. However, \ac{IyiP} stood behind the idea that this could weaken his electoral prospects against 
+Erdo­ğan. As noteworthy evidence, one could show the most recent polls presenting that Kılıçdaroğlu 
+follows behind the popular mayors of Ankara, Mansur Yavaş; Istanbul, Ekrem Imamoğlu, and even the 
 \ac{IyiP} leader Meral Akşener \parencite{berk_esen_opposition_alliance_2023}.
 
 The trending level of the topic also aligns with the social movements at that time 
 \parencite{gultekin_kilicdaroglu_aday_2023}. 
 Just before the earthquake, on 5 February, Kılıçdaroğlu's candidacy topic sparked again. 
 There were campaigns against Kılıçdaroğlu on the streets and also on social media with a slogan 
-\textit{'Do not be a candidate Kılıçdaroğlu.'}. People were holding pan cards with the same slogan 
+\textit{'Do not be a candidate Kılıçdaroğlu!'}. People were holding pan cards with the same slogan 
 in front of the \ac{CHP} general headquarters and sharing it on Twitter \parencite{ulas_kilicdaroglu_aday_pankart_2023}. 
 Some influencers even planned to march to the headquarters the next day to prevent his candidacy. 
 That is one of the main reasons why the earthquake on 6 February changed and deeply affected 
 the discourse of the May 2023 elections.
 
 \ac{IyiP} considered Kılıçdaroğlu lacked sufficient public appeal to win the elections. 
-That is why Akşener opposed his candidacy and supported the mayors of Ankara and Istanbul. 
-In short, after several days, the parties agreed on the vice presidency of these two mayors and 
+That is why Akşener opposed his candidacy and supported the candidacy of the mayors of Ankara and Istanbul. 
+In short, after several days, the parties agreed on the vice presidency of the two mayors and 
 continued the election campaign as a united front. All these events resulted in the topic 
 \textit{Opposition Candidates} naming itself as the most articulated topic in March on Twitter, 
 surpassing the baseline. Even after the election month, the topic continued to be relevant, 
 beating the baseline again. The discussion rallied then around whether Kılıçdaroğlu was 
-\textit{'the right candidate'}. Several months after the elections, Kılıçdaroğlu lost the in-party 
+\textit{'the right candidate'}. Several months after the May 2023 elections, Kılıçdaroğlu lost the in-party 
 elections after leading the main opposition party for 13 years \parencite{gundogan_chp_özgür_özel_2023}.
 
 %\%35 oy orani (?)
@@ -300,23 +302,23 @@ The next trending topic, \textit{Opposition Coalition \& Criticism} visualized a
 and dotted line, follows a similar tendency, gaining importance in March and continuing to 
 grow even after the elections. However, this topic mainly focuses on direct criticism against 
 the opposition parties. For example, the representative tweets in this cluster complain about 
-Ali Babacan, the leader of \ac{DEVA}, called him a puppet whose' congressman candidates were 
-entering the elections in the same list as \ac{CHP}. On the other hand, some tweets refer to 
+Ali Babacan, the leader of \ac{DEVA}, calling him a puppet, whose' congressman candidates 
+entered the elections in the same list as \ac{CHP}. On the other hand, some tweets refer to 
 Kılıçdaroğlu as a traitor to his own party for this very same reason.
 
-The following topic, \textit{Treason Accusations} visualized as a turquoise dotted line, shows 
-accusations against those who did not support the same idealogy as the writer of these Tweets. 
+The following topic, \textit{Treason Accusations}, visualized as a turquoise dotted line, shows 
+accusations against those who did not support the same idealogy as the writer of these tweets. 
 Blaming political figures with extremes like committing treason or being a terrorist is a standard 
 tongue that brings the polarization in the Turkish political discourse to light. 
 One can observe that this topic gained importance in February. 
 The reason can be easily tied to the earthquake, such as people accusing the government of lacking 
 law enforcement or not taking the necessary measures for the earthquake.
 
-Represented as a pink straight line, \textit{Opposition Figures \& Preferences} highlights a mixture of 
+Represented as a purple straight line, \textit{Opposition Figures \& Preferences} highlights a mixture of 
 tweets that include swear words, foreign words and sentences, and discussions around opposition figures.
 One can understand the abbreviations of Turkish swearwords in the representative words column in 
 \autoref{fig:topics_graph_opposition}, and it is likely that the BERTopic topic model could not make any 
-sense of the words and merged the topic with foreign words and sentences. 
+sense of the words and combine the topic with foreign words and sentences. 
 Another point the topic model had difficulties understanding is the word \textit{'dedem'}, 
 translated to \textit{'my grandfather'}. Grandfather nickname has been used by the younger generation on 
 social media and overall to refer to the opposition candidate Kılıçdaroğlu. The nickname itself has more of a 
@@ -342,13 +344,13 @@ The trend of the topic continues steadily, increasing slightly just before the e
 \end{figure}
 
 The analysis proceeds with the last graph, as presented in \autoref{fig:topics_graph_other}, showcasing the 
-monthly trends of other than ruling party or opposition-related topics. As the baseline, 
+monthly trends other than ruling or opposition block related topics. As the baseline, 
 \textit{Political Discussions} topic can be seen as the blue straight line in the graph. 
 One can realize that multiple topics have crossed the baseline topic over the months up to the election. 
 
 Kicking things off with the topic \textit{Religious Wishes}, visualized as a green line, the topic contains 
 tweets that cover aspects of prayer and Islam. It features representative words like \textit{'Allah'}, 
-\textit{'müslüman'}, and \textit{'din'}, which than translates to \textit{'Muslim'} and \textit{'religion'}. 
+\textit{'müslüman'}, and \textit{'din'}, which than translates to \textit{'God'}, \textit{'Muslim'} and \textit{'religion'}. 
 Some representative sentences exhibit tweets praising political figures from different ranks, 
 saying \textit{'God bless you'}. 
 Although the topic remained at the same level as the baseline and peaked during the month of the earthquake, 
@@ -356,7 +358,7 @@ afterward, it kept its importance while falling in volume, leaving room for poli
 
 Illustrated with a red straight and dotted line, the \textit{Retirement System} topic demonstrates tweets 
 around the retirement system policies. Before the elections, one of the government's promises was to renew 
-the last social security legislation in 1999. At the beginning of March, the government passed new legislation 
+the last social security legislation from 1999. At the beginning of March, the government passed new legislation 
 that softens existing rules on retirement age and retirement eligibility requirements, allowing almost more 
 than 2 million workers to retire immediately \parencite{erdem_bisgin_retirement_2023}. 
 
@@ -372,12 +374,12 @@ course of the elections. Although the government mishandled the earthquake, as
 from the region, and Erdoğan maintained his popularity in the region, where he received more than 
 70\% the votes in some provinces \parencite{michaelson_narli_earthquake_regions_erdogan_2023}.
 As mentioned previously, the role of social media in the earthquake is noteworthy.
-It is remarkable that the topic peaks massively in February. However, it is very interesting, and maybe 
-also not expected, that it lost almost all of its volume in just two months, making just around 
+It is remarkable that the topic peaks massively in February. However, it is exciting that it lost almost 
+all of its volume in just two months, making just around 
 1\% of the tweets afterward. 
 
 The last topic in the examination is \textit{Teachers \& Demands}. The representative sentences exist 
-of sentences like \textit{'We demand 100 thousand additional teacher positions.'}. One of the 
+of sentences like \textit{'We demand 100 thousand additional teacher positions!'}. One of the 
 representative words \textit{'cumhuriyet'}, translated to \textit{'republic'}, points out that tweets 
 exist of a rhyme, calling for an additional 100 thousand teachers at the 100.\ anniversary of the Turkish 
 Republic. The massive volume of this topic can not be unseen, almost beating the baseline topic two times. 
@@ -393,11 +395,11 @@ create new positions for the teachers in one of their rallies \parencite{trt_ogr
 
 \section{Supplementary Visual Insights}
 
-This chapter presents additional visual representations of the topic model results.  
+This chapter presents additional visual representations of the topic model results and analyzes them in detail.  
 
 The first visualization is inspired by Maarten Grootendorst, who visualized the topic model 
 results from millions of Wikipedia pages in his Huggingface 
-repository\footnote{\url{https://huggingface.co/MaartenGr/BERTopic_Wikipedia}}. Like this thesis, 
+repository. Like this thesis, 
 he also used BERTopic for big data analysis and visualized the results in the end. 
 
 \begin{figure}[h!]
@@ -405,7 +407,7 @@ he also used BERTopic for big data analysis and visualized the results in the en
     \includegraphics[width=\linewidth]{figures/visualization_2d.png}
     \caption[The Top 50 Topics Visualized in Two-Dimensional Embedding Space Using cuML's UMAP]
     {This visualization presents the top 50 topics reduced to a two-dimensional embedding space using 
-    cuML's UMAP, following Maarten Grootendorst's guidelines.\footnotemark}\label{fig:topics_2d}
+    cuML's UMAP, following Maarten Grootendorst's guidelines\footnotemark.}\label{fig:topics_2d}
 \end{figure}
 \footnotetext{\url{https://huggingface.co/MaartenGr/BERTopic_Wikipedia}}
 
@@ -432,10 +434,10 @@ modeling\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/manu
 If the model already has topic labels, it can use those to label them using various 
 representation models.
 
-With embeddings, reduced dimensionality and clusters on hand allow the speeding up of the fitting 
-process. Additionally, Grootendorst presents a trick to get better results. 
-He states that if one directly gives BERTopic the reduced embeddings, BERTopic would use those 
-to create topic vectors, which could be better. For better results, he suggests giving the model 
+Embeddings, reduced dimensionality, and clusters allow the fitting 
+process to be speeded up. Additionally, Grootendorst presents a trick to get better results. 
+He states that if one directly gives BERTopic the reduced embeddings, the model would use those 
+to create topic vectors. However, for better results, he suggests giving the model 
 the full embeddings and creating a custom dimensionality reduction class that will return the 
 reduced embeddings. Further details can be found in the thesis GitHub repository.
 
@@ -464,33 +466,33 @@ related to the earthquake can be seen as purple, titled as
 
 The following visualization, \autoref{fig:topics_hierarchical_clustering}, is about the hierarchical 
 clustering of the top 50 topics of the sampled data and has been created using BERTopic 
-function \texttt{visualize\_hierarchy()}. The fitted BERTopic model has been used, and the 
+function \texttt{visualize\_hierarchy()}. The fitted base BERTopic model has been used, and the 
 parameter \texttt{top\_n\_topics} has been set to 50, which returns that figure. A ward linkage 
 function performs the hierarchical clustering based on the cosine distance matrix between topic 
-embeddings. Since the GPT-4 Turbo labeling has been done after fitting the model, and only 
-for the top 50 topics, the labels in the figure show default labels after the fitting. 
+embeddings. Since the GPT-4 Turbo labeling has been done after fitting the model and transforming the rest of the data, 
+and only for the top 50 topics, the labels in the figure show default labels after the fitting. 
 One can look at the English labels of each top 50 topic in the GitHub repository of the thesis.
 
 If the \autoref{fig:topics_hierarchical_clustering} is deeply analyzed, the topics are divided 
 into different colors, which are then connected together to build the total representation. 
-The colors present 13 main subjects among the top 50 topic representations.
+The colors present 13 main topic clusters among the top 50 topic representations.
 
-Beginning the exploration with the top topics, the green cluster represents the demands of military 
-sergeants willing to be permanently employed. A batch of sergeants who worked on a limited contract
-in the state institutions for almost 36 years sought permanent employment.
+Beginning the exploration with the top of the figure, the green cluster represents the demands of military 
+sergeants willing to be permanently employed. It is about a batch of sergeants who have worked on a limited contract
+in state institutions for almost 36 years and seek permanent employment.
 
 The subsequent topic, visualized as red, addresses the demands of young people endorsing their 
 internships to be recognized as the start date for their insurance, a critical factor determining 
 the start of retirement eligibility.
 
-The following three topics, visualized as turquoise, brown, and green, represent the concerns of 
+The following three topic clusters, visualized as turquoise, brown, and yellow, represent the concerns of 
 agriculture engineers and their work appointments, the retirement system, teachers, and their 
-demands, respectively. The last topic in the top cluster covers general political discussions on 
+demands, respectively. The last topic in the top cluster, visualized as black, covers general political discussions on 
 Twitter.
 
 Commencing with the bottom cluster, the green cluster illustrates topics related to foreigners, 
 refugees, and specifically, people from Ukraine and Syria in separate subclusters. 
-The volume of the topic related to Ukraine has stayed at a high level since the beginning of the 
+The volume of the topic related to Ukraine stay at a high level since the beginning of the 
 dataset till the beginning of 2023, and the importance of the migration policy in the May 2023 
 elections was discussed in the previous section. 
 
@@ -504,14 +506,14 @@ caused by free-roaming dogs on the streets of Turkey, including increased dog at
 concerns, safety risks, and traffic accidents, worsened by uncontrolled abandonment and the 
 expansion of these animals in public spaces. 
 
-Another topic to highlight is the topic with \textit{30\_kadın\_mommy\_kadının}. \textit{kadın} 
-can be translated to \textit{woman} and both \textit{kadın} and \textit{mommy} refers to the 
+Another topic to highlight is the topic with \textit{30\_kadın\_mommy\_kadının}. \textit{'kadın'} 
+can be translated to \textit{woman} and both \textit{'kadın'} and \textit{'mommy'} refers to the 
 \ac{IyiP} leader Meral Akşener. Most of the young people on Twitter refer to her as a mom, 
 underlining her warmth and sympathy.
 
 The topic titled as \textit{34\_twitter\_tweet\_elonmusk} contains representative words 
 referring to Elon Musk's acquisition of Twitter, which started around April and concluded 
-around Oktober, the timeframe which this dataset also partially covers.
+around Oktober 2023, the timeframe which this dataset also partially covers.
 
 The second last cluster, portrayed as turquoise, covers various political topics from Nationalism 
 to Atatürk, from political figures to presential candidates, from religious wishes to treason 
@@ -521,10 +523,10 @@ The last cluster, illustrated as brown, covers topics related to terrorism and t
 Kurdish community. One can realize the topic titled as \textit{15\_pkk\_terör\_hdp}, which includes 
 in its top three representative words terrorism and \ac{HDP}. \ac{HDP} received around 9\% of 
 the votes in the May 2023 elections, with a significant portion of their support coming 
-from the Kurdish community. The AKP government and other nationalists accuse HDP that it is 
+from the Kurdish community. The AKP government and other nationalists accuse HDP of being 
 linked to the banned \ac{PKK}, which the European Union also lists as a ter­ror­ist organization 
-\parencite{berk_esen_opposition_alliance_2023}, which we can also see from the topic representation
-being in the top 50 topics and its' representative tweets.
+\parencite{berk_esen_opposition_alliance_2023}. That can also be seen from the topic representation
+in the top 50 topics and its' representative tweets.
 
 To remind it again, the extensive Turkish results and graphs, including the code, can be found 
 on the GitHub repository of the thesis.

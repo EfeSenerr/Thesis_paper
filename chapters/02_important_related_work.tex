@@ -8,13 +8,13 @@
 The recent advances in \ac{NLP} and easy access to open-source models allow researchers to 
 study text data by performing sentiment and emotional analysis, topic modeling, 
 semantic search, and many more. Large language models by OpenAI considerably 
-explain how fast the ac{NLP} field develops.
+explain how fast the \ac{NLP} field develops.
 
 In this thesis, topic modeling is performed on massive text data. Topic modeling is an 
 unsupervised tool that helps extract the underlying themes from the given text data. 
 There are several topic modeling approaches, and this thesis focuses on neural topic modeling. 
 Unlike conventional models like \ac{LDA}, a generative probabilistic 
-model introduced by \textcite{blei_lda_2003}, neural topic models have been used in important ac{NLP} 
+model introduced by \textcite{blei_lda_2003}, neural topic models have been used in important \ac{NLP} 
 tasks, including text generation, document summarisation, and translation, fields to 
 which conventional topic models are complex to apply \parencite{zhao_neural_topic_models_2021}.
 This thesis uses the neural topic model BERTopic, introduced by \textcite{bertopic}, 
@@ -36,10 +36,12 @@ each topic and how frequent the topics were, aligning with the first research qu
 \textcite{bertopic_twitter_german_politics_2022} applied BERTopic along with other 
 German BERT models on Twitter data from German politicians and analyzed their results,
 aligning with the third research question of this thesis.
-She discovered that using BERTopic with the Sentence-BERT (SBERT) model yielded more valuable and significant topics.
+She discovered that using BERTopic with the Sentence-BERT (SBERT) model yielded more valuable and 
+significant topics. Her thesis also uncovers the trending Twitter topics discussed by German politicians.
 On the other hand, \textcite{contreras_panama_lda_bertopic_2022} used both LDA and BERTopic 
 on Spanish Panamanian parliamentary proceedings. The research suggests that both 
-models perform well with long multilingual political texts despite the small dataset. 
+models perform well with long multilingual political texts despite the small dataset
+while uncovering the tendencies and characteristics of the political parties.
 
 It is essential to mention that according to the available literature, few studies 
 apply topic modeling to multilingual political data. For the Turkish language, 
@@ -52,14 +54,14 @@ Recently, a new model called TurkishBERTweet trained on the Turkish Twitter data
 was presented by the same team\footnote{Center of Excellence in Data Analytics, Sabanci University, Turkey} 
 that released the public social media dataset \#Secim2023\footcite{secim2023} \parencite{turkishbertweet_2023}. 
 The team has used TurkishBERTweet to conduct daily sentiment analysis and 
-various other analyses on the \#Secim2023 dataset, which will be discussed later.
+various other analyses on the \#Secim2023 dataset, which is discussed later in \autoref{section:comparing_results}.
 
 This thesis will build upon the mentioned research and conduct one of the first 
 neural topic modeling researches on a massive political Turkish language dataset using BERTopic. 
 As mentioned in previous research, BERTopic yields more valuable and significant topics than 
 other topic models, which is why this thesis will use that model.
 Since \textcite{turkishbertweet_2023} and also \textcite{secim2023} analyze the same dataset 
-as this thesis, but with different approaches and questions, this thesis will also use their 
+as this thesis, but with different approaches and questions, this thesis also uses their 
 results while answering the research questions.
 
 

@@ -6,8 +6,8 @@
 This thesis uses the BERTopic model to apply topic modeling on the \#Secim2023 dataset. 
 Before diving into the results and discussion, this chapter explains the dataset, 
 how the tweet hydration\footnote{The process of retrieving a tweet's complete information
-with only tweet ID.} is performed on the tweets from the dataset, how BERTopic and 
-neural topic modeling works generally.
+with only tweet ID.} is performed on the tweets from the dataset, and how BERTopic and 
+neural topic modeling generally work.
 
 \section{Dataset}
 
@@ -29,7 +29,7 @@ The frequency of the collected tweets is shown in \autoref{fig:collected_tweets}
 
 Due to Twitter's Developer Agreement and Policy\footnote{\url{https://developer.twitter.com/en/developer-terms/agreement-and-policy}}, 
 a public dataset can only include (tweet) IDs. In order to access all tweet information,
-they must be hydrated. Typically, a year before, a research group would have had access 
+they must be hydrated. Typically, at the start of 2023, a research group would have had access 
 to Twitter Academic API\footnote{\url{https://developer.twitter.com/en/use-cases/do-research/academic-research}} 
 and used packages like Hydrator\footnote{\url{https://github.com/DocNow/hydrator}} to gather 
 tweet information quickly. Unfortunately, after Elon Musk bought Twitter, Academic API was 
@@ -55,7 +55,7 @@ and the tweets are between July 2022 and June 2023, there are approximately 50 m
 deleted tweets in the dataset (green). 
 
 There are several reasons why there are lots of deleted tweets. The main reason for the 
-vast number is the deletion of highly interacted original tweet posts. According to Twitter, 
+vast number is the deletion of highly interacted original tweet posts. According to Twitter Policy, 
 if the original tweet is deleted, the reposts to that tweet are also not available 
 anymore\footnote{\url{https://help.twitter.com/en/using-x/repost-faqs}}. 
 The \#Secim2023 dataset contains retweets, quotes, and replies in the majority.
@@ -63,9 +63,9 @@ As discussed by \textcite{pfeffer_twitter_24_Hours_just_another_day_2023} in the
 almost 80\% of all tweets on Twitter refer to other tweets, with original tweets making up the rest.
 
 Furthermore, the question of why people deleted their posts in the first place 
-can be answered in two aspects. First, as mentioned in this New York Times article 
+can be answered in two aspects. First, as mentioned in a New York Times article 
 by \textcite{klosowski_delete_tweets_2022}, whether the person posting is a public figure 
-or not is not essential\@: companies in the hiring process could run a social media 
+or not is not essential. For instance, companies in the hiring process could run a social media 
 background check, leading to rejection. 
 
 Secondly and even more alarming, the government can pull 
@@ -132,10 +132,9 @@ easier with restricted hardware availabilities.
 \footnotetext{\url{https://maartengr.github.io/BERTopic/algorithm/algorithm.html}}
 
 Secondly, the dimensionality of these resulting embeddings is reduced to optimize the 
-clustering process by the Uniform Manifold Approximation and Projection (UMAP) algorithm, 
+clustering process by the \ac{UMAP} algorithm, 
 which plays a massive role in big data analysis \parencite{mcinnes_umap_2020}. 
-Afterward, these low-dimension embeddings are clustered using the Hierarchical Density-Based 
-Spatial Clustering of Applications with Noise (HDBSCAN) technique, and the resulting 
+Afterward, these low-dimension embeddings are clustered using the \ac{HDBSCAN} technique, and the resulting 
 clusters consist of semantically similar documents. This step allows unrelated documents 
 to be assigned as noise or outliers, which improves the result, and both of these 
 steps can be influenced very much by changing the parameters of the algorithms.
@@ -143,15 +142,15 @@ steps can be influenced very much by changing the parameters of the algorithms.
 Fourthly, each cluster is tokenized using a Vectorizer like 
 CountVectorizer\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/vectorizers/vectorizers.html}}. 
 Together with the weighting of these tokens, where a custom 
-class-based variation of the Term Frequency -- Inverse Document Frequency (c-TF-IDF) algorithm 
+\ac{c-TF-IDF} algorithm 
 is used, they are responsible for creating the topic representations. 
 Like the previous step, this step also allows room to play with various parameters 
 to tune the model, which affects the results considerably.
 
 At last comes the topic representation, where the topics can be fine-tuned 
-using various methods. This thesis uses KeyBERTInspired and Maximal Marginal Relevance (MMR) 
+using various methods. This thesis uses KeyBERTInspired and \ac{MMR} 
 models\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/representation/representation.html}}, 
-which can be easily imported from the BERTopic library. They leverage the c-TF-IDF algorithm 
+which can be easily imported from the BERTopic library. They leverage the \ac{c-TF-IDF} algorithm 
 and weights keywords to represent the related topics. 
 This thesis also leverages the power of LLMs by OpenAI, specifically GPT-4 Turbo, 
 to better represent the resulting topics. One can also leverage other open-source LLMs, 
@@ -159,7 +158,7 @@ but most only support English or a few other languages.
 
 \subsection{Analysis Srategy}
 
-For hydration, this thesis used the \textit{Social5} server provided by Research Group Social 
+For hydration of the tweets, this thesis used the \textit{Social5} server provided by Research Group Social 
 Computing\footnote{\url{https://www.soc.cit.tum.de}}, which had sufficient hardware 
 capabilities to run several scripts in parallel, and each of them was able to leverage 
 multithreading, speeding up the process.
@@ -168,27 +167,27 @@ The result of the hydration was around 40 GB, which makes the analysis in one ba
 For this reason, hydrated tweet information was divided into smaller batches to make the 
 analysis more manageable later.
 Before the topic modeling analysis, the resulting data is cleaned by extracting relevant 
-information. That means only extracted tweets that include some text. These are then 
-converted into lists and pulled into the analysis environment.
+information. Specifically, this involves selecting only those tweets that contain textual content. 
+These are then converted into lists and pulled into the analysis environment.
 
 In the next step, to speed up the big data analysis process, this thesis used Google 
 Colab\footnote{\url{https://colab.google}} Pro that brings A100, V100, or T4 GPUs to usage, 
 making the process considerably faster. 
 
-As mentioned before, because the data is big, it does not fit into the BERTopic model 
+As mentioned before, because the data is massive, it does not fit into the BERTopic model 
 in one batch due to hardware restrictions. To tackle that issue, 2.5 million tweets are 
 randomly sampled in proportion to the total number of collected tweets monthly, which 
 makes up 1\% of the total number of tweets in the \#Secim2023 dataset. 
 
-The strategy used in this thesis was to first train the model with the sample tweets to 
+The strategy used in this thesis is to first train the model with the sample tweets to 
 find relevant topics in Turkish political discourse on Twitter. After that, all the 
-remaining tweets were assigned a topic using the trained model without any need to train 
+remaining tweets were assigned a topic using the trained base model without any need to train 
 an additional model. This strategy also allows the analysis to be done in batches to make 
 it smoother and more manageable.
 
 The hydration, preprocessing, and analysis scripts mentioned are open-source and can be 
 accessed on GitHub\footnote{\url{https://github.com/EfeSenerr/Thesis}}. The analysis of 
-this thesis is mainly based on two notebooks written by Maarten Grootendorst, father of 
+this thesis is mainly based on two notebooks written by Maarten Grootendorst, creator of 
 BERTopic. The first is called ``Best Practices''
 and aims to get the best results\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/best_practices/best_practices.html}}. 
 In contrast, the second one is called ``Big Data'' 
@@ -200,17 +199,17 @@ to optimize the results.
 The changes also followed Grootendorst's 
 recommendations\footnote{\url{https://maartengr.github.io/BERTopic/getting_started/parameter\%20tuning/parametertuning.html}}.
 However, while making minimal changes in the parameters, the results can be highly affected 
-by these changes. In this thesis, two approaches are made, resulting in two relatively 
+by these changes. In this thesis, two approaches are implemented, resulting in two relatively 
 different results while being similar in most topics. The results of this process are 
 presented and discussed thoroughly in the following chapters.
 
 In short, the following parameters changed from their default value are discussed. 
 
-In UMAP, \texttt{n\_neighbors} is set to 25 from the default 15 to obtain a more global view of 
-the embedding structure, resulting in larger clusters. Other parameters in UMAP followed 
+In \ac{UMAP}, \texttt{n\_neighbors} is set to 25 from the default 15 to obtain a more global view of 
+the embedding structure, resulting in larger clusters. Other parameters in \ac{UMAP} followed 
 the default values.
 
-The \texttt{min\_cluster\_size} parameter in HDBSCAN is among the most critical parameters. It is 
+The \texttt{min\_cluster\_size} parameter in \ac{HDBSCAN} is among the most critical parameters. It is 
 set to 100 from 10 as a default to increase the minimum size of a cluster, thereby reducing 
 the number of clusters the model generates. In the first analysis, this parameter was set to 
 20, and after getting too many topics, the parameter was increased to 100. For a massive 
@@ -223,10 +222,10 @@ the \texttt{prediction\_data} parameter is set to \texttt{True} to predict new p
 For passing out to CountVecorizer while training the model, one can prepare the vocabulary 
 of the dataset used in training beforehand so that the tokenizer does not need to do the 
 calculations later. It also reduces the necessary RAM during the training. This thesis 
-creates a vocabulary of words and parses them such that they need to appear at least ten 
+creates a vocabulary of words, and parses them such that they need to appear at least ten 
 times in the data while removing the stopwords using Turkish stopwords from the NLTK library. 
 
-KeyBERT and MMR are used as the representation models of the topics. GPT-4 Turbo is later 
+KeyBERTInspired and \ac{MMR} are used as the representation models of the topics. GPT-4 Turbo is later 
 used for only the top 50 topics to reduce the costs constructed from it. 
 
 All these parameters mentioned above are passed to BERTopic along with its sampled text 
@@ -235,8 +234,8 @@ but this thesis did not use any additional parameters. Some parameters do not pl
 critical role. For instance, the \texttt{min\_topic\_size} parameter in BERTopic is automatically 
 set to the value of \texttt{min\_cluster\_size}. After several hours, this process resulted in 
 topics that are the baseline of all topics in Turkish political discourse during the May 
-2023 elections. The resulting collected tweet data is then, in sequence, embedded and 
-``transformed'' by the trained topic model, which assigns topics to individual tweets. 
+2023 elections. The remaining collected tweet data is then, in sequence, embedded and 
+``transformed'' by the trained base topic model, which assigns topics to individual tweets. 
 These results are demonstrated in the following chapter.
 
 % add: third approach, to distribute the outliers
