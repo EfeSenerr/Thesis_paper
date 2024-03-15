@@ -3,20 +3,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Collected Tweets each month}}{7}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Default BERTopic Algorithm}}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Collected Tweets Each Month}}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow of the Default BERTopic Algorithm}}{9}{figure.caption.15}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Normalized monthly distribution of ruling party related topics}}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Normalized monthly distribution of opposition related topics}}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Normalized monthly distribution of other related topics}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The top 50 topics visualized and reduced to two dimensional embedding space using cuML's UMAP}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Hierarchical Clustering}}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Normalized Monthly Distribution of Ruling Party Related Topics}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Normalized Monthly Distribution of Opposition Related Topics}}{19}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Normalized Monthly Distribution of Other Topics}}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The Top 50 Topics Visualized in Two-Dimensional Embedding Space Using cuML's UMAP}}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Hierarchical Clustering of the Top 50 Topics}}{26}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Daily sentiment analysis}}{34}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Daily Sentiment Analysis of the \#Secim2023 Dataset}}{34}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces BERTopic's Intertopic Distance Plot}}{40}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Example drawing}}{39}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Example plot}}{41}{figure.caption.27}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Example listing}}{41}{figure.caption.28}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
